@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-OW-vsmart — Chat server (Render editie)
-- TF-IDF + cosine similarity (geen downloads, <100MB RAM)
-- DeepSeek voor antwoorden
+OW-vsmart — Chat server (Render editie, pure Python)
+- Handgeschreven TF-IDF — zero dependencies behalve stdlib
+- DeepSeek API voor antwoorden
 """
-import json, os, sys, pickle
+import json, os, sys, math
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).parent
@@ -22,13 +22,11 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 import uvicorn
 from openai import OpenAI
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
+from collections import Counter
 
 app = FastAPI(title="OW-vsmart")
 
-# === Load data ===
+# === Pure Python TF-IDF ===
 print("📚 Laden catalogus...")
 with open("catalogus_klimaat.json") as f:
     dataset = json.load(f)
@@ -38,23 +36,54 @@ for r in dataset["results"]:
     parts = [r['title']]
     if r['author']: parts.append(f"door {r['author']}")
     if r['description']: parts.append(r['description'])
-    docs.append(" ".join(parts))
+    docs.append(" ".join(parts).lower())
     metas.append({
         "title": r['title'], "author": r['author'],
         "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn']
     })
 
-# TF-IDF vectorizer (eenmalig fitten)
+def tokenize(text):
+    return [w.strip(".,!?()[]\"':;") for w in text.lower().split() if len(w.strip(".,!?()[]\"':;")) > 1]
+
+# Bouw vocabulary
 print("📊 TF-IDF index bouwen...")
-vectorizer = TfidfVectorizer(stop_words=None, max_features=2000)
-doc_vectors = vectorizer.fit_transform(docs)
-print(f"✅ {len(metas)} records, {doc_vectors.shape[1]} features")
+all_tokens = [tokenize(d) for d in docs]
+vocab = set()
+for t in all_tokens:
+    vocab.update(t)
+vocab = sorted(vocab)[:3000]  # max 3000 features
+
+N = len(docs)
+df = Counter()
+for t in all_tokens:
+    df.update(set(t))
+
+# TF-IDF vectors
+def compute_tfidf(tokens):
+    tf = Counter(tokens)
+    vec = []
+    for w in vocab:
+        if w in tf:
+            vec.append((tf[w] / max(len(tokens), 1)) * math.log(N / (df[w] + 1)))
+        else:
+            vec.append(0.0)
+    return vec
+
+doc_vectors = [compute_tfidf(t) for t in all_tokens]
+print(f"✅ {len(metas)} records, {len(vocab)} features")
+
+def cosine(v1, v2):
+    dot = sum(a*b for a,b in zip(v1, v2))
+    n1 = math.sqrt(sum(a*a for a in v1))
+    n2 = math.sqrt(sum(b*b for b in v2))
+    return dot / (n1 * n2) if n1 * n2 > 0 else 0
 
 def search(query: str, n: int = 5):
-    q_vec = vectorizer.transform([query])
-    scores = cosine_similarity(q_vec, doc_vectors).flatten()
-    top = np.argsort(scores)[-n:][::-1]
-    return [{"meta": metas[i], "doc": docs[i], "score": float(scores[i])} for i in top]
+    q_vec = compute_tfidf(tokenize(query))
+    scores = [(i, cosine(q_vec, doc_vectors[i])) for i in range(N)]
+    scores.sort(key=lambda x: -x[1])
+    top = scores[:n]
+    return [{"meta": metas[i], "doc": docs[i], "score": s} for i, s in top]
 
 # === Routes ===
 @app.get("/", response_class=HTMLResponse)
