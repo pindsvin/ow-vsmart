@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ow-vsmart
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python chat_server_cloud.py
+    envVars:
+      - key: DEEPSEEK_API_KEY
+        sync: false
+    plan: free
