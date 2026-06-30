@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-OW-vsmart — Chat server (Cloud versie, FAISS editie)
-- FastAPI + FAISS + DeepSeek API
-- <512MB RAM — past op Render free tier
+OW-vsmart — Chat server (Render editie)
+- TF-IDF + cosine similarity (geen downloads, <100MB RAM)
+- DeepSeek voor antwoorden
 """
 import json, os, sys, pickle
 from pathlib import Path
@@ -21,91 +21,40 @@ if not DEEPSEEK_KEY:
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 import uvicorn
-import numpy as np
 from openai import OpenAI
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
-app = FastAPI(title="OW-vsmart — bblthk Catalogus Chat")
+app = FastAPI(title="OW-vsmart")
 
-# === Globals (lazy load voor geheugen) ===
-model = None
-index = None
-metadata = []
-documents = []
+# === Load data ===
+print("📚 Laden catalogus...")
+with open("catalogus_klimaat.json") as f:
+    dataset = json.load(f)
 
-# Model wordt direct bij import geladen (voor snelle eerste request)
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer('all-MiniLM-L6-v2')
+docs, metas = [], []
+for r in dataset["results"]:
+    parts = [r['title']]
+    if r['author']: parts.append(f"door {r['author']}")
+    if r['description']: parts.append(r['description'])
+    docs.append(" ".join(parts))
+    metas.append({
+        "title": r['title'], "author": r['author'],
+        "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn']
+    })
 
-def load_model():
-    global model
-    pass  # model is al geladen bij opstart
-
-def build_index():
-    global index, metadata, documents
-    cache_file = Path("faiss_index.pkl")
-    
-    if cache_file.exists():
-        print("📦 FAISS index laden uit cache...")
-        with open(cache_file, 'rb') as f:
-            data = pickle.load(f)
-        index = data['index']
-        metadata = data['metadata']
-        documents = data['documents']
-        print(f"✅ {len(metadata)} records geladen")
-        return
-    
-    load_model()
-    print("📚 Index bouwen uit catalogus_klimaat.json...")
-    with open("catalogus_klimaat.json") as f:
-        dataset = json.load(f)
-    
-    docs, metas = [], []
-    for r in dataset["results"]:
-        parts = [r['title']]
-        if r['author']: parts.append(f"door {r['author']}")
-        if r['description']: parts.append(r['description'])
-        docs.append(" | ".join(parts))
-        metas.append({
-            "title": r['title'], "author": r['author'],
-            "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn']
-        })
-    
-    print(f"   Embedden van {len(docs)} documenten...")
-    embeddings = model.encode(docs, show_progress_bar=False)
-    embeddings = np.array(embeddings).astype('float32')
-    
-    # Normaliseer voor cosine similarity
-    norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
-    norms[norms == 0] = 1
-    index = embeddings / norms
-    metadata = metas
-    documents = docs
-    
-    with open(cache_file, 'wb') as f:
-        pickle.dump({'index': index, 'metadata': metadata, 'documents': documents}, f)
-    
-    print(f"✅ {len(metadata)} records in FAISS")
+# TF-IDF vectorizer (eenmalig fitten)
+print("📊 TF-IDF index bouwen...")
+vectorizer = TfidfVectorizer(stop_words=None, max_features=2000)
+doc_vectors = vectorizer.fit_transform(docs)
+print(f"✅ {len(metas)} records, {doc_vectors.shape[1]} features")
 
 def search(query: str, n: int = 5):
-    global model
-    if index is None:
-        build_index()
-    
-    q_emb = model.encode([query], show_progress_bar=False)
-    q_emb = q_emb / (np.linalg.norm(q_emb) + 1e-8)
-    
-    scores = np.dot(index, q_emb.T).flatten()
-    top_idx = np.argsort(scores)[-n:][::-1]
-    
-    return [{
-        "meta": metadata[i],
-        "doc": documents[i],
-        "score": float(scores[i])
-    } for i in top_idx]
-
-# === Startup: bouw index (async niet nodig, gebeurt 1x) ===
-print("🚀 OW-vsmart cloud starting...")
-build_index()
+    q_vec = vectorizer.transform([query])
+    scores = cosine_similarity(q_vec, doc_vectors).flatten()
+    top = np.argsort(scores)[-n:][::-1]
+    return [{"meta": metas[i], "doc": docs[i], "score": float(scores[i])} for i in top]
 
 # === Routes ===
 @app.get("/", response_class=HTMLResponse)
@@ -120,17 +69,14 @@ async def chat(request: Request):
         return JSONResponse({"error": "Geen vraag"}, status_code=400)
     
     results = search(question, n=5)
-    
     books = []
     for r in results:
         m = r['meta']
         status = "beschikbaar" if not m['onLoan'] else "uitgeleend"
-        desc = r['doc'].split(" | ")[-1][:200]
-        books.append(f"- \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})\n  {desc}")
+        books.append(f"- \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})")
     context = "\n".join(books)
     
     llm = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
-    
     try:
         resp = llm.chat.completions.create(
             model="deepseek-chat",
@@ -138,11 +84,11 @@ async def chat(request: Request):
                 {"role": "system", "content": "Je bent een bibliotheekassistent van bblthk Wageningen. Beantwoord de vraag op basis van de catalogus. Noem titels, auteurs en beschikbaarheid. Wees kort, vriendelijk, in het Nederlands."},
                 {"role": "user", "content": f"Vraag: {question}\n\nCatalogus:\n{context}\n\nBeantwoord met titels, auteurs en beschikbaarheid."}
             ],
-            temperature=0.7, max_tokens=500
+            temperature=0.7, max_tokens=400
         )
         answer = resp.choices[0].message.content
     except Exception as e:
-        answer = f"(LLM niet bereikbaar: {e})\n\nGevonden boeken:\n{context}"
+        answer = f"(Fout: {e})\n\n{context}"
     
     return JSONResponse({
         "answer": answer,
@@ -187,5 +133,5 @@ async function sendMessage(){const i=document.getElementById('question'),q=i.val
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8765))
-    print(f"\n🚀 http://localhost:{port}")
+    print(f"🚀 http://0.0.0.0:{port}")
     uvicorn.run(app, host="0.0.0.0", port=port, log_level="warning")
