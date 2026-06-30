@@ -32,12 +32,13 @@ index = None
 metadata = []
 documents = []
 
+# Model wordt direct bij import geladen (voor snelle eerste request)
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
 def load_model():
     global model
-    if model is None:
-        print("🧠 Laden embedding model...")
-        from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer('all-MiniLM-L6-v2')
+    pass  # model is al geladen bij opstart
 
 def build_index():
     global index, metadata, documents
@@ -86,7 +87,7 @@ def build_index():
     print(f"✅ {len(metadata)} records in FAISS")
 
 def search(query: str, n: int = 5):
-    load_model()
+    global model
     if index is None:
         build_index()
     
