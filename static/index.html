@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bblthk catalogus-assistent</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ── GT Walsheim ─────────────────────────────────────────── */
+@font-face { font-family:"GT Walsheim"; src:url("fonts/GT-Walsheim-Regular.otf") format("opentype"); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:"GT Walsheim"; src:url("fonts/GT-Walsheim-Medium.otf")  format("opentype"); font-weight:500; font-style:normal; font-display:swap; }
+@font-face { font-family:"GT Walsheim"; src:url("fonts/GT-Walsheim-Bold.otf")    format("opentype"); font-weight:700; font-style:normal; font-display:swap; }
+
+/* ── Design tokens ───────────────────────────────────────── */
+:root {
+  --cwp-primary:       #ebebc6;
+  --cwp-secondary:     #ef8a8d;
+  --cwp-tertiary:      #bc947a;
+  --cwp-tertiary-deep: #a87e63;
+  --cwp-neutral:       #ffffff;
+  --cwp-on-neutral:    #666666;
+  --cwp-heading:       #000000;
+  --font-head: "GT Walsheim", system-ui, sans-serif;
+  --font-body: "Poppins", system-ui, sans-serif;
+  --ease: cubic-bezier(.2,.7,.2,1);
+}
+
+/* ── Reset ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--cwp-on-neutral);
+  background: var(--cwp-neutral);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Layout shell ────────────────────────────────────────── */
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+#header {
+  flex-shrink: 0;
+  background: var(--cwp-primary);
+  padding: 28px 48px 68px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 44px), 0 100%);
+  position: relative;
+  z-index: 1;
+}
+#header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+#header h1 {
+  font-family: var(--font-head);
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+#header h1 span { color: var(--cwp-secondary); }
+#header p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #555;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+#header-tag {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  opacity: 0.3;
+  white-space: nowrap;
+  padding-bottom: 2px;
+}
+
+/* ── Chat scroll ─────────────────────────────────────────── */
+#chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 36px 48px 20px;
+  background: var(--cwp-neutral);
+}
+#chat-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* ── Message wrapper ─────────────────────────────────────── */
+.msg-wrap {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 28px;
+  animation: slideIn 0.25s ease forwards;
+}
+.msg-wrap.user { justify-content: flex-end; }
+
+/* ── Tilted cards — base ─────────────────────────────────── */
+.cwp-card {
+  max-width: 72%;
+  padding: 24px 36px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  background: var(--cwp-primary);
+  color: #000;
+}
+.cwp-card.user {
+  background: var(--cwp-tertiary);
+  color: #fff;
+}
+
+/* ── 8 shape profiles ────────────────────────────────────── */
+.s1 { clip-path: polygon(0% 4%, 97% 0%, 100% 96%, 3% 100%); transform: rotate(-1.5deg); }
+.s2 { clip-path: polygon(3% 0%, 100% 3%, 97% 100%, 0% 97%); transform: rotate(1.2deg);  }
+.s3 { clip-path: polygon(0% 2%, 96% 0%, 100% 100%, 4% 97%); transform: rotate(-2.1deg); }
+.s4 { clip-path: polygon(2% 0%, 100% 4%, 96% 100%, 0% 98%); transform: rotate(0.9deg);  }
+.s5 { clip-path: polygon(0% 5%, 98% 1%, 100% 97%, 2% 100%); transform: rotate(-1.0deg); }
+.s6 { clip-path: polygon(4% 0%, 100% 2%, 98% 99%, 0% 96%);  transform: rotate(1.8deg);  }
+.s7 { clip-path: polygon(1% 3%, 97% 0%, 100% 98%, 0% 100%); transform: rotate(-0.7deg); }
+.s8 { clip-path: polygon(0% 1%, 100% 5%, 96% 100%, 2% 97%); transform: rotate(2.2deg);  }
+
+/* ── Source cards ────────────────────────────────────────── */
+.sources {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.sources-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 10px;
+}
+.source-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.source-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+  padding: 10px 14px;
+  max-width: 220px;
+}
+.source-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.source-dot.available  { background: #4a7c4e; }
+.source-dot.unavailable { background: var(--cwp-secondary); }
+.source-title  { font-size: 12px; font-weight: 500; color: #000; line-height: 1.3; }
+.source-byline { font-size: 11px; font-weight: 300; color: #666; margin-top: 2px; }
+
+/* ── Typing indicator ────────────────────────────────────── */
+#typing { display: none; }
+#typing.visible { display: flex; }
+.typing-dots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.typing-dots span {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #666;
+  animation: dot 1.2s infinite;
+}
+.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+/* ── Input area ──────────────────────────────────────────── */
+#footer {
+  flex-shrink: 0;
+  background: var(--cwp-primary);
+  padding: 52px 48px 32px;
+  clip-path: polygon(0 44px, 100% 0, 100% 100%, 0 100%);
+}
+#footer-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+#input-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+#question {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px 4px;
+  outline: none;
+  color: #000;
+  transition: border-color 0.15s;
+}
+#question::placeholder { color: #999; }
+#question:focus { border-bottom-color: var(--cwp-secondary); }
+#send {
+  flex-shrink: 0;
+  background: var(--cwp-tertiary);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 16px 28px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transform: rotate(-1deg);
+  transition: background 0.12s var(--ease), transform 0.12s var(--ease);
+}
+#send:hover  { background: var(--cwp-tertiary-deep); transform: rotate(-1deg) translateY(-2px); }
+#send:active { transform: rotate(-1deg) scale(.99); }
+#send:disabled { opacity: 0.5; cursor: not-allowed; transform: rotate(-1deg); }
+#footer-hint {
+  font-size: 11px;
+  font-weight: 300;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────── */
+#chat::-webkit-scrollbar { width: 4px; }
+#chat::-webkit-scrollbar-track { background: transparent; }
+#chat::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+/* ── Animations ──────────────────────────────────────────── */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes dot {
+  0%, 80%, 100% { transform: scale(0.7); opacity: 0.4; }
+  40%           { transform: scale(1);   opacity: 1; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- HEADER -->
+  <div id="header">
+    <div id="header-inner">
+      <div>
+        <h1>bblthk <span>catalogus</span>-assistent</h1>
+        <p>Stel een vraag over de collectie van bibliotheek Wageningen — ik zoek en adviseer.</p>
+      </div>
+      <div id="header-tag">een initiatief van bblthk</div>
+    </div>
+  </div>
+
+  <!-- CHAT -->
+  <div id="chat">
+    <div id="chat-inner">
+      <!-- messages injected here -->
+      <div id="typing" class="msg-wrap">
+        <div class="cwp-card s5">
+          <div class="typing-dots">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <div id="footer-inner">
+      <div id="input-row">
+        <input id="question" type="text"
+          placeholder="Stel je vraag over de bblthk-collectie…"
+          autocomplete="off">
+        <button id="send">Verstuur →</button>
+      </div>
+      <div id="footer-hint">Druk op Enter of klik Verstuur · zoekresultaten komen uit de bblthk-collectie in Wageningen</div>
+    </div>
+  </div>
+
+</div>
+<script>
+const aShapes = [1,3,5,7];
+const uShapes = [2,4,6,8];
+const srcRotations = [-0.5, 0.7, -0.3, 1.1, -0.8];
+let ai = 0, ui = 0;
+
+function esc(t) {
+  const d = document.createElement('div');
+  d.textContent = t;
+  return d.innerHTML;
+}
+
+function createMessage(msg) {
+  const isUser = msg.role === 'user';
+  const shape  = isUser ? uShapes[ui++ % uShapes.length] : aShapes[ai++ % aShapes.length];
+
+  const wrap = document.createElement('div');
+  wrap.className = 'msg-wrap' + (isUser ? ' user' : '');
+
+  const card = document.createElement('div');
+  card.className = 'cwp-card s' + shape + (isUser ? ' user' : '');
+
+  const textEl = document.createElement('div');
+  textEl.textContent = msg.text;
+  card.appendChild(textEl);
+
+  if (!isUser && msg.sources && msg.sources.length > 0) {
+    const sources = document.createElement('div');
+    sources.className = 'sources';
+
+    const label = document.createElement('div');
+    label.className = 'sources-label';
+    label.textContent = 'Gevonden in de catalogus';
+    sources.appendChild(label);
+
+    const cards = document.createElement('div');
+    cards.className = 'source-cards';
+
+    msg.sources.forEach((s, i) => {
+      const sc = document.createElement('div');
+      sc.className = 'source-card';
+      sc.style.transform = 'rotate(' + srcRotations[i % srcRotations.length] + 'deg)';
+
+      const dot = document.createElement('div');
+      dot.className = 'source-dot ' + (s.available ? 'available' : 'unavailable');
+      sc.appendChild(dot);
+
+      const info = document.createElement('div');
+      const title = document.createElement('div');
+      title.className = 'source-title';
+      title.textContent = s.title;
+      const byline = document.createElement('div');
+      byline.className = 'source-byline';
+      byline.textContent = (s.author || 'onbekend') + ' · ' + (s.available ? 'beschikbaar' : 'uitgeleend');
+      info.appendChild(title);
+      info.appendChild(byline);
+      sc.appendChild(info);
+      cards.appendChild(sc);
+    });
+
+    sources.appendChild(cards);
+    card.appendChild(sources);
+  }
+
+  wrap.appendChild(card);
+  return wrap;
+}
+
+function addMessage(msg) {
+  const chatInner = document.getElementById('chat-inner');
+  const typing    = document.getElementById('typing');
+  const el        = createMessage(msg);
+  chatInner.insertBefore(el, typing);
+  scroll();
+}
+
+function scroll() {
+  const chat = document.getElementById('chat');
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function setLoading(on) {
+  document.getElementById('typing').className = 'msg-wrap' + (on ? ' visible' : '');
+  document.getElementById('send').disabled = on;
+  scroll();
+}
+
+async function sendMessage() {
+  const input = document.getElementById('question');
+  const q = input.value.trim();
+  if (!q || document.getElementById('send').disabled) return;
+
+  addMessage({ role: 'user', text: q });
+  input.value = '';
+  setLoading(true);
+
+  try {
+    const res  = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: q })
+    });
+    const data = await res.json();
+    addMessage({ role: 'assistant', text: data.answer || 'Geen antwoord ontvangen.', sources: data.sources || [] });
+  } catch (e) {
+    addMessage({ role: 'assistant', text: 'Sorry, ik kan de catalogus nu niet bereiken.\n\nIs de server actief? Start hem met:\npython3 chat_server.py', sources: [] });
+  }
+  setLoading(false);
+}
+
+// Init
+document.getElementById('question').addEventListener('keydown', e => {
+  if (e.key === 'Enter') sendMessage();
+});
+document.getElementById('send').addEventListener('click', sendMessage);
+
+addMessage({
+  role: 'assistant',
+  text: 'Hallo! Ik ben de bblthk catalogus-assistent.\n\nStel me een vraag over onze collectie — ik zoek voor je in de bibliotheek Wageningen en geef persoonlijk advies.',
+  sources: []
+});
+</script>
+</body>
+</html>

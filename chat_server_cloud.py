@@ -19,12 +19,14 @@ if not DEEPSEEK_KEY:
     sys.exit(1)
 
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
+from fastapi.staticfiles import StaticFiles
 import uvicorn
 from openai import OpenAI
 from collections import Counter
 
 app = FastAPI(title="OW-vsmart")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # === Pure Python TF-IDF ===
 print("📚 Laden catalogus...")
@@ -86,9 +88,9 @@ def search(query: str, n: int = 5):
     return [{"meta": metas[i], "doc": docs[i], "score": s} for i, s in top]
 
 # === Routes ===
-@app.get("/", response_class=HTMLResponse)
+@app.get("/")
 async def index():
-    return HTMLResponse(content=CHAT_HTML)
+    return RedirectResponse(url="/static/index.html")
 
 @app.post("/api/chat")
 async def chat(request: Request):
