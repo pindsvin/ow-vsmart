@@ -24,10 +24,11 @@ with open("catalogus_klimaat.json", "r") as f:
 results = dataset["results"]
 print(f"   {len(results)} records geladen")
 
-# 2. Maak embedding model
-print("\n🧠 Laden van embedding model (all-MiniLM-L6-v2)...")
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer('all-MiniLM-L6-v2')
+# 2. Embedding-functie: meertalig model (goed in Nederlands)
+EMBED_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
+print(f"\n🧠 Laden van embedding model ({EMBED_MODEL})...")
+from chromadb.utils import embedding_functions
+embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=EMBED_MODEL)
 print("   Model geladen")
 
 # 3. Bouw documenten voor embedding
@@ -76,7 +77,8 @@ except:
 
 collection = client.create_collection(
     name="bblthk_catalog",
-    metadata={"description": "bblthk catalogus — zoekterm: klimaat"}
+    embedding_function=embed_fn,
+    metadata={"description": "bblthk catalogus — meertalige embeddings"}
 )
 
 # Embed in batches

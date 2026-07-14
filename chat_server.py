@@ -1,34 +1,46 @@
 #!/usr/bin/env python3
 """
-OW-vsmart — Chat server
+OW-vsmart — Chat server (lokaal, semantisch)
 - FastAPI backend op poort 8765
-- ChromaDB vector search + Ollama LLM
-- Web chat interface
+- ChromaDB vector search (meertalige embeddings) + DeepSeek LLM
+- Zelfde chat-UI en gedrag als de cloud-versie, maar met écht
+  semantisch zoeken: "hulp bij lastige opgroeiende kinderen" vindt
+  ook opvoedboeken zonder woordoverlap.
 """
-import json, os, sys
-os.chdir("/Users/ron/Documents/ronOS/Projecten/OW-vsmart")
+import json, os, re, sys
+from pathlib import Path
+from collections import Counter
+
+PROJECT_DIR = Path(__file__).parent
+os.chdir(str(PROJECT_DIR))
+
+from dotenv import load_dotenv
+load_dotenv()
+
+DEEPSEEK_KEY = os.getenv("DEEPSEEK_API_KEY")
+if not DEEPSEEK_KEY:
+    print("❌ DEEPSEEK_API_KEY ontbreekt (.env)")
+    sys.exit(1)
 
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 import chromadb
-from chromadb.config import Settings as ChromaSettings
-import httpx
+from chromadb.utils import embedding_functions
+from openai import OpenAI
 
-app = FastAPI(title="OW-vsmart — bblthk Catalogus Chat")
+app = FastAPI(title="OW-vsmart — bblthk Catalogus Chat (lokaal)")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# === ChromaDB setup ===
+# === ChromaDB setup (zelfde embedding-model als embed_and_query.py) ===
+EMBED_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
+embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=EMBED_MODEL)
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
-collection = chroma_client.get_collection("bblthk_catalog")
-
-# === LLM config ===
-OLLAMA_URL = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "gemma3:4b"
+collection = chroma_client.get_collection("bblthk_catalog", embedding_function=embed_fn)
 
 print(f"📚 ChromaDB: {collection.count()} records")
-print(f"🧠 LLM: Ollama/{OLLAMA_MODEL}")
+print(f"🧠 Embeddings: {EMBED_MODEL} · LLM: DeepSeek")
 
 # === Routes ===
 @app.get("/")
@@ -37,7 +49,6 @@ async def index():
 
 @app.get("/api/stats")
 async def stats():
-    from collections import Counter
     with open("catalogus_klimaat.json") as f:
         dataset = json.load(f)
     theme_counts = Counter(r.get('theme', 'overig') for r in dataset["results"])
@@ -47,72 +58,51 @@ async def stats():
         "timestamp": dataset.get("timestamp", "")
     })
 
-# === API ===
 @app.post("/api/chat")
 async def chat(request: Request):
     data = await request.json()
     question = data.get("question", "").strip()
-    
     if not question:
         return JSONResponse({"error": "Geen vraag"}, status_code=400)
-    
-    # 1. Vector search in catalogus
-    chroma_results = collection.query(
-        query_texts=[question],
-        n_results=5
-    )
-    
-    # 2. Formatteer context voor de LLM
-    books_context = []
-    for i, (meta, doc, dist) in enumerate(zip(
-        chroma_results['metadatas'][0],
-        chroma_results['documents'][0],
-        chroma_results['distances'][0]
-    )):
+
+    chroma_results = collection.query(query_texts=[question], n_results=8)
+    results = list(zip(chroma_results['metadatas'][0], chroma_results['documents'][0]))
+
+    books = []
+    for i, (meta, doc) in enumerate(results, 1):
         status = "beschikbaar" if not meta['onLoan'] else "uitgeleend"
-        books_context.append(
-            f"{i+1}. \"{meta['title']}\" door {meta['author'] or 'onbekend'}"
-            f" — {meta['language']} — {status}"
-            f"\n   {doc.split(' | ')[-1][:200]}"
-        )
-    
-    context = "\n\n".join(books_context)
-    
-    # 3. Prompt naar Ollama
-    system_prompt = (
-        "Je bent een behulpzame bibliotheekassistent voor de bibliotheek Wageningen (bblthk). "
-        "Beantwoord de vraag van de gebruiker op basis van de catalogusresultaten hieronder. "
-        "Vermeld titels, auteurs, en of het boek beschikbaar of uitgeleend is. "
-        "Geef een kort, vriendelijk antwoord in het Nederlands. "
-        "Als de resultaten niet perfect passen, zeg dat dan eerlijk en geef het beste wat je hebt."
-    )
-    
-    user_message = (
-        f"Vraag van de gebruiker: {question}\n\n"
-        f"Gevonden boeken in de catalogus:\n{context}\n\n"
-        f"Beantwoord de vraag. Noem de titels, auteurs, en beschikbaarheid."
-    )
-    
+        desc = doc.split(' | ')[-1][:200]
+        books.append(f"{i}. \"{meta['title']}\" door {meta['author'] or 'onbekend'} ({meta['language']}, {status})\n   {desc}")
+    context = "\n".join(books) if books else "(geen relevante titels gevonden in de catalogus)"
+
+    llm = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
+    relevant = list(range(len(results)))  # fallback: alles tonen
     try:
-        async with httpx.AsyncClient(timeout=30.0) as client:
-            ollama_resp = await client.post(OLLAMA_URL, json={
-                "model": OLLAMA_MODEL,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message}
-                ],
-                "stream": False
-            })
-            
-            if ollama_resp.status_code == 200:
-                ollama_data = ollama_resp.json()
-                answer = ollama_data.get("message", {}).get("content", "Geen antwoord")
-            else:
-                answer = f"(LLM fout: {ollama_resp.status_code})"
+        resp = llm.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {"role": "system", "content": (
+                    "Je bent een bibliotheekassistent van bblthk Wageningen. Beantwoord de vraag op basis "
+                    "van de genummerde catalogusresultaten. Noem titels, auteurs en beschikbaarheid. Wees kort, "
+                    "vriendelijk, in het Nederlands. De resultaten komen uit semantisch zoeken en kunnen missers "
+                    "bevatten; negeer titels die niet bij de vraag passen. Sluit je antwoord af met een aparte "
+                    "laatste regel in exact dit formaat: BRONNEN: gevolgd door de nummers van de resultaten "
+                    "die echt bij de vraag passen, kommagescheiden (bijv. BRONNEN: 1,3). Passen er geen, "
+                    "schrijf dan BRONNEN: geen."
+                )},
+                {"role": "user", "content": f"Vraag: {question}\n\nCatalogus:\n{context}\n\nBeantwoord met titels, auteurs en beschikbaarheid, en eindig met de BRONNEN-regel."}
+            ],
+            temperature=0.7, max_tokens=450
+        )
+        answer = resp.choices[0].message.content
+        mt = re.search(r'\n?\s*BRONNEN:\s*(.*?)\s*$', answer)
+        if mt:
+            answer = answer[:mt.start()].rstrip()
+            nums = re.findall(r'\d+', mt.group(1))
+            relevant = [int(n) - 1 for n in nums if 0 < int(n) <= len(results)] if nums else []
     except Exception as e:
-        answer = f"(Kan Ollama niet bereiken: {e}). Hier zijn de ruwe resultaten:\n\n{context}"
-    
-    # 4. Return antwoord + bronnen
+        answer = f"(Fout: {e})\n\n{context}"
+
     return JSONResponse({
         "answer": answer,
         "sources": [
@@ -123,10 +113,9 @@ async def chat(request: Request):
                 "available": not meta['onLoan'],
                 "ppn": meta['ppn']
             }
-            for meta in chroma_results['metadatas'][0]
+            for i, (meta, _) in enumerate(results) if i in relevant
         ]
     })
-
 
 
 if __name__ == "__main__":
