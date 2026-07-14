@@ -93,12 +93,58 @@ def cosine(v1, v2):
     n2 = math.sqrt(sum(b*b for b in v2))
     return dot / (n1 * n2) if n1 * n2 > 0 else 0
 
-def search(query: str, n: int = 5):
+def search_tfidf(query: str, n: int = 5):
     q_vec = compute_tfidf(tokenize(query))
     scores = [(i, cosine(q_vec, doc_vectors[i])) for i in range(N)]
     scores.sort(key=lambda x: -x[1])
     top = scores[:n]
     return [{"meta": metas[i], "doc": docs[i], "score": s} for i, s in top]
+
+# === Semantisch zoeken (Gemini-embeddings, optioneel) ===
+# Actief zodra GEMINI_API_KEY is gezet én embeddings_gemini.npz bestaat
+# (aanmaken met embed_gemini.py). Valt anders terug op TF-IDF.
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = "gemini-embedding-001"
+GEMINI_DIMS = 768
+EMB_FILE = "embeddings_gemini.npz"
+SEMANTIC = False
+if GEMINI_KEY and os.path.exists(EMB_FILE):
+    import numpy as np
+    import requests
+    _emb = np.load(EMB_FILE)
+    EMB_MATRIX = _emb["vectors"]
+    if len(EMB_MATRIX) == len(metas):
+        SEMANTIC = True
+        print(f"🧠 Semantisch zoeken actief ({GEMINI_MODEL}, {EMB_MATRIX.shape[1]} dims)")
+    else:
+        print(f"⚠️ {EMB_FILE} ({len(EMB_MATRIX)}) past niet bij dataset ({len(metas)}) — draai embed_gemini.py opnieuw; TF-IDF fallback actief")
+else:
+    print("ℹ️ Geen GEMINI_API_KEY of embeddings-bestand — TF-IDF modus")
+
+def search_semantic(query: str, n: int = 5):
+    resp = requests.post(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:embedContent",
+        params={"key": GEMINI_KEY},
+        json={"model": f"models/{GEMINI_MODEL}",
+              "content": {"parts": [{"text": query}]},
+              "taskType": "RETRIEVAL_QUERY",
+              "outputDimensionality": GEMINI_DIMS},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    q = np.array(resp.json()["embedding"]["values"], dtype=np.float32)
+    q /= np.linalg.norm(q)
+    scores = EMB_MATRIX @ q
+    idx = np.argsort(-scores)[:n]
+    return [{"meta": metas[i], "doc": docs[i], "score": float(scores[i])} for i in idx]
+
+def search(query: str, n: int = 5):
+    if SEMANTIC:
+        try:
+            return search_semantic(query, n)
+        except Exception as e:
+            print(f"⚠️ Semantisch zoeken faalde ({e}) — TF-IDF fallback")
+    return search_tfidf(query, n)
 
 # === Routes ===
 @app.get("/")
