@@ -50,10 +50,10 @@ def tokenize(text):
 # Bouw vocabulary
 print("📊 TF-IDF index bouwen...")
 all_tokens = [tokenize(d) for d in docs]
-vocab = set()
+doc_freq = Counter()
 for t in all_tokens:
-    vocab.update(t)
-vocab = sorted(vocab)[:3000]  # max 3000 features
+    doc_freq.update(set(t))
+vocab = sorted(w for w, _ in doc_freq.most_common(3000))  # max 3000 features, meest voorkomende eerst
 
 N = len(docs)
 df = Counter()
