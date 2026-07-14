@@ -137,16 +137,18 @@ async def chat(request: Request):
                     "Je bent een bibliotheekassistent van bblthk Wageningen. Beantwoord de vraag op basis "
                     "van de genummerde catalogusresultaten. Noem titels, auteurs en beschikbaarheid. Wees kort, "
                     "vriendelijk, in het Nederlands. De resultaten komen uit semantisch zoeken en kunnen missers "
-                    "bevatten; negeer titels die niet bij de vraag passen. Sluit je antwoord af met een aparte "
-                    "laatste regel in exact dit formaat: BRONNEN: gevolgd door de nummers van de resultaten "
-                    "die echt bij de vraag passen, kommagescheiden (bijv. BRONNEN: 1,3). Passen er geen, "
-                    "schrijf dan BRONNEN: geen. Vraagt de gebruiker om meer informatie, een samenvatting of "
+                    "bevatten; negeer titels die duidelijk niets met de vraag te maken hebben. Sluit je antwoord "
+                    "af met een aparte laatste regel in exact dit formaat: BRONNEN: gevolgd door de nummers van "
+                    "de resultaten die de gebruiker kunnen helpen, kommagescheiden (bijv. BRONNEN: 1,3,4). Wees "
+                    "hierin ruimhartig: neem ook titels op die deels of zijdelings passen en noem die in je "
+                    "antwoord als extra tip — beter een paar extra suggesties dan te weinig. Alleen als níéts "
+                    "past schrijf je BRONNEN: geen. Vraagt de gebruiker om meer informatie, een samenvatting of "
                     "details over één specifieke titel, zet dan direct vóór de BRONNEN-regel een aparte regel "
                     "INFO: gevolgd door het nummer van die titel (bijv. INFO: 2)."
                 )},
                 {"role": "user", "content": f"Vraag: {question}\n\nCatalogus:\n{context}\n\nBeantwoord met titels, auteurs en beschikbaarheid, en eindig met de BRONNEN-regel."}
             ],
-            temperature=0.7, max_tokens=450
+            temperature=0.4, max_tokens=450
         )
         answer = resp.choices[0].message.content
         mt = re.search(r'\n?\s*BRONNEN:\s*(.*?)\s*$', answer)
