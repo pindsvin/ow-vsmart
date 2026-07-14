@@ -1,819 +1,3276 @@
 {
-  "query": "klimaat",
-  "filter": "Wageningen (db_2_WGN)",
-  "source": "Sambis Iguana — bblthk",
-  "total_results": 90,
-  "timestamp": "2026-06-30",
-  "results": [
-    {
-      "title": "Eigen planeet eerst waarom onze democratie geen antwoord heeft op het grootste vraagstuk van onze tijd (mei 2025)",
-      "author": "Roxane van Iperen",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Essay over de beperkingen van democratische processen in het aanpakken van urgente mondiale vraagstukken zoals klimaatverandering.",
-      "onLoan": true,
-      "ppn": "444279873"
-    },
-    {
-      "title": "Vigil (2026)",
-      "author": "George Saunders",
-      "type": "Boek",
-      "language": "Engels",
-      "description": "Moet een engel een medogenloze oliemagnaat troosten op zijn reis naar het dodenrijk, ook als hij geen spijt heeft van zijn misdaden tegen het klimaat?",
-      "onLoan": true,
-      "ppn": "457424036"
-    },
-    {
-      "title": "Rivier van bloed een cultuurgeschiedenis van de Wolga (januari 2026)",
-      "author": "Michel Krielaars",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Cultuurgeschiedenis van Rusland waarin, aan de hand van de rivier de Wolga, de blijvende invloeden van historische gebeurtenissen en mythes op de Russische samenleving en diens politieke klimaat worden onderzocht.",
-      "onLoan": true,
-      "ppn": "456609172"
-    },
-    {
-      "title": "Tom Clancy in zijn macht ([2019])",
-      "author": "Tom Clancy",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "In een steeds verslechterend politiek klimaat tussen Amerika en China zoekt Jack Ryan naar een Chinese man die verdacht wordt van terrorisme.",
-      "onLoan": false,
-      "ppn": "420774858"
-    },
-    {
-      "title": "Je bord ontrafeld feiten, fabels en emoties over voedsel en landbouw ([2026])",
-      "author": "Tessa Avermaete",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Hoe kan het dat de winkelrekken vol liggen en er toch mensen honger lijden? Kan het voedselsysteem een oplossing bieden bij klimaatverandering? Voedsel verbindt én verdeelt ons.",
-      "onLoan": true,
-      "ppn": "459580221"
-    },
-    {
-      "title": "De junior Bosatlas ([2019])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Atlas met kaarten van Nederland, provincies, Europese landen en de werelddelen. Ook kaarten van overstromingen, Europese Unie, sport, klimaat enz. Vanaf ca. 9 t/m 12 jaar.",
-      "onLoan": true,
-      "ppn": "421557370"
-    },
-    {
-      "title": "De belangrijkste vragen van je leven 16 jonge denkers over ons klimaat (2024)",
-      "author": "Harm Edens",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "",
-      "onLoan": false,
-      "ppn": "443086613"
-    },
-    {
-      "title": "Een ijsbeer in de tropen (2024)",
-      "author": "Hans de Beer",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "IJsbeertje Lars drijft op een ijsschots weg van de Noordpool en belandt in het warme Afrika. Prentenboek. Vanaf ca. 4 jaar.",
-      "onLoan": true,
-      "ppn": "446492140"
-    },
-    {
-      "title": "Palmen op de Noordpool het grote verhaal van klimaatverandering ([2018])",
-      "author": "Marc ter Horst",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Sinds het ontstaan van de aarde verandert het klimaat steeds. Waarom maken de mensen zich daar nu zo druk om? Vanaf ca. 10 t/m 13 jaar.",
-      "onLoan": false,
-      "ppn": "413352951"
-    },
-    {
-      "title": "Hoe overleef je klimaatangst? een hoopvolle gids met praktische tips en tools (2026)",
-      "author": "Thomas Doherty",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Gids voor het omgaan met de psychologische gevolgen van klimaatverandering door veerkracht te bevorderen en hoop te stimuleren.",
-      "onLoan": false,
-      "ppn": "445513152"
-    },
-    {
-      "title": "Het grote waterboek van zwetende planten tot verwoestende tsunami's ([2021])",
-      "author": "Sarah Garré",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Wat gebeurt er met je plas? Wat is de rol van het water voor het klimaat? Vanaf ca. 9 jaar.",
-      "onLoan": true,
-      "ppn": "43396829"
-    },
-    {
-      "title": "Klimaatatlas aaargh, we gaan er allemaal aan! (2025)",
-      "author": "Jan Paul Schutten",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "",
-      "onLoan": true,
-      "ppn": "44599522"
-    },
-    {
-      "title": "Onze aarde (2022)",
-      "author": "Christina Braun",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Hoe is de aarde ontstaan? Het klimaat en de verandering daarvan komen ook aan bod. Vanaf ca. 8 t/m 10 jaar.",
-      "onLoan": false,
-      "ppn": "435014137"
-    },
-    {
-      "title": "Kom mee naar buiten ([2022])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bundel met verhalen, gedichten en een stripverhaal over buitenspelen, de natuur en het klimaat. Vanaf ca. 10 jaar.",
-      "onLoan": false,
-      "ppn": "435622242"
-    },
-    {
-      "title": "Vuile handen ([2025])",
-      "author": "Marco Kunst",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Achim maakt zich zorgen over de wereld en het klimaat. Hij wil echt iets veranderen en neemt daarom een extreme stap. Vanaf ca. 14 jaar.",
-      "onLoan": false,
-      "ppn": "444266003"
-    },
-    {
-      "title": "Scheten uit de schoorsteen het kleine verhaal van klimaatverandering ([2022])",
-      "author": "Marc ter Horst",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Uitleg over klimaatverandering, met aandacht voor de oorzaken en de oplossingen. Voorlezen vanaf ca. 5 jaar.",
-      "onLoan": true,
-      "ppn": "435423878"
-    },
-    {
-      "title": "Borealis ([2016])",
-      "author": "Marloes Morshuis",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Joppe woont met 180 kinderen in kamp Borealis in Alaska. Ze zijn geselecteerd om na een klimaatramp de aarde opnieuw te bevolken. Vanaf ca. 12 jaar.",
-      "onLoan": true,
-      "ppn": "407163352"
-    },
-    {
-      "title": "Onze planeet warmt op! hoe is het zo ver gekomen... en wat kun jij nu doen? ([2021])",
-      "author": "Anna Claybourne",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "De aarde warmt op en het klimaat verandert. Hoe komt dat en wat zijn de gevolgen? Vanaf ca. 9 t/m 12 jaar.",
-      "onLoan": false,
-      "ppn": "428916074"
-    },
-    {
-      "title": "Lily ([2021])",
-      "author": "Tom De Cock",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Lily (14) is in 2049 een bekende influencer. Ze maakt zich niet erg druk om het ernstig ontregelde klimaat. Vanaf ca. 14 jaar.",
-      "onLoan": false,
-      "ppn": "433250240"
-    },
-    {
-      "title": "Het weer ([2025])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Hoe wordt het weer voorspeld? Hoe ontstaan orkanen? Ruim dertig onderwerpen rond het weer en klimaat. Vanaf ca. 12 jaar.",
-      "onLoan": false,
-      "ppn": "444618910"
-    },
-    {
-      "title": "Klimaatverandering ([2025])",
-      "author": "John Woodward",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Op aarde stijgt de temperatuur, waardoor onder meer het poolijs smelt en overstromingen dreigen. Oorzaken en gevolgen van de klimaatverandering. Vanaf ca. 12 jaar.",
-      "onLoan": false,
-      "ppn": "444654755"
-    },
-    {
-      "title": "Klimaat en weer ([2024])",
-      "author": "Rosie Cooper",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Leer van alles over het klimaat, en test je kennis over het weer. Vanaf ca. 9 jaar.",
-      "onLoan": true,
-      "ppn": "440600464"
-    },
-    {
-      "title": "Kilometers zonlicht (2022)",
-      "author": "Marike Goslinga",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Peer loopt om zijn thuissituatie te ontvluchten, Leonne loopt voor haar vlog over het klimaat. Vanaf ca. 14 jaar.",
-      "onLoan": true,
-      "ppn": "435622862"
-    },
-    {
-      "title": "Kanjers klaren de klus ([2021])",
-      "author": "Emy Geyskens",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "De vrienden Daan, Ferre en Farida maken zich zorgen over de klimaatverandering. Vanaf ca. 6 jaar.",
-      "onLoan": false,
-      "ppn": "432243437"
-    },
-    {
-      "title": "Waarom je voetafdruk groter is dan je schoenmaat (2025)",
-      "author": "Esther Walraven",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Waarom zit er plastic in eten? Leer alles over klimaat, natuur en milieu. Vanaf ca. 9 t/m 12 jaar.",
-      "onLoan": false,
-      "ppn": "444136029"
-    },
-    {
-      "title": "Zakboek voor de sponstuin ([2023])",
-      "author": "Marc Verachtert",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Tips om bij wisselende klimaatomstandigheden door middel van waterbuffers een gezond klimaat in de tuin te creëren.",
-      "onLoan": false,
-      "ppn": "438650816"
-    },
-    {
-      "title": "Klimaatverandering weer en klimaat ([2024])",
-      "author": "Geert-Jan Roebers",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Leer van alles over klimaatverandering, de gevolgen daarvan voor de aarde. Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "44134030"
-    },
-    {
-      "title": "123 superslimme dingen die je moet weten over het klimaat ([2019])",
-      "author": "Mathilda Masters",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Wist je dat scheten van koeien schadelijk methaangas opwekken? Verbaas je over 123 weetjes over de opwarmende aarde. Vanaf ca. 9 jaar.",
-      "onLoan": true,
-      "ppn": "42432010"
-    },
-    {
-      "title": "Vogels op reis ([2017])",
-      "author": "Fleur Daugey",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Waarom trekken sommige vogels in de herfst weg? Lees van alles over trekvogels, ook over de invloed van het klimaat. Vanaf ca. 10 jaar.",
-      "onLoan": false,
-      "ppn": "409309435"
-    },
-    {
-      "title": "Meer weten over het weer en het klimaat ([2015])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Hoe wordt het weer voorspeld? Hardkartonnen uitgave met gedetailleerde kleurentekeningen en veel flapjes. Vanaf ca. 8 t/m 10 jaar.",
-      "onLoan": true,
-      "ppn": "390932825"
-    },
-    {
-      "title": "Neerslag en droogte ([2024])",
-      "author": "Ida Schuurman",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Hoe ontstaan sneeuw, hagel en motregen? En waarom is het steeds vaker droog, of juist enorm nat? Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "442868065"
-    },
-    {
-      "title": "De Verenigde Staten ([2021])",
-      "author": "Zeger van Mersbergen",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Lees van alles over o.a. de talen in de VS, de inwoners, klimaat en invloed in de wereld. Vanaf ca. 11 t/m 14 jaar.",
-      "onLoan": false,
-      "ppn": "433727225"
-    },
-    {
-      "title": "Klimaatkampioen van code rood naar code groen ([2025])",
-      "author": "Tim van Hattum",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Beschrijving van zeven routes richting een klimaatvriendelijkere wereld, met focus op hoe Nederland actie kan ondernemen.",
-      "onLoan": true,
-      "ppn": "453620078"
-    },
-    {
-      "title": "Klimaten ([2025])",
-      "author": "Geert-Jan Roebers",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Er zijn verschillende klimaten op aarde. De opwarming van de aarde zorgt voor grote veranderingen. Hoe komt dat en hoe kunnen we dat voorkomen?",
-      "onLoan": false,
-      "ppn": "444404570"
-    },
-    {
-      "title": "De ijsreis van de ijsbeer ([2023])",
-      "author": "Martin Jenkins",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Volg een ijsbeervrouwtje op haar reis door het poollandschap, terwijl zij en haar jongen te maken krijgen met de gevolgen van het veranderende klimaat. Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "439146887"
-    },
-    {
-      "title": "Klimaat in gevaar waar wachten we op?! ([2025])",
-      "author": "Alice Harman",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "",
-      "onLoan": true,
-      "ppn": "451969359"
-    },
-    {
-      "title": "Red het klimaat! ([2021])",
-      "author": "Neal Layton",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Wat kun je doen om de opwarming van de aarde tegen te gaan? Ontdek waarom ons klimaat is veranderd. Vanaf ca. 7 t/m 9 jaar.",
-      "onLoan": false,
-      "ppn": "43310273"
-    },
-    {
-      "title": "Systeem aarde ontregeld, en wat nu? ([2025])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Verhandeling over de verstoring van koolstof-, stikstof- en fosforkringlopen door menselijke activiteiten.",
-      "onLoan": true,
-      "ppn": "449178692"
-    },
-    {
-      "title": "Ontdek de natuur ([2024])",
-      "author": "Lauren Giordano",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Maak kennis met de vijf grootste bomen ter wereld, onderzoek bijzondere ecosystemen en leer over klimaat, landschap en nog veel meer. Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "44205128"
-    },
-    {
-      "title": "Wedergeboorte roman ([2023])",
-      "author": "Erdal Balci",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "2128. Om het klimaat te redden heeft de wereldbevolking zich teruggetrokken op het continent Europa.",
-      "onLoan": false,
-      "ppn": "439103347"
-    },
-    {
-      "title": "Denken in systemen een handleiding ([2022])",
-      "author": "Donella Meadows",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "De problemen van onze tijd, zoals ziekte, oorlog, armoede en het klimaat, houden verband met bijna alles.",
-      "onLoan": false,
-      "ppn": "436188090"
-    },
-    {
-      "title": "Nog niet te laat ([2025])",
-      "author": "Hannah Ritchie",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Gids met antwoorden op belangrijke klimaatvragen, gebaseerd op statistieken.",
-      "onLoan": true,
-      "ppn": "453922422"
-    },
-    {
-      "title": "Hitte en kou ([2025])",
-      "author": "Anneriek van Heugten",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Weet jij waarom het op sommige plekken op aarde altijd snikheet is of juist ijskoud? Leer alles over de invloed van het klimaat.",
-      "onLoan": false,
-      "ppn": "444404589"
-    },
-    {
-      "title": "Hup klimaat! (2025)",
-      "author": "Marc ter Horst",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "De aarde wordt warmer, maar hoe kan dat eigenlijk? Lees alles over het klimaat en hoe je zelf duurzamer kan leven. Vanaf ca. 7,5 jaar.",
-      "onLoan": false,
-      "ppn": "449436446"
-    },
-    {
-      "title": "De Bosatlas van weer en klimaat ([2021])",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bekijk en lees hoe het weer en klimaat de afgelopen decennia veranderd zijn en wat de gevolgen zijn.",
-      "onLoan": true,
-      "ppn": "433975849"
-    },
-    {
-      "title": "Onze toekomst is nu! strijd met Greta Thunberg voor het klimaat ([2019])",
-      "author": "C. Hecking",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Ben je benieuwd hoe Greta Thunberg een wereldberoemde actievoerster van het klimaat werd? Vanaf ca. 9 t/m 12 jaar.",
-      "onLoan": false,
-      "ppn": "424147963"
-    },
-    {
-      "title": "Hoe gaan we dit uitleggen onze toekomst op een steeds warmere aarde ([2019])",
-      "author": "Jelmer Mommers",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Analyse van de oorzaken en gevolgen van de klimaatverandering en de manieren waarop we daar iets aan kunnen doen.",
-      "onLoan": false,
-      "ppn": "421098678"
-    },
-    {
-      "title": "Van Zuid naar Noord hoe het verschuivende klimaat het leven in Europa raakt ([2025])",
-      "author": "Wilfried ten Brinke",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Verkenning van de gevolgen van klimaatverandering in Europa.",
-      "onLoan": false,
-      "ppn": "444189777"
-    },
-    {
-      "title": "Bedreigde dieren (2018)",
-      "author": "Martin Jenkins",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Wist je dat de blauwe vinvis en okapi bedreigd worden door milieuvervuiling en verandering van het klimaat? Vanaf ca. 11 t/m 14 jaar.",
-      "onLoan": false,
-      "ppn": "420518037"
-    },
-    {
-      "title": "Voor het klimaat! (2024)",
-      "author": "Folkert Oldersma",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Iris is boos dat haar generatie de meeste gevolgen van klimaatverandering zal ondervinden. Vanaf ca. 10 jaar.",
-      "onLoan": false,
-      "ppn": "444387641"
-    },
-    {
-      "title": "Frida's coole klimaatboek ([2019])",
-      "author": "Moniek Vermeulen",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Wie zijn de vervuilers? Moeten we anders gaan eten? Frida (12) vertelt van alles over de oorzaken en gevolgen van de opwarming van de aarde.",
-      "onLoan": false,
-      "ppn": "424315920"
-    },
-    {
-      "title": "Alles smelt de wereld van het ijs in een veranderend klimaat ([2021])",
-      "author": "Peter Kuipers Munneke",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Uitleg over onderzoek van het land- en zee-ijs in de wereld en de gevolgen van opwarming van de aarde.",
-      "onLoan": false,
-      "ppn": "433083077"
-    },
-    {
-      "title": "De onbewoonbare aarde (2019)",
-      "author": "David Wallace-Wells",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Aan de hand van wetenschappelijke inzichten over klimaatverandering wordt een noodoproep gedaan om zorgvuldiger om te gaan met onze planeet.",
-      "onLoan": false,
-      "ppn": "420997075"
-    },
-    {
-      "title": "Lucht ([2023])",
-      "author": "Nancy Dickmann",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Leer alles over lucht, hoe de luchtkwaliteit van invloed is op het weer en het klimaat. Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "438040708"
-    },
-    {
-      "title": "Een kroon van zwaarden (2004)",
-      "author": "Robert Jordan",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Terwijl de eindstrijd tussen de Draak en het Kwade steeds dichterbij komt, wordt het klimaat langzaam aan slechter.",
-      "onLoan": true,
-      "ppn": "263290956"
-    },
-    {
-      "title": "Het Middellandse Zeegebied ([2026])",
-      "author": "Zeger van Mersbergen",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Reis mee langs de Middellandse Zee en leer over de geschiedenis, het klimaat en de culturen. Vanaf ca. 11 jaar.",
-      "onLoan": true,
-      "ppn": "454942532"
-    },
-    {
-      "title": "Only planet klimaatgids voor de 21ste eeuw ([2022])",
-      "author": "Tim van Hattum",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Beschrijving van zeven routes om de gevolgen van klimaatverandering te verkleinen.",
-      "onLoan": true,
-      "ppn": "437218384"
-    },
-    {
-      "title": "Rebelse meisjes klimaatstrijders (2022)",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Korte verhalen over 25 meisjes en vrouwen die zich inzetten voor het behoud van de planeet, o.a. Greta Thunberg. Vanaf ca. 10 jaar.",
-      "onLoan": true,
-      "ppn": "436328151"
-    },
-    {
-      "title": "Ons huis staat in brand Greta Thunbergs oproep ([2020])",
-      "author": "Jeanette Winter",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Gretha ziet hoe het klimaat verandert en gaat in haar eentje staken. Door haar actie gaan ook kinderen overal staken. Vanaf ca. 5 jaar.",
-      "onLoan": false,
-      "ppn": "426277473"
-    },
-    {
-      "title": "Je bent jong en je wil wat toekomst ([2023])",
-      "author": "Jantijn Anema",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Pleidooi voor een crisisaanpak in de strijd tegen klimaatverandering.",
-      "onLoan": false,
-      "ppn": "439103355"
-    },
-    {
-      "title": "Dwalen in het antropoceen ([2017])",
-      "author": "R. ten Bos",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Filosofische beschouwing over het antropoceen, het tijdperk waarin de mens ingrijpt in de natuur met gevolgen voor het klimaat.",
-      "onLoan": true,
-      "ppn": "407818065"
-    },
-    {
-      "title": "Ons huis staat in brand een gezin en de toekomst van onze planeet (2019)",
-      "author": "Greta Thunberg",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Persoonlijk relaas door de jonge Zweedse en haar ouders over haar betrokkenheid bij het klimaatprobleem.",
-      "onLoan": false,
-      "ppn": "422228400"
-    },
-    {
-      "title": "Het klimaatboek (2022)",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bespreking van verschillende aspecten van de klimaatcrisis, met bijdragen van vooraanstaande wetenschappers, en persoonlijke verhalen van Greta Thunberg.",
-      "onLoan": false,
-      "ppn": "436752239"
-    },
-    {
-      "title": "Klimaatgeneraal bouwen aan weerbaarheid ([2022])",
-      "author": "Tom Middendorp",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Klimaatveranderingen leiden tot vluchtelingenstromen en conflicten. Generaal b.d. Tom Middendorp richtte een organisatie op om deze problematiek onder de aandacht te brengen.",
-      "onLoan": false,
-      "ppn": "430230079"
-    },
-    {
-      "title": "Bladgoud de onschatbare waarde van bomen (2020)",
-      "author": "Reinier van den Berg",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Uitleg over het nut van bomen en bossen voor klimaat, flora en fauna.",
-      "onLoan": false,
-      "ppn": "427700078"
-    },
-    {
-      "title": "Het klimaat zijn wij de wereld redden begint bij het ontbijt ([2019])",
-      "author": "Jonathan Safran Foer",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Beschrijving van de klimaatverandering en de oorzaken daarvan, met een pleidooi om anders te gaan eten.",
-      "onLoan": false,
-      "ppn": "422375012"
-    },
-    {
-      "title": "Wat ik de bomen wil vertellen (2018)",
-      "author": "Enzo Pérès-Labourdette",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Boompje reist met de ganzen mee naar de Noordpool. Het ijs smelt, maar waarom? Prentenboek over klimaatverandering. Vanaf ca. 4 t/m 6 jaar.",
-      "onLoan": false,
-      "ppn": "413353281"
-    },
-    {
-      "title": "Wij zijn allemaal Greta inspiratie om de wereld te redden ([2019])",
-      "author": "Valentina Giannella",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Lees van alles over klimaatverandering, o.a. waarom Greta Thunberg in actie kwam en wat je zelf kunt doen.",
-      "onLoan": false,
-      "ppn": "423261231"
-    },
-    {
-      "title": "Eerste hulp bij klimaatverandering (2018)",
-      "author": "Anabella Meijer",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Is het weer inderdaad extremer, hoe zit het nu met klimaatverandering en wat kun je er zelf aan doen? Vanaf ca. 15 jaar.",
-      "onLoan": false,
-      "ppn": "420920838"
-    },
-    {
-      "title": "Wat op het spel staat (2017)",
-      "author": "Philipp Blom",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Analyse van het historische scharnierpunt waarop wij ons bevinden, die leidt tot een somber toekomstscenario.",
-      "onLoan": false,
-      "ppn": "411248758"
-    },
-    {
-      "title": "Klimaatverandering ([2024])",
-      "author": "Ingeborg van Teeseling",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Beknopte bespreking van de oorzaken en gevolgen van klimaatverandering. Uitgave in makkelijke taal.",
-      "onLoan": true,
-      "ppn": "442527721"
-    },
-    {
-      "title": "Het grote wereldtoneel over de macht van verbeelding in crisistijd (2020)",
-      "author": "Philipp Blom",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "We leven in de best mogelijke wereld: we hebben nog nooit zo lang vrede gekend.",
-      "onLoan": false,
-      "ppn": "425872858"
-    },
-    {
-      "title": "Een heel kleine geschiedenis van bijna alles (2014)",
-      "author": "Bill Bryson",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bijna alles wat we weten over de hemel, aarde, ziekte, klimaat en genen komt aan bod. Vanaf ca. 12 jaar.",
-      "onLoan": false,
-      "ppn": "371752388"
-    },
-    {
-      "title": "Klimaatverandering voor dummies® (2022)",
-      "author": "Elizabeth May",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Gids over klimaatverandering, met informatie over de oorzaken en wat er gedaan kan worden.",
-      "onLoan": false,
-      "ppn": "43666478"
-    },
-    {
-      "title": "Ko's Klimaatboekje ([2020])",
-      "author": "Alfred Knol",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Ko en zijn hond Einstein gaan op klimaatreis en komen van alles te weten over klimaatverandering.",
-      "onLoan": false,
-      "ppn": "428268730"
-    },
-    {
-      "title": "Brand! een vurig pleidooi voor een nieuwe groene politiek ([2019])",
-      "author": "Naomi Klein",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Oproep tot een actief overheidsbeleid om de opwarming van de aarde te stoppen.",
-      "onLoan": false,
-      "ppn": "422397652"
-    },
-    {
-      "title": "Hoe we een klimaatramp kunnen vermijden (2021)",
-      "author": "Bill Gates",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "De oplossingen die er al zijn en de doorbraken die we nodig hebben.",
-      "onLoan": false,
-      "ppn": "430495099"
-    },
-    {
-      "title": "Zes graden ([2020])",
-      "author": "Mark Lynas",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Beschrijving van verschillende wetenschappelijke scenario's wanneer de temperatuur op aarde met 6 graden zou stijgen.",
-      "onLoan": false,
-      "ppn": "426381971"
-    },
-    {
-      "title": "Earthshot hoe we onze planeet kunnen redden ([2021])",
-      "author": "Colin Butfield",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Uitleg over de milieucampagne en noodzaak om voor 2030 de levenskwaliteit te verbeteren via vijf doelen.",
-      "onLoan": false,
-      "ppn": "433858745"
-    },
-    {
-      "title": "Nu het nog kan (2020)",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Oproep met adviezen om zowel individueel als collectief actie te ondernemen tegen de ernstige ecologische crisis.",
-      "onLoan": false,
-      "ppn": "425177955"
-    },
-    {
-      "title": "Niet normaal natuurgeweld in een opwarmende wereld ([2024])",
-      "author": "Martijn van Calmthout",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Verslag van extreme weersomstandigheden en een essayistisch pleidooi voor een nieuwe kijk op de gevaren van klimaatverandering.",
-      "onLoan": false,
-      "ppn": "440519543"
-    },
-    {
-      "title": "Een toekomst om van te houden (2023)",
-      "author": "Susan Bauer-Wu",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Aansporing om actie te ondernemen tegen klimaatverandering.",
-      "onLoan": false,
-      "ppn": "437586022"
-    },
-    {
-      "title": "Mijn eerste Atlas (2011)",
-      "author": "Brian Williams",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bij topografische kaarten van werelddelen staan weetjes over plaatsen, dieren, klimaat en landschap. Vanaf ca. 10 t/m 14 jaar.",
-      "onLoan": false,
-      "ppn": "330546112"
-    },
-    {
-      "title": "Klimaat positief zo haal jij CO2 uit de lucht ([2021])",
-      "author": "Melissa Oosterbroek",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Praktische tips voor een duurzaam bestaan.",
-      "onLoan": false,
-      "ppn": "434177229"
-    },
-    {
-      "title": "Wij bepalen de toekomst de klimaatcrisis overleven (2020)",
-      "author": "Christiana Figueres",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Aansporing tot het actief bijdragen aan de totstandkoming van een klimaatneutrale wereld.",
-      "onLoan": false,
-      "ppn": "424510766"
-    },
-    {
-      "title": "Kies wijzer klimaat praktische energiegids (2023)",
-      "author": "Maarten van Andel",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Verhandeling over de voor- en nadelen van het huidige energie- en klimaatbeleid van Nederland.",
-      "onLoan": false,
-      "ppn": "440230659"
-    },
-    {
-      "title": "Warmte volwassen worden aan het eind van onze wereld ([2021])",
-      "author": "Daniel Sherrell",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Met brieven gericht aan de volwassenen van de toekomst wordt de milieuproblematiek opengetrokken.",
-      "onLoan": false,
-      "ppn": "433352906"
-    },
-    {
-      "title": "Wij zijn het klimaat een brief aan iedereen (2019)",
-      "author": "Anuna De Wever",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Bundeling van brieven van twee jonge Vlaamse scholieren over het huidige klimaatbeleid.",
-      "onLoan": false,
-      "ppn": "421608145"
-    },
-    {
-      "title": "Kinderen voor het klimaat ([2023])",
-      "author": "Levi Sies",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "Leer over allerlei dingen die met klimaatverandering te maken hebben, zoals stikstof, fossiele brandstoffen en eten. Vanaf ca. 9 jaar.",
-      "onLoan": false,
-      "ppn": "440418844"
-    },
-    {
-      "title": "Weer en klimaat (2024)",
-      "author": "",
-      "type": "Boek",
-      "language": "Nederlands",
-      "description": "",
-      "onLoan": false,
-      "ppn": "weer-klimaat-2024"
-    }
-  ]
+ "query": "klimaat, duurzaamheid, natuur, biodiversiteit, koken, geschiedenis, thriller, kinderboeken, kunst, sport",
+ "filter": "Wageningen (db_2_WGN)",
+ "source": "Sambis Iguana — bblthk",
+ "total_results": 363,
+ "timestamp": "2026-07-14",
+ "results": [
+  {
+   "title": "Eigen planeet eerst waarom onze democratie geen antwoord heeft op het grootste vraagstuk van onze tijd (mei 2025)",
+   "author": "Roxane van Iperen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Essay over de beperkingen van democratische processen in het aanpakken van urgente mondiale vraagstukken zoals klimaatverandering.",
+   "onLoan": true,
+   "ppn": "444279873"
+  },
+  {
+   "title": "Vigil (2026)",
+   "author": "George Saunders",
+   "type": "Boek",
+   "language": "Engels",
+   "description": "Moet een engel een medogenloze oliemagnaat troosten op zijn reis naar het dodenrijk, ook als hij geen spijt heeft van zijn misdaden tegen het klimaat?",
+   "onLoan": true,
+   "ppn": "457424036"
+  },
+  {
+   "title": "Rivier van bloed een cultuurgeschiedenis van de Wolga (januari 2026)",
+   "author": "Michel Krielaars",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Cultuurgeschiedenis van Rusland waarin, aan de hand van de rivier de Wolga, de blijvende invloeden van historische gebeurtenissen en mythes op de Russische samenleving en diens politieke klimaat worden onderzocht.",
+   "onLoan": true,
+   "ppn": "456609172"
+  },
+  {
+   "title": "Tom Clancy in zijn macht ([2019])",
+   "author": "Tom Clancy",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In een steeds verslechterend politiek klimaat tussen Amerika en China zoekt Jack Ryan naar een Chinese man die verdacht wordt van terrorisme.",
+   "onLoan": false,
+   "ppn": "420774858"
+  },
+  {
+   "title": "Je bord ontrafeld feiten, fabels en emoties over voedsel en landbouw ([2026])",
+   "author": "Tessa Avermaete",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe kan het dat de winkelrekken vol liggen en er toch mensen honger lijden? Kan het voedselsysteem een oplossing bieden bij klimaatverandering? Voedsel verbindt én verdeelt ons.",
+   "onLoan": true,
+   "ppn": "459580221"
+  },
+  {
+   "title": "De junior Bosatlas ([2019])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Atlas met kaarten van Nederland, provincies, Europese landen en de werelddelen. Ook kaarten van overstromingen, Europese Unie, sport, klimaat enz. Vanaf ca. 9 t/m 12 jaar.",
+   "onLoan": true,
+   "ppn": "421557370"
+  },
+  {
+   "title": "De belangrijkste vragen van je leven 16 jonge denkers over ons klimaat (2024)",
+   "author": "Harm Edens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "",
+   "onLoan": false,
+   "ppn": "443086613"
+  },
+  {
+   "title": "Een ijsbeer in de tropen (2024)",
+   "author": "Hans de Beer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "IJsbeertje Lars drijft op een ijsschots weg van de Noordpool en belandt in het warme Afrika. Prentenboek. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "446492140"
+  },
+  {
+   "title": "Palmen op de Noordpool het grote verhaal van klimaatverandering ([2018])",
+   "author": "Marc ter Horst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sinds het ontstaan van de aarde verandert het klimaat steeds. Waarom maken de mensen zich daar nu zo druk om? Vanaf ca. 10 t/m 13 jaar.",
+   "onLoan": false,
+   "ppn": "413352951"
+  },
+  {
+   "title": "Hoe overleef je klimaatangst? een hoopvolle gids met praktische tips en tools (2026)",
+   "author": "Thomas Doherty",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gids voor het omgaan met de psychologische gevolgen van klimaatverandering door veerkracht te bevorderen en hoop te stimuleren.",
+   "onLoan": false,
+   "ppn": "445513152"
+  },
+  {
+   "title": "Het grote waterboek van zwetende planten tot verwoestende tsunami's ([2021])",
+   "author": "Sarah Garré",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wat gebeurt er met je plas? Wat is de rol van het water voor het klimaat? Vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "43396829"
+  },
+  {
+   "title": "Klimaatatlas aaargh, we gaan er allemaal aan! (2025)",
+   "author": "Jan Paul Schutten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "",
+   "onLoan": true,
+   "ppn": "44599522"
+  },
+  {
+   "title": "Onze aarde (2022)",
+   "author": "Christina Braun",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe is de aarde ontstaan? Het klimaat en de verandering daarvan komen ook aan bod. Vanaf ca. 8 t/m 10 jaar.",
+   "onLoan": false,
+   "ppn": "435014137"
+  },
+  {
+   "title": "Kom mee naar buiten ([2022])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundel met verhalen, gedichten en een stripverhaal over buitenspelen, de natuur en het klimaat. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "435622242"
+  },
+  {
+   "title": "Vuile handen ([2025])",
+   "author": "Marco Kunst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Achim maakt zich zorgen over de wereld en het klimaat. Hij wil echt iets veranderen en neemt daarom een extreme stap. Vanaf ca. 14 jaar.",
+   "onLoan": false,
+   "ppn": "444266003"
+  },
+  {
+   "title": "Scheten uit de schoorsteen het kleine verhaal van klimaatverandering ([2022])",
+   "author": "Marc ter Horst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitleg over klimaatverandering, met aandacht voor de oorzaken en de oplossingen. Voorlezen vanaf ca. 5 jaar.",
+   "onLoan": true,
+   "ppn": "435423878"
+  },
+  {
+   "title": "Borealis ([2016])",
+   "author": "Marloes Morshuis",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Joppe woont met 180 kinderen in kamp Borealis in Alaska. Ze zijn geselecteerd om na een klimaatramp de aarde opnieuw te bevolken. Vanaf ca. 12 jaar.",
+   "onLoan": true,
+   "ppn": "407163352"
+  },
+  {
+   "title": "Onze planeet warmt op! hoe is het zo ver gekomen... en wat kun jij nu doen? ([2021])",
+   "author": "Anna Claybourne",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De aarde warmt op en het klimaat verandert. Hoe komt dat en wat zijn de gevolgen? Vanaf ca. 9 t/m 12 jaar.",
+   "onLoan": false,
+   "ppn": "428916074"
+  },
+  {
+   "title": "Lily ([2021])",
+   "author": "Tom De Cock",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lily (14) is in 2049 een bekende influencer. Ze maakt zich niet erg druk om het ernstig ontregelde klimaat. Vanaf ca. 14 jaar.",
+   "onLoan": false,
+   "ppn": "433250240"
+  },
+  {
+   "title": "Het weer ([2025])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe wordt het weer voorspeld? Hoe ontstaan orkanen? Ruim dertig onderwerpen rond het weer en klimaat. Vanaf ca. 12 jaar.",
+   "onLoan": false,
+   "ppn": "444618910"
+  },
+  {
+   "title": "Klimaatverandering ([2025])",
+   "author": "John Woodward",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Op aarde stijgt de temperatuur, waardoor onder meer het poolijs smelt en overstromingen dreigen. Oorzaken en gevolgen van de klimaatverandering. Vanaf ca. 12 jaar.",
+   "onLoan": false,
+   "ppn": "444654755"
+  },
+  {
+   "title": "Klimaat en weer ([2024])",
+   "author": "Rosie Cooper",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Leer van alles over het klimaat, en test je kennis over het weer. Vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "440600464"
+  },
+  {
+   "title": "Kilometers zonlicht (2022)",
+   "author": "Marike Goslinga",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Peer loopt om zijn thuissituatie te ontvluchten, Leonne loopt voor haar vlog over het klimaat. Vanaf ca. 14 jaar.",
+   "onLoan": true,
+   "ppn": "435622862"
+  },
+  {
+   "title": "Kanjers klaren de klus ([2021])",
+   "author": "Emy Geyskens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De vrienden Daan, Ferre en Farida maken zich zorgen over de klimaatverandering. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "432243437"
+  },
+  {
+   "title": "Waarom je voetafdruk groter is dan je schoenmaat (2025)",
+   "author": "Esther Walraven",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Waarom zit er plastic in eten? Leer alles over klimaat, natuur en milieu. Vanaf ca. 9 t/m 12 jaar.",
+   "onLoan": false,
+   "ppn": "444136029"
+  },
+  {
+   "title": "Zakboek voor de sponstuin ([2023])",
+   "author": "Marc Verachtert",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Tips om bij wisselende klimaatomstandigheden door middel van waterbuffers een gezond klimaat in de tuin te creëren.",
+   "onLoan": false,
+   "ppn": "438650816"
+  },
+  {
+   "title": "Klimaatverandering weer en klimaat ([2024])",
+   "author": "Geert-Jan Roebers",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Leer van alles over klimaatverandering, de gevolgen daarvan voor de aarde. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "44134030"
+  },
+  {
+   "title": "123 superslimme dingen die je moet weten over het klimaat ([2019])",
+   "author": "Mathilda Masters",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wist je dat scheten van koeien schadelijk methaangas opwekken? Verbaas je over 123 weetjes over de opwarmende aarde. Vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "42432010"
+  },
+  {
+   "title": "Vogels op reis ([2017])",
+   "author": "Fleur Daugey",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Waarom trekken sommige vogels in de herfst weg? Lees van alles over trekvogels, ook over de invloed van het klimaat. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "409309435"
+  },
+  {
+   "title": "Meer weten over het weer en het klimaat ([2015])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe wordt het weer voorspeld? Hardkartonnen uitgave met gedetailleerde kleurentekeningen en veel flapjes. Vanaf ca. 8 t/m 10 jaar.",
+   "onLoan": true,
+   "ppn": "390932825"
+  },
+  {
+   "title": "Neerslag en droogte ([2024])",
+   "author": "Ida Schuurman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe ontstaan sneeuw, hagel en motregen? En waarom is het steeds vaker droog, of juist enorm nat? Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "442868065"
+  },
+  {
+   "title": "De Verenigde Staten ([2021])",
+   "author": "Zeger van Mersbergen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lees van alles over o.a. de talen in de VS, de inwoners, klimaat en invloed in de wereld. Vanaf ca. 11 t/m 14 jaar.",
+   "onLoan": false,
+   "ppn": "433727225"
+  },
+  {
+   "title": "Klimaatkampioen van code rood naar code groen ([2025])",
+   "author": "Tim van Hattum",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beschrijving van zeven routes richting een klimaatvriendelijkere wereld, met focus op hoe Nederland actie kan ondernemen.",
+   "onLoan": true,
+   "ppn": "453620078"
+  },
+  {
+   "title": "Klimaten ([2025])",
+   "author": "Geert-Jan Roebers",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Er zijn verschillende klimaten op aarde. De opwarming van de aarde zorgt voor grote veranderingen. Hoe komt dat en hoe kunnen we dat voorkomen?",
+   "onLoan": false,
+   "ppn": "444404570"
+  },
+  {
+   "title": "De ijsreis van de ijsbeer ([2023])",
+   "author": "Martin Jenkins",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Volg een ijsbeervrouwtje op haar reis door het poollandschap, terwijl zij en haar jongen te maken krijgen met de gevolgen van het veranderende klimaat. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "439146887"
+  },
+  {
+   "title": "Klimaat in gevaar waar wachten we op?! ([2025])",
+   "author": "Alice Harman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "",
+   "onLoan": true,
+   "ppn": "451969359"
+  },
+  {
+   "title": "Red het klimaat! ([2021])",
+   "author": "Neal Layton",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wat kun je doen om de opwarming van de aarde tegen te gaan? Ontdek waarom ons klimaat is veranderd. Vanaf ca. 7 t/m 9 jaar.",
+   "onLoan": false,
+   "ppn": "43310273"
+  },
+  {
+   "title": "Systeem aarde ontregeld, en wat nu? ([2025])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhandeling over de verstoring van koolstof-, stikstof- en fosforkringlopen door menselijke activiteiten.",
+   "onLoan": true,
+   "ppn": "449178692"
+  },
+  {
+   "title": "Ontdek de natuur ([2024])",
+   "author": "Lauren Giordano",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Maak kennis met de vijf grootste bomen ter wereld, onderzoek bijzondere ecosystemen en leer over klimaat, landschap en nog veel meer. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "44205128"
+  },
+  {
+   "title": "Wedergeboorte roman ([2023])",
+   "author": "Erdal Balci",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "2128. Om het klimaat te redden heeft de wereldbevolking zich teruggetrokken op het continent Europa.",
+   "onLoan": false,
+   "ppn": "439103347"
+  },
+  {
+   "title": "Denken in systemen een handleiding ([2022])",
+   "author": "Donella Meadows",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De problemen van onze tijd, zoals ziekte, oorlog, armoede en het klimaat, houden verband met bijna alles.",
+   "onLoan": false,
+   "ppn": "436188090"
+  },
+  {
+   "title": "Nog niet te laat ([2025])",
+   "author": "Hannah Ritchie",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gids met antwoorden op belangrijke klimaatvragen, gebaseerd op statistieken.",
+   "onLoan": true,
+   "ppn": "453922422"
+  },
+  {
+   "title": "Hitte en kou ([2025])",
+   "author": "Anneriek van Heugten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Weet jij waarom het op sommige plekken op aarde altijd snikheet is of juist ijskoud? Leer alles over de invloed van het klimaat.",
+   "onLoan": false,
+   "ppn": "444404589"
+  },
+  {
+   "title": "Hup klimaat! (2025)",
+   "author": "Marc ter Horst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De aarde wordt warmer, maar hoe kan dat eigenlijk? Lees alles over het klimaat en hoe je zelf duurzamer kan leven. Vanaf ca. 7,5 jaar.",
+   "onLoan": false,
+   "ppn": "449436446"
+  },
+  {
+   "title": "De Bosatlas van weer en klimaat ([2021])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bekijk en lees hoe het weer en klimaat de afgelopen decennia veranderd zijn en wat de gevolgen zijn.",
+   "onLoan": true,
+   "ppn": "433975849"
+  },
+  {
+   "title": "Onze toekomst is nu! strijd met Greta Thunberg voor het klimaat ([2019])",
+   "author": "C. Hecking",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ben je benieuwd hoe Greta Thunberg een wereldberoemde actievoerster van het klimaat werd? Vanaf ca. 9 t/m 12 jaar.",
+   "onLoan": false,
+   "ppn": "424147963"
+  },
+  {
+   "title": "Hoe gaan we dit uitleggen onze toekomst op een steeds warmere aarde ([2019])",
+   "author": "Jelmer Mommers",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Analyse van de oorzaken en gevolgen van de klimaatverandering en de manieren waarop we daar iets aan kunnen doen.",
+   "onLoan": false,
+   "ppn": "421098678"
+  },
+  {
+   "title": "Van Zuid naar Noord hoe het verschuivende klimaat het leven in Europa raakt ([2025])",
+   "author": "Wilfried ten Brinke",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verkenning van de gevolgen van klimaatverandering in Europa.",
+   "onLoan": false,
+   "ppn": "444189777"
+  },
+  {
+   "title": "Bedreigde dieren (2018)",
+   "author": "Martin Jenkins",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wist je dat de blauwe vinvis en okapi bedreigd worden door milieuvervuiling en verandering van het klimaat? Vanaf ca. 11 t/m 14 jaar.",
+   "onLoan": false,
+   "ppn": "420518037"
+  },
+  {
+   "title": "Voor het klimaat! (2024)",
+   "author": "Folkert Oldersma",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Iris is boos dat haar generatie de meeste gevolgen van klimaatverandering zal ondervinden. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "444387641"
+  },
+  {
+   "title": "Frida's coole klimaatboek ([2019])",
+   "author": "Moniek Vermeulen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wie zijn de vervuilers? Moeten we anders gaan eten? Frida (12) vertelt van alles over de oorzaken en gevolgen van de opwarming van de aarde.",
+   "onLoan": false,
+   "ppn": "424315920"
+  },
+  {
+   "title": "Alles smelt de wereld van het ijs in een veranderend klimaat ([2021])",
+   "author": "Peter Kuipers Munneke",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitleg over onderzoek van het land- en zee-ijs in de wereld en de gevolgen van opwarming van de aarde.",
+   "onLoan": false,
+   "ppn": "433083077"
+  },
+  {
+   "title": "De onbewoonbare aarde (2019)",
+   "author": "David Wallace-Wells",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Aan de hand van wetenschappelijke inzichten over klimaatverandering wordt een noodoproep gedaan om zorgvuldiger om te gaan met onze planeet.",
+   "onLoan": false,
+   "ppn": "420997075"
+  },
+  {
+   "title": "Lucht ([2023])",
+   "author": "Nancy Dickmann",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Leer alles over lucht, hoe de luchtkwaliteit van invloed is op het weer en het klimaat. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "438040708"
+  },
+  {
+   "title": "Een kroon van zwaarden (2004)",
+   "author": "Robert Jordan",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Terwijl de eindstrijd tussen de Draak en het Kwade steeds dichterbij komt, wordt het klimaat langzaam aan slechter.",
+   "onLoan": true,
+   "ppn": "263290956"
+  },
+  {
+   "title": "Het Middellandse Zeegebied ([2026])",
+   "author": "Zeger van Mersbergen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Reis mee langs de Middellandse Zee en leer over de geschiedenis, het klimaat en de culturen. Vanaf ca. 11 jaar.",
+   "onLoan": true,
+   "ppn": "454942532"
+  },
+  {
+   "title": "Only planet klimaatgids voor de 21ste eeuw ([2022])",
+   "author": "Tim van Hattum",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beschrijving van zeven routes om de gevolgen van klimaatverandering te verkleinen.",
+   "onLoan": true,
+   "ppn": "437218384"
+  },
+  {
+   "title": "Rebelse meisjes klimaatstrijders (2022)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Korte verhalen over 25 meisjes en vrouwen die zich inzetten voor het behoud van de planeet, o.a. Greta Thunberg. Vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "436328151"
+  },
+  {
+   "title": "Ons huis staat in brand Greta Thunbergs oproep ([2020])",
+   "author": "Jeanette Winter",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gretha ziet hoe het klimaat verandert en gaat in haar eentje staken. Door haar actie gaan ook kinderen overal staken. Vanaf ca. 5 jaar.",
+   "onLoan": false,
+   "ppn": "426277473"
+  },
+  {
+   "title": "Je bent jong en je wil wat toekomst ([2023])",
+   "author": "Jantijn Anema",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Pleidooi voor een crisisaanpak in de strijd tegen klimaatverandering.",
+   "onLoan": false,
+   "ppn": "439103355"
+  },
+  {
+   "title": "Dwalen in het antropoceen ([2017])",
+   "author": "R. ten Bos",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Filosofische beschouwing over het antropoceen, het tijdperk waarin de mens ingrijpt in de natuur met gevolgen voor het klimaat.",
+   "onLoan": true,
+   "ppn": "407818065"
+  },
+  {
+   "title": "Ons huis staat in brand een gezin en de toekomst van onze planeet (2019)",
+   "author": "Greta Thunberg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Persoonlijk relaas door de jonge Zweedse en haar ouders over haar betrokkenheid bij het klimaatprobleem.",
+   "onLoan": false,
+   "ppn": "422228400"
+  },
+  {
+   "title": "Het klimaatboek (2022)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bespreking van verschillende aspecten van de klimaatcrisis, met bijdragen van vooraanstaande wetenschappers, en persoonlijke verhalen van Greta Thunberg.",
+   "onLoan": false,
+   "ppn": "436752239"
+  },
+  {
+   "title": "Klimaatgeneraal bouwen aan weerbaarheid ([2022])",
+   "author": "Tom Middendorp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Klimaatveranderingen leiden tot vluchtelingenstromen en conflicten. Generaal b.d. Tom Middendorp richtte een organisatie op om deze problematiek onder de aandacht te brengen.",
+   "onLoan": false,
+   "ppn": "430230079"
+  },
+  {
+   "title": "Bladgoud de onschatbare waarde van bomen (2020)",
+   "author": "Reinier van den Berg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitleg over het nut van bomen en bossen voor klimaat, flora en fauna.",
+   "onLoan": false,
+   "ppn": "427700078"
+  },
+  {
+   "title": "Het klimaat zijn wij de wereld redden begint bij het ontbijt ([2019])",
+   "author": "Jonathan Safran Foer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beschrijving van de klimaatverandering en de oorzaken daarvan, met een pleidooi om anders te gaan eten.",
+   "onLoan": false,
+   "ppn": "422375012"
+  },
+  {
+   "title": "Wat ik de bomen wil vertellen (2018)",
+   "author": "Enzo Pérès-Labourdette",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Boompje reist met de ganzen mee naar de Noordpool. Het ijs smelt, maar waarom? Prentenboek over klimaatverandering. Vanaf ca. 4 t/m 6 jaar.",
+   "onLoan": false,
+   "ppn": "413353281"
+  },
+  {
+   "title": "Wij zijn allemaal Greta inspiratie om de wereld te redden ([2019])",
+   "author": "Valentina Giannella",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lees van alles over klimaatverandering, o.a. waarom Greta Thunberg in actie kwam en wat je zelf kunt doen.",
+   "onLoan": false,
+   "ppn": "423261231"
+  },
+  {
+   "title": "Eerste hulp bij klimaatverandering (2018)",
+   "author": "Anabella Meijer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Is het weer inderdaad extremer, hoe zit het nu met klimaatverandering en wat kun je er zelf aan doen? Vanaf ca. 15 jaar.",
+   "onLoan": false,
+   "ppn": "420920838"
+  },
+  {
+   "title": "Wat op het spel staat (2017)",
+   "author": "Philipp Blom",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Analyse van het historische scharnierpunt waarop wij ons bevinden, die leidt tot een somber toekomstscenario.",
+   "onLoan": false,
+   "ppn": "411248758"
+  },
+  {
+   "title": "Klimaatverandering ([2024])",
+   "author": "Ingeborg van Teeseling",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beknopte bespreking van de oorzaken en gevolgen van klimaatverandering. Uitgave in makkelijke taal.",
+   "onLoan": true,
+   "ppn": "442527721"
+  },
+  {
+   "title": "Het grote wereldtoneel over de macht van verbeelding in crisistijd (2020)",
+   "author": "Philipp Blom",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "We leven in de best mogelijke wereld: we hebben nog nooit zo lang vrede gekend.",
+   "onLoan": false,
+   "ppn": "425872858"
+  },
+  {
+   "title": "Een heel kleine geschiedenis van bijna alles (2014)",
+   "author": "Bill Bryson",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bijna alles wat we weten over de hemel, aarde, ziekte, klimaat en genen komt aan bod. Vanaf ca. 12 jaar.",
+   "onLoan": false,
+   "ppn": "371752388"
+  },
+  {
+   "title": "Klimaatverandering voor dummies® (2022)",
+   "author": "Elizabeth May",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gids over klimaatverandering, met informatie over de oorzaken en wat er gedaan kan worden.",
+   "onLoan": false,
+   "ppn": "43666478"
+  },
+  {
+   "title": "Ko's Klimaatboekje ([2020])",
+   "author": "Alfred Knol",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ko en zijn hond Einstein gaan op klimaatreis en komen van alles te weten over klimaatverandering.",
+   "onLoan": false,
+   "ppn": "428268730"
+  },
+  {
+   "title": "Brand! een vurig pleidooi voor een nieuwe groene politiek ([2019])",
+   "author": "Naomi Klein",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Oproep tot een actief overheidsbeleid om de opwarming van de aarde te stoppen.",
+   "onLoan": false,
+   "ppn": "422397652"
+  },
+  {
+   "title": "Hoe we een klimaatramp kunnen vermijden (2021)",
+   "author": "Bill Gates",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De oplossingen die er al zijn en de doorbraken die we nodig hebben.",
+   "onLoan": false,
+   "ppn": "430495099"
+  },
+  {
+   "title": "Zes graden ([2020])",
+   "author": "Mark Lynas",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beschrijving van verschillende wetenschappelijke scenario's wanneer de temperatuur op aarde met 6 graden zou stijgen.",
+   "onLoan": false,
+   "ppn": "426381971"
+  },
+  {
+   "title": "Earthshot hoe we onze planeet kunnen redden ([2021])",
+   "author": "Colin Butfield",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitleg over de milieucampagne en noodzaak om voor 2030 de levenskwaliteit te verbeteren via vijf doelen.",
+   "onLoan": false,
+   "ppn": "433858745"
+  },
+  {
+   "title": "Nu het nog kan (2020)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Oproep met adviezen om zowel individueel als collectief actie te ondernemen tegen de ernstige ecologische crisis.",
+   "onLoan": false,
+   "ppn": "425177955"
+  },
+  {
+   "title": "Niet normaal natuurgeweld in een opwarmende wereld ([2024])",
+   "author": "Martijn van Calmthout",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verslag van extreme weersomstandigheden en een essayistisch pleidooi voor een nieuwe kijk op de gevaren van klimaatverandering.",
+   "onLoan": false,
+   "ppn": "440519543"
+  },
+  {
+   "title": "Een toekomst om van te houden (2023)",
+   "author": "Susan Bauer-Wu",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Aansporing om actie te ondernemen tegen klimaatverandering.",
+   "onLoan": false,
+   "ppn": "437586022"
+  },
+  {
+   "title": "Mijn eerste Atlas (2011)",
+   "author": "Brian Williams",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bij topografische kaarten van werelddelen staan weetjes over plaatsen, dieren, klimaat en landschap. Vanaf ca. 10 t/m 14 jaar.",
+   "onLoan": false,
+   "ppn": "330546112"
+  },
+  {
+   "title": "Klimaat positief zo haal jij CO2 uit de lucht ([2021])",
+   "author": "Melissa Oosterbroek",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Praktische tips voor een duurzaam bestaan.",
+   "onLoan": false,
+   "ppn": "434177229"
+  },
+  {
+   "title": "Wij bepalen de toekomst de klimaatcrisis overleven (2020)",
+   "author": "Christiana Figueres",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Aansporing tot het actief bijdragen aan de totstandkoming van een klimaatneutrale wereld.",
+   "onLoan": false,
+   "ppn": "424510766"
+  },
+  {
+   "title": "Kies wijzer klimaat praktische energiegids (2023)",
+   "author": "Maarten van Andel",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhandeling over de voor- en nadelen van het huidige energie- en klimaatbeleid van Nederland.",
+   "onLoan": false,
+   "ppn": "440230659"
+  },
+  {
+   "title": "Warmte volwassen worden aan het eind van onze wereld ([2021])",
+   "author": "Daniel Sherrell",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Met brieven gericht aan de volwassenen van de toekomst wordt de milieuproblematiek opengetrokken.",
+   "onLoan": false,
+   "ppn": "433352906"
+  },
+  {
+   "title": "Wij zijn het klimaat een brief aan iedereen (2019)",
+   "author": "Anuna De Wever",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundeling van brieven van twee jonge Vlaamse scholieren over het huidige klimaatbeleid.",
+   "onLoan": false,
+   "ppn": "421608145"
+  },
+  {
+   "title": "Kinderen voor het klimaat ([2023])",
+   "author": "Levi Sies",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Leer over allerlei dingen die met klimaatverandering te maken hebben, zoals stikstof, fossiele brandstoffen en eten. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "440418844"
+  },
+  {
+   "title": "Weer en klimaat (2024)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "",
+   "onLoan": false,
+   "ppn": "weer-klimaat-2024"
+  },
+  {
+   "title": "Niet normaal! en hoe 't anders kan… : onze landbouw ([2019])",
+   "author": "Jelleke de Nooy-van Tol",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "“Spannende tijden! Meer dan ooit is er maatschappelijke wil en enthousiasme om samen te werken aan positieve verandering; juist ook voor de manier waarop we ons voedsel produceren. Wil je meer weten over de enorme omslag die we bezig zijn",
+   "onLoan": false,
+   "ppn": "42129972"
+  },
+  {
+   "title": "De toekomst tegemoet ([2020])",
+   "author": "Annemartien Berkelaar",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een jonge vrouw van eenvoudige komaf in de 19e eeuw in een wereld vol ontwikkelingen terechtkomt, verandert haar leven voorgoed.",
+   "onLoan": true,
+   "ppn": "42778378"
+  },
+  {
+   "title": "Kit en Kaat en de verboden bakwedstrijd (2020)",
+   "author": "Jolanda Horsten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kit en Kaat zijn dol op bakken. Ze willen meedoen aan een bakwedstrijd. Maar dat mag niet van hun moeders. Kit en Kaat verzinnen een plan! AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "43132722"
+  },
+  {
+   "title": "De Camino (september 2022)",
+   "author": "Anya Niewierra",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een weduwe loopt een pelgrimstocht om duidelijkheid te zoeken over de plotselinge zelfmoord van haar man, een voormalige vluchteling uit Bosnië.",
+   "onLoan": false,
+   "ppn": "43550598"
+  },
+  {
+   "title": "Last-minute Londen (juni 2022)",
+   "author": "Evi Dekker",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een kunstexpert wordt uitgenodigd voor een congres in Londen, maar de reis neemt een duistere wending als een lang verloren schilderij opduikt en een commissielid vergiftigd wordt.",
+   "onLoan": false,
+   "ppn": "43557633"
+  },
+  {
+   "title": "Van gazon naar gras meer natuur in de tuin ([2023])",
+   "author": "A. Koster",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Praktische gids voor het omvormen van een gazon tot een natuurlijke grastuin, met adviezen voor het vergroten van de lokale biodiversiteit met inheemse planten en het aantrekken van meer vogels, bijen en vlinders. Met kleurenfoto's.",
+   "onLoan": false,
+   "ppn": "43739459"
+  },
+  {
+   "title": "De koning zonder spierballen ([2023])",
+   "author": "Levina van Teunenbroek",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Prentenboek over een koning die bewijst dat je niet de sterkste hoeft te zijn om een goede koning te zijn. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "43778679"
+  },
+  {
+   "title": "Die mop is raak! (2023)",
+   "author": "Frank van Pamelen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Moppen, verrassende raadsels, geestige dialogen en grappige strips over sport. Met korte verhaaltjes over fanatieke voetballers, luie meiden en een oma met een mening. Met vrolijke kleurenillustraties. AVI M4. Samen lezen vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "43838024"
+  },
+  {
+   "title": "Stille angst ([2023])",
+   "author": "Robert Bryndza",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw twijfelt of de dood van haar man wel zelfmoord was. Ze reist naar hun vakantiehuis op een Kroatisch eiland, waar ze op een duister geheim stuit dat verband houdt met iemand uit zijn verleden.",
+   "onLoan": false,
+   "ppn": "43845961"
+  },
+  {
+   "title": "Niet het einde van de wereld waarom wij de eerste generatie zijn met perspectief op een duurzame planeet ([2024])",
+   "author": "Hannah Ritchie",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wetenschappelijk onderbouwde verhandeling over de geboekte vooruitgang bij de aanpak van de klimaatproblematiek, met handreikingen om nog duurzamer te leven. Met zwart-witdiagrammen.",
+   "onLoan": false,
+   "ppn": "43910307"
+  },
+  {
+   "title": "Prinses Arabella en de keukenprins (januari 2023)",
+   "author": "Mylo Freeman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Prinses Arabella lust wel taart maar geen groente. Maar dan komt de keukenprins naar het paleis. Hij neemt Arabella en haar vriendjes mee naar de moestuin en laat zien wat daar allemaal groeit. Ze mogen zelf een recept verzinnen en een gerecht maken.",
+   "onLoan": false,
+   "ppn": "43911425"
+  },
+  {
+   "title": "Breng het wild terug in je tuin in een tuin vol leven doet de natuur zijn werk ([2023])",
+   "author": "Annie Burdick",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Tips en adviezen om de tuin op dusdanige wijze in te richten dat de biodiversiteit wordt bevorderd. Met foto's en illustraties.",
+   "onLoan": false,
+   "ppn": "43926247"
+  },
+  {
+   "title": "Stemmen in het duister ([2024])",
+   "author": "Nicci French",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw die recentelijk een acute psychose had, wordt kort na een verhuizing geconfronteerd met de plotselinge dood van haar nieuwe buurvrouw. Enkel rechercheur Maud O'Connor gelooft de vrouw wanneer zij zegt dat er iets onguurs gaande is in haar flat.",
+   "onLoan": true,
+   "ppn": "44029861"
+  },
+  {
+   "title": "Bloemeneiland ([2024])",
+   "author": "Suzanne Vermeer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Na de dood van haar moeder reist een 40-jarige vrouw naar Madeira naar aanleiding van een mysterieus bericht. Daar komen steeds meer geheimen naar boven, en ontdekt ze dat haar verleden anders in elkaar zit dan zij dacht.",
+   "onLoan": true,
+   "ppn": "44035191"
+  },
+  {
+   "title": "Spoorloos ([2024])",
+   "author": "Suzanne Vermeer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Twee vriendinnen besluiten een podcast te maken over een studente journalistiek die jaren geleden verdween. Tijdens een reis door Frankrijk, in de voetsporen van de studente, ontstaat er onenigheid over het onderzoek. Een van hen reist alleen verder,",
+   "onLoan": true,
+   "ppn": "44219031"
+  },
+  {
+   "title": "Handboek permacultuur tuinieren in harmonie met de natuur : voor een tuin vol leven en een smakelijke oogst ([2024])",
+   "author": "Julie Bernier",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Handboek voor het creëren van een veerkrachtige, bijna zelfvoorzienende tuin die weinig water en onderhoud nodig heeft, en die de biodiversiteit en bodemgezondheid bevordert. Met kleurenfoto's en -illustraties.",
+   "onLoan": true,
+   "ppn": "44254068"
+  },
+  {
+   "title": "Profiel M ([2025])",
+   "author": "Helen Fields",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Midnight Jones checkt persoonlijkheidsprofielen als beroep. Als op een dag een kandidaat naar voren komt wiens scores afwijken en profiel K heeft, gaan alle alarmbellen af.",
+   "onLoan": true,
+   "ppn": "44309683"
+  },
+  {
+   "title": "Malibu ([2024])",
+   "author": "Nan Adams",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw ontdekt dat er dagboeken van haar overleden tante liggen in de oude oldtimer die al drie generaties lang familiebezit is. De dagboek onthullen de choquerende geschiedenis van haar familie, maar hoe vertelt ze dit aan haar moeder en overgrootmoeder?",
+   "onLoan": false,
+   "ppn": "44330470"
+  },
+  {
+   "title": "Het Ierse kind (april 2026)",
+   "author": "Daisy O'Shea",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw reist naar Ierland om de geschiedenis van haar overgrootmoeder en diens kind te onderzoeken. Met hulp van een historicus komt ze achter een schokkend feit over haar familie en staat ze voor een belangrijke keuze...",
+   "onLoan": false,
+   "ppn": "45622596"
+  },
+  {
+   "title": "Offline (2026)",
+   "author": "Marco Kunst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Mike verhuist in 2046 naar Nieuw Babylon, een door computers en robots gebouwde stad. Zijn vriendin Demer blijft achter in de Aardelaar, waar alles nog handmatig gebeurt. Dan krijgt Mike een verontrustende waarschuwing en opdracht van een mysterieuze",
+   "onLoan": true,
+   "ppn": "45974285"
+  },
+  {
+   "title": "De biodiversiteit volgens Flater (cop. 2020)",
+   "author": "... Franquin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Stripalbum waarin Guust Flater op zijn eigen chaotische manier opkomt voor dieren, natuur en milieu.",
+   "onLoan": false,
+   "ppn": "327842105"
+  },
+  {
+   "title": "De Nederlandse biodiversiteit (2010)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Groot overzichtswerk van de in Nederland voorkomende soorten planten, dieren en micro-organismen, samengesteld door Nederlandse natuuronderzoekers.",
+   "onLoan": false,
+   "ppn": "328285412"
+  },
+  {
+   "title": "Ecohuis duurzaamheid rond de woning : praktische ideeën voor ecologisch wonen (cop. 2012)",
+   "author": "Lorena Farràs Pérez",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Praktische ideeën voor ecologisch wonen: energie besparen, duurzame materialen en groene keuzes in en om het huis.",
+   "onLoan": false,
+   "ppn": "344761789"
+  },
+  {
+   "title": "Darwins peepshow wat geslachtsdelen onthullen over evolutie, biodiversiteit en onszelf ([2014])",
+   "author": "Menno Schilthuizen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Overzicht van de grote en soms bizarre variatie in dierlijke geslachtsorganen vanuit evolutionair gezichtspunt, met veel aandacht voor seksuele selectie en soortvorming.",
+   "onLoan": false,
+   "ppn": "369539850"
+  },
+  {
+   "title": "Hoe overleef ik de brugklas? (2015)",
+   "author": "Francine Oomen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als Rosa naar de brugklas gaat, klampt ze zich te veel vast aan haar stoere vriendin die ze nog van de basisschool kent. Sascha is populair, maar wel ten koste van anderen! Vanaf ca. 11 jaar.",
+   "onLoan": false,
+   "ppn": "392020742"
+  },
+  {
+   "title": "Hoe overleef ik mijn vakantie? (2015)",
+   "author": "Francine Oomen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Omdat Rosa en Jonas zich tijdens hun vakantie op Corsica vervelen, besluiten ze het avontuur te zoeken. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "392020777"
+  },
+  {
+   "title": "Pluk redt de dieren (2015)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Pluk en het jongetje Spijtebijt komen in de Klimaatexperimenteerkas van de Weerman terecht, waar Spijtebijt de Weerman in zijn duim bijt. Er ontstaat een ravage, waardoor alle klimaten door elkaar lopen. Vanaf ca. 4 jaar, zelf lezen vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "393206157"
+  },
+  {
+   "title": "Haaieneiland (2015)",
+   "author": "Rob Ruggenberg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Matroos Roemer uit Middelburg strandt tijdens een ontdekkingsreis in 1772 in de Stille Zuidzee op een koraaleiland. Het eiland lijkt heel paradijselijk, maar al snel blijkt het duistere kanten te hebben. Vanaf ca. 12 jaar.",
+   "onLoan": false,
+   "ppn": "394122194"
+  },
+  {
+   "title": "Variatie en soorten ([2016])",
+   "author": "Melanie Waldron",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Waarom zien we er allemaal anders uit? Ontdek hoe planten en dieren in de loop der tijd veranderd zijn. En ook hoe ze zijn ingedeeld. Met drie doe-opdrachten en grote kleurenfoto's. Vanaf ca. 10 t/m 13 jaar.",
+   "onLoan": false,
+   "ppn": "399313052"
+  },
+  {
+   "title": "Wie is er bang voor de voetbalzombies? (2016)",
+   "author": "Simon van der Geest",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Het voetbalteam van Ramon (ik-figuur) verliest alleen maar. Als zijn vader over twee weken komt kijken, wil Ramon per se winnen. Dan hoort hij van zijn oma over zombies, die helpen als je in nood zit. Ramon wil een zombie! Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "404327133"
+  },
+  {
+   "title": "Mijn vriend Crenshaw (2017)",
+   "author": "Katherine Applegate",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als Jackson en zijn familie het moeilijk hebben, komt Jacksons vroegere fantasievriend terug: de gigantische kat Crenshaw. Maar is Jackson niet veel te oud voor een fantasievriendje? Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "407948902"
+  },
+  {
+   "title": "Het geheim achter het fornuis ([2017])",
+   "author": "Mathilda Masters",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Max (ik-figuur) woont in de keuken van zijn tante Kokkie, die kokkin is in een gevangenis. Met Trixie, dochter van de gevangenisdirecteur en zijn beste vriendin, ontdekt hij een geheimzinnig luik in de oven. Wat bevindt zich daarachter? Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "409076368"
+  },
+  {
+   "title": "De grote verboden zolder (2017)",
+   "author": "Edward van de Vendel",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De geheimzinnige Linea komt tijdelijk bij Eddie in huis wonen. Ze neemt hem mee naar de verboden zolder, waar ze allerlei grappige en griezelige geesten ontmoeten. Vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "409239836"
+  },
+  {
+   "title": "Het grote boek van Madelief (2017)",
+   "author": "Guus Kuijer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundel met vijf boeken over Madelief, een meisje dat op straat, thuis en op school allerlei avonturen beleeft. Voorlezen vanaf ca. 6 jaar, zelf lezen vanaf ca. 8 jaar.",
+   "onLoan": false,
+   "ppn": "409240001"
+  },
+  {
+   "title": "Zondag, maandag, sterrendag (2017)",
+   "author": "Anna Woltz",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Nora is uitvinder. Haar buurjongen Sep weet veel over sterren. Maar hij durft geen spreekbeurt te geven. Kan Nora iets uitvinden om Sep te helpen? Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "411180274"
+  },
+  {
+   "title": "Is er leven op Mars? (2017)",
+   "author": "Jon Agee",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een astronaut reist naar Mars op zoek naar leven. Hij vindt alleen een bloem. Maar wie heeft dan zijn chocoladetaartjes opgegeten? Samen lezen vanaf ca. 6 jaar.",
+   "onLoan": true,
+   "ppn": "411180290"
+  },
+  {
+   "title": "Piratenzoon (2017)",
+   "author": "Rob Ruggenberg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Zain is de zoon van een Marokkaanse piraat en groeit op in een harem in Marokko. Als hij naar Istanboel vaart, wordt het schip veroverd door Spanjaarden. Zain moet werken als galeislaaf en komt terecht in Zeeland, waar deTachtigjarige Oorlog woedt. Vanaf ca. 12 jaar.",
+   "onLoan": false,
+   "ppn": "411180339"
+  },
+  {
+   "title": "Het grote Pim en Pom voorleesboek ([2017])",
+   "author": "Fiep Westendorp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Zestien avonturen van de ondeugende poezenvriendjes: ze gaan kamperen, maken een schilderij en pesten de nieuwe vriend van de Vrouw weg. Vanaf ca. 3 jaar.",
+   "onLoan": true,
+   "ppn": "411180398"
+  },
+  {
+   "title": "Honderd uur nacht (2017)",
+   "author": "Anna Woltz",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Emilia (14, ik-figuur) vliegt stiekem naar New York. Als ze daar aankomt, blijkt er een orkaan onderweg te zijn. Emilia sluit vriendschap met drie kinderen en samen proberen ze de storm te overleven. Vanaf ca. 12 jaar.",
+   "onLoan": true,
+   "ppn": "411988220"
+  },
+  {
+   "title": "Het nieuwe nest van de Kleine Marsus ([2018])",
+   "author": "Benjamin Chaud",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Tijdens een storm verliezen papa en mama Marsu en hun kinderen hun veilige huis hoog in de bomen. Ze proberen in een ander bos onderdak te vinden, maar alle bomen zijn al bezet. Zijn de Marsupilami's dan nergens welkom? Prentenboek met kleurijke tekeningen. Vanaf ca. 5 jaar.",
+   "onLoan": true,
+   "ppn": "413301338"
+  },
+  {
+   "title": "Erfgenamen van de aarde een optimistische kijk op de natuur in het tijdperk van de mens ([2018])",
+   "author": "Chris D. Thomas",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Visie op natuurbehoud en de toekomst van soorten, biodiversiteit en de rol van de mensheid.",
+   "onLoan": false,
+   "ppn": "413321886"
+  },
+  {
+   "title": "Fiep in de natuur (2018)",
+   "author": "Fiep Westendorp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Luister in het bos naar een concert! En wat kun je allemaal met schelpen doen? Ga mee op avontuur in de natuur en lees wat je in elk seizoen kunt doen. Met kleurenfoto's en tekeningen uit kinderboeken van Fiep Westendorp zoals Pluk. Vanaf ca. 4 t/m 8 jaar.",
+   "onLoan": false,
+   "ppn": "417445342"
+  },
+  {
+   "title": "Alle ouderen naar buiten de natuur als groen medicijn ([2018])",
+   "author": "Jasper de Ruiter",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Activiteiten en ideeen voor en met ouderen om in beweging te komen en de natuur te beleven en te ontdekken.",
+   "onLoan": false,
+   "ppn": "417568533"
+  },
+  {
+   "title": "Groene leugens duurzaamheid als verkooptruc ([2018])",
+   "author": "Kathrin Hartmann",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Onderzoek naar het door bedrijven verdraaien van feiten over hun vervuilende en milieubelastende activiteiten.",
+   "onLoan": false,
+   "ppn": "418162050"
+  },
+  {
+   "title": "Koken met Kikker (2019)",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kikker en zijn vriendjes zijn dol op eten en koken! Voor elk seizoen hebben ze lekkere recepten: van smoothies in de zomer tot een stamppot in de winter. Prentenboek met voorleesverhaaltjes, uitleg van recepten en eenvoudige, krachtige kleurenillustraties. Vanaf ca. 4 t/m 6 jaar.",
+   "onLoan": false,
+   "ppn": "418231168"
+  },
+  {
+   "title": "Een huis voor Harry (2018)",
+   "author": "Leo Timmers",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kater Harry is bijna altijd binnen. Maar als vlinder Vera tikkertje wil spelen, gaat hij mee naar buiten. Dan verdwaalt Harry in de stad. Alleen Vera weet de weg naar huis. Kan iemand hem helpen Vera te vinden? Prentenboek met vrolijke, humoristische",
+   "onLoan": true,
+   "ppn": "418840520"
+  },
+  {
+   "title": "Samen sterk voor onze aarde ([2019])",
+   "author": "Emily Sutton",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lees hoeveel soorten levende dingen er leven in o.a. de zee, oerwouden en woestijnen. Ze maken deel uit van een veel groter systeem, dat wordt verstoord door de mens door o.a. vervuiling en ontbossing. Met grote kleurrijke kleurenillustraties. Voorlezen",
+   "onLoan": true,
+   "ppn": "421383119"
+  },
+  {
+   "title": "101 tips om de wereld iets mooier te maken ([2019])",
+   "author": "Aubre Andrus",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Help je buren, bespaar water of organiseer een ruilfeest. Ook met kleine dingen kun je de wereld mooier maken. Kies zelf uit 101 tips. Met veel kleine kleurenillustraties. Vanaf ca. 9 t/m 11 jaar.",
+   "onLoan": true,
+   "ppn": "421624620"
+  },
+  {
+   "title": "De koning en de kok (2019)",
+   "author": "Julia Donaldson",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De koning heeft honger, maar hij heeft alle koks afgekeurd. Alleen Markoen is er nog, maar hij is een angstig watje. Hij durft geen vis te vangen, geen aardappels te rooien en geen patat te frituren. Toch is de koning dik tevreden. Prentenboek met grappige",
+   "onLoan": true,
+   "ppn": "421761261"
+  },
+  {
+   "title": "Kapitein Onderbroek en het penibele plan van professor Poepiebroek ([2019])",
+   "author": "Dav Pilkey",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sjors en Harold vervelen zich dood op school. Totdat ze een nieuwe leraar natuur en techniek krijgen: de geniale professor P. Poepiebroek. Als de kinderen hem blijven uitlachen om zijn naam, neemt de professor wraak met een verschrikkelijke uitvinding.",
+   "onLoan": false,
+   "ppn": "421923725"
+  },
+  {
+   "title": "Duurzaamheid ([2019])",
+   "author": "Truus Visser-van den Brink",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gooi jij een boterham van de vorige dag weg? Lees hoe al het afval voor vervuiling van de aarde, lucht en zee zorgt. Hoe kunnen we de opwarming van de aarde stoppen? Met kleurenfoto's. Vanaf ca. 9 t/m 11 jaar.",
+   "onLoan": false,
+   "ppn": "422286885"
+  },
+  {
+   "title": "Ecosteden ([2019])",
+   "author": "Susanne Neutkens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Er wonen steeds meer mensen in de steden. Hoe houd je het leven daar prettig en zorg je ervoor dat het milieu zo weinig mogelijk belast? Met kleurenfoto's. Vanaf ca. 11 t/m 14 jaar.",
+   "onLoan": false,
+   "ppn": "422286990"
+  },
+  {
+   "title": "Het bloemenmeisje ([2020])",
+   "author": "Anya Niewierra",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een vrouw ontdekt dat zij een tweelingzus heeft, duiken beiden in het verleden van hun vermoorde moeder.",
+   "onLoan": true,
+   "ppn": "422920711"
+  },
+  {
+   "title": "iExplore roofdieren ([2019])",
+   "author": "Camilla de La Bédoyère",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Laat de ratelslang niet op de bank kruipen en spring weg als de witte haai op je af komt! Maak kennis met de gevaarlijkste roofdieren uit de hele wereld. Via een (gratis) app met Augmented Reality sta je oog in oog met deze dieren. Oblong uitgave met",
+   "onLoan": false,
+   "ppn": "422941573"
+  },
+  {
+   "title": "Knal die bal! ([2019])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sam en Noor zitten op voetbal bij DOS. Ze spelen tegen VOS. Gaan ze winnen? AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "422941875"
+  },
+  {
+   "title": "Een ober van niks (2019)",
+   "author": "Tjibbe Veldkamp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een onhandige ober, die alles uit zijn handen laat vallen, jaagt alle klanten weg. Na een maand zonder gasten komt een meisje langs. Zij heeft een geweldig idee. Ze slaat aan het koken en het restaurant stroomt vol. Prentenboek met grappige, kleurrijke",
+   "onLoan": true,
+   "ppn": "423526995"
+  },
+  {
+   "title": "Voetbal is voor iedereen ([2020])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wie wordt Jeugdsporter van het jaar? Koen en Aukje hopen dat zij het worden. Ondertussen maakt Aukje zich zorgen over haar buurjongen Omar, een Syrische vluchteling. Zijn ouders hebben geen geld om lid te worden van de voetbalclub. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "424356600"
+  },
+  {
+   "title": "Een verrassing voor Kikker (2020)",
+   "author": "Max Velthuijs",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Het cadeautje dat Kikker van Rat krijgt, moet in de herfst de grond in. Welke verrassing zal er in het voorjaar verschijnen? Groot hardkartonnen prentenboek met eenvoudige, krachtige illustraties in kleur. Vanaf ca. 2 jaar.",
+   "onLoan": true,
+   "ppn": "424442167"
+  },
+  {
+   "title": "Cotton zoekt een vriendje (2020)",
+   "author": "Marijke Vos",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Cotton is een katoenbolletje dat graag een vriendje wil. Er wordt een T-shirt van hem gemaakt en na een reis per schip en vrachtwagen belandt hij in een winkel. Het kindje dat hem koopt groeit hard. Al snel is het T-shirt te klein. Wat nu? Vierkant prentenboek",
+   "onLoan": true,
+   "ppn": "424533960"
+  },
+  {
+   "title": "Siepie (2020)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Elf verhalen over Jip en Janneke en poes Siepie. Ze willen Siepie uitlaten met een touw, proberen met Siepie in de poppenwagen te gaan wandelen, vieren Siepies verjaardag en beleven nog meer grappige avonturen met de poes. In oblong formaat met kleurrijke",
+   "onLoan": true,
+   "ppn": "424534134"
+  },
+  {
+   "title": "Tuinieren met wilde planten ([2020])",
+   "author": "Martin Stevens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gids over het gebruik van wilde planten, bomen en struiken in tuin, op dakterras of balkon, waar insecten op afkomen en die biodiversiteit bevorderen.",
+   "onLoan": false,
+   "ppn": "424640783"
+  },
+  {
+   "title": "Bescherming van Biodiversiteit, een weerbarstige uitdaging ([2020])",
+   "author": "Jan van der Straaten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Onderzoek naar de bescherming van biodiversiteit in Nederland, de bedreigingen en een analyse van het Nederlandse biodiversiteitsbeleid.",
+   "onLoan": false,
+   "ppn": "425227081"
+  },
+  {
+   "title": "Pien en Keet gaan op ballet ([2018])",
+   "author": "Katja Reider",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Pien gaat met haar oma en Keet naar ballet kijken. Pien en Keet willen zelf ook graag op ballet. Mag dat van hun papa en mama? AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "425283038"
+  },
+  {
+   "title": "Paul van Loon's Foeksia redt de natuur (2020)",
+   "author": "Paul van Loon",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Foeksia hoort een vreemd geluid in het Heksenbos. Ze ziet een bus met kinderen. Wat komen ze doen? En waar komt al die rommel opeens vandaan? Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "425871568"
+  },
+  {
+   "title": "Wie wat bewaart twee eeuwen Nederlandse natuurhistorie (2020)",
+   "author": "Menno Schilthuizen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhalen in woord en beeld over tweehonderd jaar Nederlandse natuurhistorische collecties en de geschiedenis en totstandkoming van Naturalis, het natuurhistorisch museum en onderzoeksinstituut voor biodiversiteit in Leiden.",
+   "onLoan": false,
+   "ppn": "426278291"
+  },
+  {
+   "title": "Een nieuwe kans ([2020])",
+   "author": "Katie Fforde",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een Engelse vrouw, jaren na haar scheiding, in haar werk als groentekweker weer te maken krijgt met haar ex-man, een hotelkok, brengt dit tegenstrijdige gevoelens bij haar boven.",
+   "onLoan": false,
+   "ppn": "426368215"
+  },
+  {
+   "title": "Een week bij jou, een week bij mij (2020)",
+   "author": "Kaat Vrancken",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hond Fien woont in de stad. Maar nu logeert ze bij Fox in het bos. Daar is alles anders. Een week later logeert Fox bij Fien. De stad is druk. Maar met Fien is het overal fijn! Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "426381238"
+  },
+  {
+   "title": "Ik kan nog steeds niet vliegen (2020)",
+   "author": "Anna Woltz",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ida (12) en Luuk (13) mogen met een grote groep Nederlandse kinderen in de zomer van 1945 aansterken in Denemarken. Na een aanvaring met Luuk maakt Ida een radicale, maar dwaze keuze. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "426381300"
+  },
+  {
+   "title": "De wilde stilte ([2020])",
+   "author": "Raynor Winn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Persoonlijk verslag over de langeafstandswandelingen die een echtpaar maakte door het zuidwesten van Engeland en over IJsland nadat ze alles waren kwijtgeraakt, en van de spirituele groei die ze doormaakten door contact met de natuur.",
+   "onLoan": true,
+   "ppn": "426420047"
+  },
+  {
+   "title": "Piet en Riet gaan hoog (2020)",
+   "author": "Martine Letterie",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Piet en Riet zijn kok. Er komt een buur. Zijn zang maakt Riet gek. Riet wil weg. Piet en Riet gaan naar de zus van Riet. Zij woont hoog op een berg. Meegroeiboek van AVI-Start t/m AVI-M4. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "427536332"
+  },
+  {
+   "title": "Piet en Riet op reis (2020)",
+   "author": "Martine Letterie",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Piet en Riet zijn kok. Ze gaan naar zee. Piet bakt vis. Riet ook. Ze gaan ook in een raket. De raket stijgt op! Wat nu? Meegroeiboek van AVI-Start t/m AVI-M4. Vanaf ca. 6 jaar.",
+   "onLoan": true,
+   "ppn": "427536340"
+  },
+  {
+   "title": "Piet en Riet aan zee (2020)",
+   "author": "Martine Letterie",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Piet en Riet zijn kok. Piet is moe. Hij wil weg. Hij gaat naar zee. Riet werkt nu heel hard. Hoe moet dat nu? Meegroeiboek van AVI-Start t/m AVI-M4. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "427536359"
+  },
+  {
+   "title": "Een leven op onze planeet een terugblik en een toekomstvisie ([2020])",
+   "author": "David Attenborough",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De Britse documentairemaker natuurgeschiedenis vertelt hoe hij in zijn leven biodiversiteit en klimaat zag verslechteren en hoe we onszelf kunnen redden van uitsterving.",
+   "onLoan": false,
+   "ppn": "427602831"
+  },
+  {
+   "title": "De verboden belofte ([2021])",
+   "author": "Lorna Cook",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Aan het begin van de Tweede Wereldoorlog verbergt Constance in Schotland een piloot; in 2020 probeert Kate de geschiedenis te ontrafelen.",
+   "onLoan": false,
+   "ppn": "427619866"
+  },
+  {
+   "title": "De goede voorouder langetermijn denken voor een kortetermijn wereld ([2021])",
+   "author": "Roman Krznaric",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Filosofisch pleidooi voor de duurzame omgang met het milieu en de natuur aan de hand van voorstellen voor zes principes en praktische, politieke strategieen.",
+   "onLoan": false,
+   "ppn": "427783143"
+  },
+  {
+   "title": "Floddertje (2020)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Zes verhaaltjes over het meisje Floddertje dat zichzelf en haar hondje Smeerkees elke keer weer vies maakt. Oblong prentvertelling met grappige tekeningen in zachte kleuren. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "428654274"
+  },
+  {
+   "title": "Pluk van de Petteflet (2020)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Pluk woont op het zolderkamertje van de Petteflet. Hij is de held en de redder wanneer de andere flatbewoners en zijn dierenvriendjes in nood verkeren. Voorlezen vanaf ca. 5 jaar, zelf lezen vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "428654282"
+  },
+  {
+   "title": "Otje (2020)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Otjes vader is een heel goede kok. Maar door zijn driftbuien wordt hij ontslagen. Een nieuwe baan kan hij zonder papieren niet krijgen. Samen met Otje en de vogels gaat hij toch op zoek. Voorlezen vanaf ca. 6 jaar, zelf lezen vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "428654304"
+  },
+  {
+   "title": "Kleine Vos spelen in het bos ([2020])",
+   "author": "Marja Baeten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Drie verhalen over de dierenvrienden in het bos. Kleine Vos zoekt een andere slaapplaats, Klein Zwijn is jarig en Eekhoorn heeft hulp nodig als hij in een diepe plas belandt. Vrijwel vierkant hardkartonnen prentenboek met vriendelijke, frisgekleurde",
+   "onLoan": true,
+   "ppn": "428660991"
+  },
+  {
+   "title": "Ridder Milan op avontuur in de herfst ([2020])",
+   "author": "Ruth Brillens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ridder Milan gaat met de koning en koningin wandelen in het bos. Milan vindt het best saai, totdat Draakje en hij een spoor ontdekken. Dat leidt naar Romy, de dochter van de boswachter. Met z'n drieen zoeken ze in het bos naar ingredienten voor Romy's",
+   "onLoan": false,
+   "ppn": "428874681"
+  },
+  {
+   "title": "Koen Kampioen wil naar het EK ([2021])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Koen mag meedoen met het voetbalelftal Oranje onder 15. Hij wil graag met het team naar het EK. Maar dan moeten ze zich wel eerst zien te plaatsen. Als een tv-ploeg het team filmt tijdens een training, komt Koen wel erg veel aan het woord. Wat vinden",
+   "onLoan": true,
+   "ppn": "430418191"
+  },
+  {
+   "title": "De verre horizon ([2021])",
+   "author": "Santa Montefiore",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een journaliste krijgt opdracht de geschiedenis vast te leggen van de verdeelde familie Deverill en hun oude Ierse kasteel.",
+   "onLoan": false,
+   "ppn": "430439989"
+  },
+  {
+   "title": "De tuin van Fiep ([2021])",
+   "author": "Fiep Westendorp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In de tuin valt het hele jaar iets te doen. In het voorjaar verschijnen de bloemen en in de zomer kun je er fijn spelen. In de herfst kun je bladeren harken en als het sneeuwt, kun je 's winters een sneeuwpop maken. Vierkant hardkartonnen prentenboekje",
+   "onLoan": true,
+   "ppn": "430513259"
+  },
+  {
+   "title": "De ontdekking van de natuur de ontwikkeling van biodiversiteit in Nederland van ijstijd tot 21ste eeuw (2021)",
+   "author": "J.L. van Zanden",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Geschiedenis van de Nederlandse natuur: hoe de biodiversiteit en onze kijk daarop zich sinds 1800 hebben ontwikkeld.",
+   "onLoan": false,
+   "ppn": "430536348"
+  },
+  {
+   "title": "De grote ontsnapping ([2021])",
+   "author": "Mathilda Masters",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kokkie heeft haar been gebroken. De nieuwe kok verbant Max naar Het Instituut, een vreselijk weeshuis. Daar sluit Max vriendschap met El Sid. Hij is gevlucht uit zijn land en is daarbij zijn ouders en zusjes kwijtgeraakt. Samen bedenken ze een plan",
+   "onLoan": false,
+   "ppn": "432198563"
+  },
+  {
+   "title": "Op de schouders van de natuur hoe tien miljoen soorten onze levens redden (2021)",
+   "author": "Anne Sverdrup-Thygeson",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Over de verbondenheid van dier en plant voor de mens en de invloed van het vaak desastreuse menselijke handelen op de biodiversiteit.",
+   "onLoan": false,
+   "ppn": "432214550"
+  },
+  {
+   "title": "Het grote kook- en bakboek van de zoete zusjes meer dan 30 recepten om van te smullen! ([2021])",
+   "author": "Hanneke de Zoete",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De zoete zusjes houden van koken en bakken. Ze leggen stap voor stap uit hoe je 32 recepten maakt: van hapjes en drankjes, en van ontbijt tot de toetjes. Met veel kleurenillustraties en -foto's. Met hulp vanaf ca. 6 jaar, zelfstandig vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "432215468"
+  },
+  {
+   "title": "Kopje-onder ([2021])",
+   "author": "Jeff Kinney",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bram gaat met zijn familie met de camper van zijn oom op vakantie. Kamperen in de natuur blijkt echter niet zo'n goed idee, dus gaan ze naar een camping. Hopelijk zal noodweer hun vakantie niet gaan verpesten. Dagboek met veel grappige zwart-witte cartoons. Vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "432215743"
+  },
+  {
+   "title": "Wat een doelpunt! ([2021])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sam en Noor voetballen bij DOS. Ze moeten spelen tegen Hup Vooruit. Die ploeg is erg goed. Na de wedstrijd gaan ze kamperen op het veld. AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": false,
+   "ppn": "432261400"
+  },
+  {
+   "title": "Kit en Kaat en de taart voor oma (2021)",
+   "author": "Jolanda Horsten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Oma werkt al 25 jaar bij een huis voor warrige mensen. Daarom geeft ze een feestje op haar werk. Kit en Kaat mogen een taart bakken. Maar Kit en Kaat willen veel meer doen! AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "432959785"
+  },
+  {
+   "title": "IJsberen met optimisme 50 vrolijke verhalen over natuurbeleving, consumptie, duurzaamheid en andere netelige kwesties ([2022])",
+   "author": "Koen Arts",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vijftig vrolijke verhalen over natuurbeleving, consuminderen en duurzaam leven, geschreven met humor en optimisme.",
+   "onLoan": false,
+   "ppn": "433225599"
+  },
+  {
+   "title": "Knetterende kookwedstrijd! (2021)",
+   "author": "Alex Milway",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Om gasten te trekken organiseert Hotel Flamingo een kookwedstrijd. Met zijn allen gaan ze hard aan de slag. Gaat het ze lukken om de gasten, waaronder Alfonso Snelsnavel, een fijne tijd te bezorgen? Met veel illustraties in zwart-wit en roze. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "433302321"
+  },
+  {
+   "title": "Preloved vintage hunten als een pro ([2021])",
+   "author": "Maartje van den Broek",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Nederlandse stylisten delen kennis over duurzaamheid om tweedehands en vintage kleding nieuw leven in te blazen. Met praktische koop- en verkooptips voor een veelzijdig ingerichte kledingkast.",
+   "onLoan": false,
+   "ppn": "433315733"
+  },
+  {
+   "title": "Fortuna's kinderen een trans-Atlantische familiekroniek (2021)",
+   "author": "Annejet van der Zijl",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Geschiedenis van de Nederlandse families Herckenrath en De Fremery, die in de negentiende eeuw hun geluk in de Verenigde Staten beproefden.",
+   "onLoan": false,
+   "ppn": "433356804"
+  },
+  {
+   "title": "Viktor roman (2021)",
+   "author": "Judith Fanto",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw gaat op zoek naar haar familiegeschiedenis die terugvoert naar het Wenen van voor de Eerste Wereldoorlog.",
+   "onLoan": false,
+   "ppn": "433362227"
+  },
+  {
+   "title": "Een fijn plekje (2022)",
+   "author": "Lucy Cousins",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bij, Kever, Libelle en Lieveheersbeestje gaan op zoek naar een fijn thuis, waar ze allemaal tot hun recht komen. Prentenboek met kleurenillustraties. Vanaf 4 jaar.",
+   "onLoan": false,
+   "ppn": "433368845"
+  },
+  {
+   "title": "Spanning in Spanje ([2021])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Koen moet nog een belangrijke wedstrijd spelen voordat het meivakantie is. Als ze winnen, heeft hun trainer Broekie een verrassing. Maar Gijs heeft de grootste verrassing, hij mag mee naar Spanje. Maar wat is er aan de hand met tante Sara? AVI-E5. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "433390670"
+  },
+  {
+   "title": "De nachtdienst (2021)",
+   "author": "Esther Verhoef",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een dierenarts, die met haar 14-jarige dochter boven een afgelegen dierenkliniek woont, wordt tijdens een nachtdienst door een groep gemaskerde mannen gedwongen een zwaargewonde man te opereren.",
+   "onLoan": true,
+   "ppn": "433472944"
+  },
+  {
+   "title": "Vos en Haas Uil is een kok (2021)",
+   "author": "Sylvia Vanden Heede",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vos en Haas zijn bij Uil. Uil maakt soep en saus uit een pak. Maar hoe kook je een ei? AVI-M3. Vanaf ca. 6 jaar.",
+   "onLoan": true,
+   "ppn": "433872217"
+  },
+  {
+   "title": "De liefdesbrief (2021)",
+   "author": "Lucinda Riley",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge journaliste komt tijdens een begrafenis op het spoor van een mysterieuze brief met compromitterende onthullingen over hooggeplaatste personen.",
+   "onLoan": false,
+   "ppn": "433968818"
+  },
+  {
+   "title": "Rik en de natuur ([2021])",
+   "author": "Liesbet Slegers",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Rik gaat met zijn ouders de natuur in. Ze wandelen over de heide en door het bos waar ze een hertje en andere dieren zien. Daarna bouwen ze een bijenhotel, want dat is goed voor de natuur. Prentenboek met elf thematische zoekplaten, met eenvoudige zwartomlijnde",
+   "onLoan": true,
+   "ppn": "434020540"
+  },
+  {
+   "title": "Kit en Kaat bakken pannenkoeken (2021)",
+   "author": "Hélène Jorna",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Juf Maartje gaat op vakantie. Kit en Kaat mogen op haar huis en kat passen. Juf Maartje heeft een heel grote keuken. Kit en Kaat willen meteen koken. Ze beginnen een pannenkoekenrestaurant voor één avond. Verhaal in stripvorm, AVI-E4. Vanaf ca. 7,5 jaar.",
+   "onLoan": false,
+   "ppn": "434443271"
+  },
+  {
+   "title": "Gebakken rijst met van alles en nog wat!!! (november 2021)",
+   "author": "Reza Kartosen-Wong",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Voor de kookwedstrijd op school wil Yuna een bijzonder recept maken. Maar de jasmijnrijst is op! Samen met Louise, Omar en Simone gaat ze naar de Marokkaanse winkel, de markt en de Indische toko. Daar zijn veel andere bijzondere ingrediënten, maar waar",
+   "onLoan": true,
+   "ppn": "434854700"
+  },
+  {
+   "title": "Op en top een topkok! (2021)",
+   "author": "Tamara Bos",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bien en Wout gaan in de kerstvakantie samen met hun moeder en opa naar het warme eiland Sint Maarten. Maar net met Kerst is de kok ziek. AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": false,
+   "ppn": "435010948"
+  },
+  {
+   "title": "Phoenix (februari 2022)",
+   "author": "Bert Wagendorp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Roman over vaders en zonen, familiegeheimen en een autogarage in de Achterhoek van de twintigste eeuw.",
+   "onLoan": false,
+   "ppn": "435121847"
+  },
+  {
+   "title": "Het bos van Muis een jaar in de natuur ([2022])",
+   "author": "Alice Melvin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Muis (ik-figuur) gaat op reis door het bos. Daar komt hij iedere maand iets of iemand anders tegen. Kijk je mee naar wat Muis allemaal meemaakt, terwijl de natuur verandert in de lente, zomer, herfst en winter? Prentenboek met aquarel-illustraties, flapjes",
+   "onLoan": true,
+   "ppn": "435344854"
+  },
+  {
+   "title": "Vega zónder pakjes & zakjes (april 2022)",
+   "author": "Karin Luiten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vegetarisch koken zonder kant-en-klare pakjes en zakjes: verse ingrediënten, heldere basisrecepten en praktische tips.",
+   "onLoan": false,
+   "ppn": "435356119"
+  },
+  {
+   "title": "Bescherm de natuur! ([2024])",
+   "author": "Neal Layton",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe kunnen we goed zorgen voor de natuur, en waarom worden sommige planten en dieren bedreigd? Lees over het voedselweb en biodiversiteit, en over wat je zelf kunt doen om de natuur te helpen. Met veel kleurenillustraties. Vanaf ca. 7 t/m 9 jaar.",
+   "onLoan": true,
+   "ppn": "435392360"
+  },
+  {
+   "title": "Dorus en de buitenles ([2022])",
+   "author": "David Melling",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Dorus en zijn klas gaan de natuur in om naar dingen in het bos te zoeken, maar de regen gooit roet in het eten! Wat nu met de les? Prentenboek met gekleurde illustraties. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "435392441"
+  },
+  {
+   "title": "Thuis in de toekomst (2022)",
+   "author": "Madeleine Finlay",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De manier waarop we met de aarde omgaan heeft grote gevolgen. Maar wist je dat er al heel lang gezocht wordt naar oplossingen om de planeet te redden? Je leert hoe ons leven in de toekomst een stuk duurzamer kan worden. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "435421131"
+  },
+  {
+   "title": "Een vlecht van heilig gras hoe de natuur, wetenschap en traditionele kennis ons leren respectvol met de aarde om te gaan (2022)",
+   "author": "Robin Wall Kimmerer",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hoe de natuur, wetenschap en traditionele inheemse kennis ons kunnen leren respectvol met de aarde om te gaan.",
+   "onLoan": true,
+   "ppn": "435425587"
+  },
+  {
+   "title": "Bobbi gaat sporten ([2022])",
+   "author": "Monica Maas",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bobbi en zijn klasje gaan verschillende sporten doen: tennis, voetbal, hockey... Het liefst doet Bobbi het allemaal! Met gekleurde illustraties. Vanaf 2 jaar.",
+   "onLoan": true,
+   "ppn": "435489658"
+  },
+  {
+   "title": "Vos en Haas het grote groeiboek ([2022])",
+   "author": "Sylvia Vanden Heede",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vos en Haas (en hun vrienden) zijn groter aan het worden. Zo leren zij dat samenwerken belangrijk is, hoe ze moeten koken en dat niet iedereen hetzelfde wil. De negen verhalen klimmen in leesniveau op van AVI-Start t/m AVI-M4. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "435500880"
+  },
+  {
+   "title": "De omwenteling, of De eeuw van de vrouw ([2022])",
+   "author": "Suzanna Jansen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verslag van de omwenteling van het leven van vrouwen in Nederland in de twintigste eeuw, mede aan de hand van het levensverhaal van de schrijfster en de ervaringen van haar moeder en zus.",
+   "onLoan": false,
+   "ppn": "435555618"
+  },
+  {
+   "title": "De Zoete Zusjes helpen de natuur ([2022])",
+   "author": "Hanneke de Zoete",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Janna en Saar komen in actie om de speelplek te beschermen en zo de natuur en boomhut te redden. Met gekleurde illustraties. Voorlezen vanaf ca. 5 jaar, zelf lezen vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "435583204"
+  },
+  {
+   "title": "Meesterkok (2022)",
+   "author": "Maranke Rinck",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ellis en Dante doen mee aan een kookwedstrijd, maar kunnen helemaal niet koken! Gelukkig verzint Bob een fantastisch toetje. Maar wat als vlak voor de finale de popcorn op is? Met zwart-wit illustraties. Vanaf ca. 7,5 jaar.",
+   "onLoan": true,
+   "ppn": "435656570"
+  },
+  {
+   "title": "Eieren zoeken (2022)",
+   "author": "Rachel Piercey",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In het bos van beer liggen honderd eieren verstopt. Zoek je mee? Kijk tussen de bomen, de takken, in het gras, bij de paddenstoelen, in de dierenhuisjes en tussen de bloemen. Zoek- en telboek met kleurrijke illustraties en tekst op rijm. Prentenboek vanaf ca. 3,5 jaar.",
+   "onLoan": false,
+   "ppn": "435682601"
+  },
+  {
+   "title": "Het grachtenhuis (2022)",
+   "author": "Rachel van Charante",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw werkt tijdens de Tweede Wereldoorlog bij een advocatenkantoor, waar ze verzet pleegt tegen de Duitse bezetter. Haar kleindochter ontdekt later de geschiedenis van haar familie in de oorlog.",
+   "onLoan": false,
+   "ppn": "436041979"
+  },
+  {
+   "title": "Naar een duurzame landbouw in 2040 een nieuw perspectief ([2022])",
+   "author": "M.J. Smit",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Onderzoek naar de efficiëntie en duurzaamheid van de Nederlandse landbouw, met suggesties om de landbouw toekomstbestendig te maken. Met kleurenfoto's en -illustraties.",
+   "onLoan": true,
+   "ppn": "436045109"
+  },
+  {
+   "title": "Het huis met de rode luiken ([2022])",
+   "author": "Marja Visscher",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hattem, 1787. Een vrouw uit een militair geslacht krijgt een liefdesaffaire met een zoon uit een bestuurdersfamilie. Ze vluchten naar Duitsland, maar ze krijgt spijt als ze hem beter leert kennen.",
+   "onLoan": false,
+   "ppn": "436088541"
+  },
+  {
+   "title": "Waanzinnige weetjes leuke weetjes over de LEGO® wereld - en over die van ons! (oktober 2022)",
+   "author": "Elizabeth Dowsett",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Weetjes over de natuur, de ruimte, voertuigen, technologie en architectuur aan de hand van LEGO-figuren. Met kleurenillustraties. Vanaf ca. 9 t/m 12 jaar.",
+   "onLoan": true,
+   "ppn": "436158205"
+  },
+  {
+   "title": "Het vrolijkste en grootste boek van alle voertuigen een geschiedenis op wielen : van de uitvinding van het wiel tot de voertuigen van morgen ([2022])",
+   "author": "Tom Schamp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wil je meer weten over voertuigen van het verleden en de toekomst? Ga op ontdekking met Otto de kat en Brutus de beer. En bekijk de vele tekeningetjes. Prentenboek met kleurrijke kijk- en zoekplaten. Vanaf ca. 6 jaar en ouder.",
+   "onLoan": true,
+   "ppn": "436188562"
+  },
+  {
+   "title": "Egalus ([2022])",
+   "author": "Marije Tolman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Dit prentenboek gaat over Egalus, een Egel uit de sjeestijd die van een opgeruimde omgeving houdt. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "436198908"
+  },
+  {
+   "title": "We lve voetbal ([2022])",
+   "author": "Gerard Leever",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ballonstrip. Vanaf 9 jaar.",
+   "onLoan": true,
+   "ppn": "436290553"
+  },
+  {
+   "title": "De maagd van Rosendael ([2023])",
+   "author": "Lydia Rood",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Historische roman over een jonge vrouw op kasteel Rosendael, tussen macht, geloof en liefde.",
+   "onLoan": false,
+   "ppn": "436328364"
+  },
+  {
+   "title": "Koen Kampioen wil scoren ([2022])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De voetbalclub van Koen is bijna failliet, zijn cijfers op school zijn achteruit gegaan en in zijn vriendengroep loopt het ook niet lekker. Hoe moet Koen al deze problemen oplossen? Met zwart-wit illustraties. Vanaf 9 jaar.",
+   "onLoan": true,
+   "ppn": "436350289"
+  },
+  {
+   "title": "Het kan dus wél hoe we onze wereld kunnen redden (2022)",
+   "author": "Rolf Heynen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bespreking van oplossingen voor problemen als klimaatverandering en overbevolking.",
+   "onLoan": true,
+   "ppn": "436628082"
+  },
+  {
+   "title": "Schemerleven ([2022])",
+   "author": "Jaap Robben",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een 81-jarige vrouw na het overlijden van haar man plotseling weer alleen is, dringen herinneringen aan een verloren liefde en een lang verzwegen verdriet zich naar de oppervlakte.",
+   "onLoan": false,
+   "ppn": "436698102"
+  },
+  {
+   "title": "Het land achter de elfendeur ([2023])",
+   "author": "Lars van de Goor",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Mare ontmoet een elfje dat haar meevoert door het Toverbos en laat zien dat je zelf de verandering kunt zijn. Prentenboek met kleurenillustraties. Vanaf ca. 5 jaar.",
+   "onLoan": true,
+   "ppn": "436779684"
+  },
+  {
+   "title": "Help, ik ben verliefd ([2022])",
+   "author": "Kaat De Kock",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Charlie is te nerdy om bij de populaire meisjes te horen. Ze heeft het niet naar haar zin, elke dag naar die rotschool. Ook heeft ze ruzie met haar vriendinnen en Hakim, de leukste jongen van de klas, ziet haar niet staan. En haar moeder schrijft daar",
+   "onLoan": true,
+   "ppn": "436783592"
+  },
+  {
+   "title": "Guinness world records 2024 ([2023])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Rijk geïllustreerde verzameling records rond thema's als de ruimte, aarde, mensen, kunst en media en sport.",
+   "onLoan": true,
+   "ppn": "437177688"
+  },
+  {
+   "title": "Vos en Haas zoete soep en andere verhalen om van te snoepen (2022)",
+   "author": "Sylvia Vanden Heede",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhalen over Vos en Haas worden afgewisseld met recepten om zelf o.a. koekjes te maken. Onder begeleiding vanaf ca. 5 jaar; zelf lezen vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "437397475"
+  },
+  {
+   "title": "Zo leuk is lezen! ([2022])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundel met vier vrolijke verhalen voor beginnende lezers. Met illustraties in kleur. AVI-Start. Vanaf ca. 6 jaar.",
+   "onLoan": true,
+   "ppn": "437458628"
+  },
+  {
+   "title": "Het schaarse licht roman (2022)",
+   "author": "Nino Haratischwili",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wanneer drie jeugdvriendinnen elkaar weerzien bij een tentoonstelling van foto's van een overleden vriendin, reflecteren ze op hun gezamenlijke geschiedenis in het Georgië van na de sovjetoverheersing.",
+   "onLoan": true,
+   "ppn": "437480046"
+  },
+  {
+   "title": "De magie van de seizoenen ([2023])",
+   "author": "Anna Taube",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Charmant geïllustreerd prentenboek over het wisselen van de seizoenen. Voorlezen vanaf ca. 2 jaar.",
+   "onLoan": false,
+   "ppn": "437483517"
+  },
+  {
+   "title": "Van je familie moet je het hebben ([2023])",
+   "author": "Anna Thomas",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Drie Bloemendaalse zussen zitten met problemen op het gebied van relaties en werk. Hun demente moeder woont nog in het landhuis waar ze opgroeiden, dat vol hangt met kunst. Zou daar de oplossing liggen?",
+   "onLoan": true,
+   "ppn": "437530175"
+  },
+  {
+   "title": "Niek de Groot trapt af ([2023])",
+   "author": "Lincoln Peirce",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Voor Niek de Groot is het leven één groot spel. Ook als hij moet sporten gaat hij er vol in, en dat zullen zijn tegenstanders (en zijn teamgenoten) weten! Eenpaginastrips in kleur. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "437598535"
+  },
+  {
+   "title": "Heel heel heel vies boek (2022)",
+   "author": "Edward van de Vendel",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Dit is een vies boek. Een heel vies boek. Over snot en slijm en nog veel meer vieze dingen. Met veel strips. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "437993566"
+  },
+  {
+   "title": "Lentekriebels in Thorndale ([2023])",
+   "author": "Suzanne Snow",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw vraagt een vreemde als date voor een bruiloft, die daarna haar vraagt geschiedenis van zijn tuin te onderzoeken. Ook al heeft hij hartenbreker op zijn lijf geschreven staan, kan ze verleiding niet ontkennen...",
+   "onLoan": false,
+   "ppn": "438074009"
+  },
+  {
+   "title": "Kookboek de lekkerste gerechten voor kinderen (2022)",
+   "author": "René Noorderveen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Fien (6) en haar broertje Teun (4) beleven allerlei avonturen op de boerderij. Samen met hun papa en mama maken ze lekkere dingen, zoals groentesoep en frietjes met appelmoes. Veertien voorleesverhaaltjes, elk voorzien van een recept dat stapsgewijs,",
+   "onLoan": false,
+   "ppn": "438193504"
+  },
+  {
+   "title": "Een nieuw begin ([2023])",
+   "author": "Inez Corbi",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw onderzoekt de geschiedenis van de 'Verloren Tuinen van Heligan' en ontdekt het verhaal van twee weeskinderen die in 1781 opgroeiden op het landgoed van hun neef Henry Tremayne, die ervan droomt een grote tuin aan te leggen.",
+   "onLoan": true,
+   "ppn": "438342763"
+  },
+  {
+   "title": "Pim en het pinda-kanon (2022)",
+   "author": "Tjibbe Veldkamp",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Pim woont bij zijn valse stiefoom Stef. Hij moet de hele dag pinda's pellen. Stiefoom Stef beschiet hem vaak met zijn pinda-kanon. Pim heeft er genoeg van. Met gekleurde illustraties. Vanaf ca. 7 jaar.",
+   "onLoan": false,
+   "ppn": "438347765"
+  },
+  {
+   "title": "De nazaten thriller (2023)",
+   "author": "Saskia Noort",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw die al tien jaar met haar twee dochters en haar zoontje ondergedoken leeft op het Noord-Brabantse platteland, ontdekt dat er banden zijn die niet zomaar verbroken kunnen worden.",
+   "onLoan": false,
+   "ppn": "438392906"
+  },
+  {
+   "title": "Kapitein Onderbroek en de revanche van de radioactieve robo-boxers ([2023])",
+   "author": "Dav Pilkey",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sjors en Harold zwerven als zombies rond op een post-apocalyptische planeet. Op Kapitein Onderbroek hoeven ze niet te rekenen, want de tijdreisfratsen van Piepie Plaspantalon hebben ervoor gezorgd dat hij nog niet bestaat! Lukt het Sjors en Harold de",
+   "onLoan": false,
+   "ppn": "438431359"
+  },
+  {
+   "title": "Op zoek naar de parel (2023)",
+   "author": "Louise Geesink",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De beste vriendjes Rembrandt en Vincent schilderen het liefst de hele dag. Samen helpen ze een meisje bij het zoeken naar haar gestolen pareloorbel. Prentenboek met kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "438432878"
+  },
+  {
+   "title": "Pas op, kapitein! (2023)",
+   "author": "Louise Geesink",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De vrienden Vincent en Rembrandt zijn dol op schilderen. Samen belanden ze in een spannend avontuur. Prentenboek met kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "438432886"
+  },
+  {
+   "title": "Alter ego literaire thriller (2023)",
+   "author": "Esther Verhoef",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw houdt de schijn op van een succesvol huwelijk met een sterrenkok, maar is ondertussen verwikkeld in een affaire met een opvliegende jongere man. Dan gebeuren er onverklaarbare dingen in en rond de villa waar ze woont...",
+   "onLoan": false,
+   "ppn": "438511484"
+  },
+  {
+   "title": "Wereldgerechten zónder pakjes & zakjes (september 2023)",
+   "author": "Karin Luiten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gerechten uit de wereldkeuken zonder pakjes en zakjes: verse ingrediënten en zelfgemaakte kruidenmixen.",
+   "onLoan": false,
+   "ppn": "438729315"
+  },
+  {
+   "title": "Een dief in het Verrukkelijke Hotel ([2023])",
+   "author": "Kate Davies",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Het nieuwe recept van Ruben de taartenbakker is verdwenen. Matilda, de piccolo van het Verrukkelijke Hotel, treedt op als detective en onderzoekt de zaak van het gestolen recept. Prentenboek met gekleurde illustraties. Vanaf ca. 5 jaar.",
+   "onLoan": true,
+   "ppn": "438729595"
+  },
+  {
+   "title": "Het dossier ([2023])",
+   "author": "Anya Niewierra",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een Nederlandse vrouw slachtoffer wordt van orgaanroof, blijkt ze een verborgen verleden te hebben als kunstvervalser in de voormalige DDR.",
+   "onLoan": true,
+   "ppn": "439033845"
+  },
+  {
+   "title": "Het eiland op z'n kop ([2023])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De tante van Broekie heeft gevraagd of Koen en zijn vrienden willen invallen bij een groot toernooi, en dat willen ze wel! Maar het toernooi zit vol met profteams, en dat vindt FC Top toch wel spannend... Met zwart-witillustraties. AVI E5. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "439078504"
+  },
+  {
+   "title": "Een, twee ... met de seizoenen mee ([2023])",
+   "author": "Peggy Nille",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In dit prentenboek wordt informatie over de natuur en de seizoenen gecombineerd met kunstige zoekplaten en tel-opdrachten. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "439078539"
+  },
+  {
+   "title": "Muis houdt van bomen (2024)",
+   "author": "Lucy Cousins",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Educatief prentenboek over bomen. Vanaf ca. 2 jaar.",
+   "onLoan": true,
+   "ppn": "439078822"
+  },
+  {
+   "title": "Pips dansfeest ([2023])",
+   "author": "Vivian den Hollander",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Drie verhalen over Pip die dol is op dansen. Pip is verliefd op Fredo en neemt hem mee naar de dansschool. Op de vrijmarkt geeft ze met haar hond Mik een dansvoorstelling. En als haar vriendinnetje ziek is valt Pip voor haar in bij een balletuitvoering.",
+   "onLoan": false,
+   "ppn": "439092140"
+  },
+  {
+   "title": "De Zwitserse dochter ([2024])",
+   "author": "Soraya Lane",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw laat een geërfde roze edelsteen onderzoeken, wat haar op het spoor brengt van een bijzonder verhaal over de geschiedenis van haar oma. Haar onderzoek voert haar naar Genève, waar ze een kunstverzamelaar ontmoet die al jaren op zoek is naar de steen.",
+   "onLoan": true,
+   "ppn": "439114942"
+  },
+  {
+   "title": "Winteravontuur te paard ([2024])",
+   "author": "Britt Dekker",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Britt en Esra reizen naar Lapland om familie van Esra te bezoeken op de rendierenranch van haar oom. Daar rijden ze op IJslandse paarden door de prachtige natuur. Maar wat is er waar van de enge spookverhalen van de mensen uit het dorp? Met kleurenillustraties. Vanaf ca. 9 jaar.",
+   "onLoan": false,
+   "ppn": "439137160"
+  },
+  {
+   "title": "Het verrassingsfeest voor Oude Eik ([2023])",
+   "author": "Rachel Piercey",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als Oude Eik vijfhonderd jaar oud is, organiseren Beer en zijn vrienden een verrassingsfeest in het Bijzondere Bos. Met zoekopdrachten. Prentenboek met kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "439146860"
+  },
+  {
+   "title": "Een betoverende avond ([2024])",
+   "author": "Katie Fforde",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw moet in 1966 een galadiner organiseren en koken in een hotel in Zuid-Engeland. Ze heeft een passie voor koken, maar de zoon van de hoteleigenaar is nog niet erg meegaand.",
+   "onLoan": false,
+   "ppn": "439146976"
+  },
+  {
+   "title": "Schaduwdochter (2023)",
+   "author": "Rachel van Charante",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een psycholoog verhuist na een gewelddadige overval met haar man terug naar zijn familiehuis: Kasteel Vorden. Daar stuit ze op een familiegeheim uit het verleden.",
+   "onLoan": true,
+   "ppn": "439455006"
+  },
+  {
+   "title": "De burn-out ([2023])",
+   "author": "Sophie Kinsella",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw die last heeft van een burn-out besluit zich terug te trekken in een strandresort in de hoop dat de rust haar zal helpen. Maar hoe kan ze één worden met de natuur als ze door een hotelgast in de gaten wordt gehouden? Dan ontdekt ze dat",
+   "onLoan": false,
+   "ppn": "439470161"
+  },
+  {
+   "title": "De fontein, vier je leven versta de kunst om jouw leven volledig te omarmen ([2023])",
+   "author": "Els van Steijn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitwerking van wat familiesystemen betekenen voor het innemen van ruimte en het leven van de eigen essentie.",
+   "onLoan": false,
+   "ppn": "439601622"
+  },
+  {
+   "title": "Lieve Lies, maakt herfstsoep ([2023])",
+   "author": "Joni Bosch",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lies en Eekhoorn spelen samen in het bos en maken een lekkere herfstsoep om uit te delen aan hun vriendjes. Prentenboek met kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "440050391"
+  },
+  {
+   "title": "Guinness world records 2025 ([2024])",
+   "author": "",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Rijk geïllustreerde verzameling records rond thema's als de ruimte, aarde, mensen, kunst en media en sport.",
+   "onLoan": true,
+   "ppn": "440076072"
+  },
+  {
+   "title": "Luister (2024)",
+   "author": "Sacha Bronwasser",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een Nederlandse vrouw die in 1989 op 20-jarige leeftijd naar Parijs vertrok om daar als au pair te werken, probeert na de gewelddadige aanslagen in Parijs in november 2015 haar eigen geschiedenis te reconstrueren.",
+   "onLoan": false,
+   "ppn": "440199581"
+  },
+  {
+   "title": "Arlettes lot (2023)",
+   "author": "Anne Jacobs",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Normandië, het jaar 1025. Een jonge vrouw probeert zich staande te houden in een mannenwereld. Ze raakt ongewenst zwanger van een edelman. Haar zoon, Willem de Veroveraar, zal een belangrijke rol spelen in de geschiedenis van het land.",
+   "onLoan": true,
+   "ppn": "440229901"
+  },
+  {
+   "title": "Het eiland van Anna Schokland en de geschiedenis van een thuis ([2024])",
+   "author": "Eva Vriend",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Geschiedenis van het verdwenen eiland Schokland aan de hand van het levensverhaal van een vissersdochter, die na de ontruiming van het eiland werd geboren, maar het beschouwde als thuis.",
+   "onLoan": false,
+   "ppn": "440251788"
+  },
+  {
+   "title": "De ontdekking van Holland ([2024])",
+   "author": "Jan Brokken",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Geschiedenis van de kunstenaarskolonie in Hotel Spaander in Volendam, waar vanaf 1881 schilders uit de hele wereld naartoe kwamen. Met illustraties en foto's.",
+   "onLoan": true,
+   "ppn": "440251885"
+  },
+  {
+   "title": "Daaf Duifs boek over hoe je omgaat met kattige katten en (bijna) al je veren houdt door Daaf Duif ([2024])",
+   "author": "Swapna Haddow",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Daaf Duif en zijn maatje Dribbel (ik-figuur) proberen Rotkat de gemene poes te verslaan. En ze eten koekjes, heel veel koekjes. Met zwart-witillustraties. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "440298520"
+  },
+  {
+   "title": "De nomade ([2024])",
+   "author": "Anya Niewierra",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een 37-jarige documentairemaker gaat in Oost-Europa op zoek naar haar geheime familiegeschiedenis en komt in het vizier van de man voor wie haar vader al decennia op de vlucht is.",
+   "onLoan": true,
+   "ppn": "440335329"
+  },
+  {
+   "title": "Toen waren er vier ([2024])",
+   "author": "Carla Kovach",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vriendengroep gaat een nacht kamperen in de vrije natuur. Als de zon opkomt, zijn er nog maar vier over van de vijf. Ze beweren allen niks vreemds te hebben gezien, maar rechercheur Gina Harte vermoedt dat ze iets verbergen.",
+   "onLoan": true,
+   "ppn": "440367654"
+  },
+  {
+   "title": "Terugkeer ([2024])",
+   "author": "Harlan Coben",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Privédetective en sportmakelaar Myron Bolitar hield een lofrede op de begrafenis van zijn zakenpartner. Drie jaar later beweren federale agenten dat zijn zakenpartner nog leeft en dat Myron gezien is op de plaats delict van een dubbele moord. Zijn zoektocht",
+   "onLoan": false,
+   "ppn": "440367751"
+  },
+  {
+   "title": "Het niet-zo-lieve-heersbeestje ([2024])",
+   "author": "Mark Haayema",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Mo weet dingen die jij niet weet over lieveheersbeestjes. Ze zijn namelijk geboren om te heersen! Met haar niet-zo-lieve-heersbeest Thor bedenkt Mo een plan om de grotemensenwereld op z'n kop te zetten. Prentenboek met kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "440414377"
+  },
+  {
+   "title": "Alles wordt lichter ([2024])",
+   "author": "Janke Reitsma",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een 21-jarige vrouw komt na een lange reis op een Noorse boerderij terecht, waar ze samen met de boer het land bewerkt en zich overgeeft aan de natuur. Een ingrijpende gebeurtenis werpt haar terug in een eenzaam bestaan. Acht jaar later besluit ze confrontatie",
+   "onLoan": false,
+   "ppn": "440425018"
+  },
+  {
+   "title": "Een echte ster ([2024])",
+   "author": "Fred Diks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De tweeling Sam en Noor moet een wedstrijd missen om hun neef Sep te bezoeken, maar daardoor ontmoeten ze wel Seps nieuwe buurman: een echte profvoetballer! Met kleurenillustraties. AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": false,
+   "ppn": "440460867"
+  },
+  {
+   "title": "Dansen aan zee ([2024])",
+   "author": "Jette Schröder",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De Vlinders gaan op kamp aan zee! Ze beleven een spannende logeerpartij in het strandhuisje, bedenken een mooie zeedans en mogen meedansen in een echte videoclip. Met kleurenillustraties. AVI-M4. Vanaf ca. 7 jaar.",
+   "onLoan": true,
+   "ppn": "440460891"
+  },
+  {
+   "title": "Ik kook (2023)",
+   "author": "Saskia Halfmouw",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ik ben Moos. Ik kook een peer en room. Ik eet het op, mmm. AVI-Start. Vanaf ca. 6 jaar.",
+   "onLoan": true,
+   "ppn": "440546788"
+  },
+  {
+   "title": "Het ABC van Fiedeldiedee (2023)",
+   "author": "Rieks Veenker",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Fiedeldiedee de spin maakt een optocht van woorden met A tot aan de Z. Het wordt een bonte stoet figuren. Prentenboek. Voorleesplezier voor kinderen vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "441432263"
+  },
+  {
+   "title": "Waarom we logen (juni 2024)",
+   "author": "Karin Slaughter",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Special agent Will Trent en patholoog-anatoom Sara Linton brengen hun huwelijksreis door in de McAlpine Family Lodge, diep in de Appalachen. Als de dochter van de eigenaren van het resort duistere familiegeheimen dreigt te onthullen, wordt ze diezelfde",
+   "onLoan": true,
+   "ppn": "441779026"
+  },
+  {
+   "title": "Ardèche thriller (juni 2024)",
+   "author": "Linda van Rijn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een vrouw na de dood van haar man met haar nieuwe vriend en zoontjes op vakantie gaat naar de Ardèche, krijgt ze na een kanotocht de schrik van haar leven: op een van de foto's van die dag ziet ze haar overleden echtgenoot...",
+   "onLoan": true,
+   "ppn": "442217706"
+  },
+  {
+   "title": "Stinkstoute panda ([2024])",
+   "author": "Swapna Haddow",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lin is de schattigste panda in het natuurreservaat, en daarom mag ze in de dierentuin gaan wonen. Maar dat wil ze helemaal niet! Ze is het beu om schattig te zijn en besluit om de stoutste panda ooit te worden. Met stripachtige illustraties in kleur. Vanaf ca. 7 jaar.",
+   "onLoan": false,
+   "ppn": "442229658"
+  },
+  {
+   "title": "De aanval van de T-rex ([2024])",
+   "author": "Rex Stone",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sam is lid van de Dinosaurus Club. Tijdens een ontdekkingstocht neemt Tess hem mee naar een geheime grot vol dino-fossielen. Als ze de voetstappen in de grot volgen, belanden ze in de tijd van de dino's! Daar beleven ze een spannend avontuur. Met zwart-witillustraties. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "442229801"
+  },
+  {
+   "title": "Op de vlucht met de triceratops ([2024])",
+   "author": "Rex Stone",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Sam en Tess zijn terug in de dinowereld om een landkaart te maken. Dan staan ze plotsklaps oog in oog met een kudde triceratopsen! Om niet vertrapt te worden klimmen ze allebei op de rug van een triceratops, en gaan zo verder op avontuur. Met zwart-witillustraties. Vanaf ca. 8 jaar.",
+   "onLoan": false,
+   "ppn": "442232950"
+  },
+  {
+   "title": "Hop op zwemles (2024)",
+   "author": "Esther van den Berg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Alle donderkopjes in de sloot zijn veranderd in kikkertjes, dus vindt mama het tijd voor hun zwemles. Alleen Hop heeft nog een staartje en is nog net geen kikker. Hij doet ook alle oefeningen net een beetje anders. Zal hij toch zijn zwemdiploma halen?",
+   "onLoan": true,
+   "ppn": "442241100"
+  },
+  {
+   "title": "De kleine kunstenaar ([2024])",
+   "author": "Ed Vere",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een kleine kunstenaar wil haar dromen en kleuren delen met de wereld. Ze maakt prachtige tekeningen op gebouwen in de stad, maar op een dag schiet ze uit met haar kwast... Hoe belangrijk is het om binnen de lijntjes te kleuren? Prentenboek met expressieve",
+   "onLoan": false,
+   "ppn": "442255209"
+  },
+  {
+   "title": "Leen nooit sportkleding van je ouders ([2024])",
+   "author": "Marjon Hoffman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Floor (ik-figuur) is onder de indruk van de gymstagiair. Als ze erachter komt dat hij ook tennisleraar is bij haar moeders vereniging, leent ze haar moeders tennis-outfit om professioneel voor de dag te komen. Maar dat had ze dat beter niet kunnen doen...",
+   "onLoan": false,
+   "ppn": "442255284"
+  },
+  {
+   "title": "Flubbertje Flip vrolijke verhalen (en soms een beetje vies) ([2024])",
+   "author": "Tosca Menten",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundeling van twaalf vrolijke verhalen over Flubbertje Flip, een eigenwijs meisje dat niet vies is van viezigheid. Wat voor gekke dingen zal ze deze keer uitspoken? Met kleurenillustraties. Voorlezen vanaf ca. 5 jaar, zelf lezen vanaf ca. 8 jaar.",
+   "onLoan": false,
+   "ppn": "442266898"
+  },
+  {
+   "title": "Een tuin voor jou, een tuin voor dieren duurzaam, relaxed & diervriendelijk tuinieren ([2024])",
+   "author": "Loethe Olthuis",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Tips en ideeën voor het creëren van biodiversiteit in de tuin met bloeiende, vaste en inheemse planten en plekjes voor insecten, vogels en andere dieren. Met kleurenafbeeldingen.",
+   "onLoan": false,
+   "ppn": "442267509"
+  },
+  {
+   "title": "Laat maar dicht! (2024)",
+   "author": "Ralf Butschkow",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Komisch hardkartonnen prentenboek over ontdeugende dieren die ontsnappen uit hun dierentuin. Vanaf ca. 3 jaar.",
+   "onLoan": true,
+   "ppn": "442293798"
+  },
+  {
+   "title": "Het uurwerk ([2024])",
+   "author": "Arnaldur Indriðason",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een IJslandse klokkenmaker restaureert in het paleis te Kopenhagen een oude klok. Als de koning hem bezoekt, raken ze met elkaar in gesprek en zo vertelt de klokkenmaker aan hem de trieste geschiedenis van zijn vader en diens huishoudster, die op bevel",
+   "onLoan": false,
+   "ppn": "442305591"
+  },
+  {
+   "title": "Handboek voor de bloementuin bloeiende borders in elk seizoen ([2024)",
+   "author": "Judith van Lent",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Handboek voor het aanleggen en onderhouden van een droomtuin, met aandacht voor biodiversiteit en inheemse bloemen. Met kleurenfoto's.",
+   "onLoan": false,
+   "ppn": "442484410"
+  },
+  {
+   "title": "De tweede helft van je leven de kracht en wijsheid van de vrouw (2024)",
+   "author": "Susan Smit",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Persoonlijk getinte verhalen over wat ouder worden betekent voor vrouwen, waarin de auteur onderzoekt hoe deze nieuwe levensfase vreugde en vervulling kan bieden. Met aandacht voor thema's als de vrouwelijke band met de natuur, liefde, zusterschap en groei.",
+   "onLoan": true,
+   "ppn": "442717407"
+  },
+  {
+   "title": "Ruby gaat kamperen ([2024])",
+   "author": "Esther van den Berg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Het muisje Ruby gaat voor het eerst kamperen. Ze speelt in de natuur en maakt een nieuw vakantievriendje. In de zomer is er altijd wat te doen! Prentenboek met sfeervolle kleurenillustraties. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "442901038"
+  },
+  {
+   "title": "Voorbij duurzaamheid op weg naar een ecorechtvaardige samenleving ([2024])",
+   "author": "Shivant S. Jhagroe",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Betoog tegen het westerse duurzaamheidsdenken, dat radicale en rechtvaardige systeemverandering verhindert en verweven is met kolonialisme, kapitalisme en sociale uitsluiting.",
+   "onLoan": false,
+   "ppn": "443009201"
+  },
+  {
+   "title": "Marbella thriller (oktober 2024)",
+   "author": "Linda van Rijn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een influencer leidt een droomleven in Marbella. Ze heeft een fijne relatie en een succesvolle carrière. Maar dan verdwijnt een goede vriendin van haar. In tegenstelling tot de politie, gelooft ze niet dat haar vriendin vrijwillig uit de kustplaats is vertrokken.",
+   "onLoan": false,
+   "ppn": "443021597"
+  },
+  {
+   "title": "Boodschappers van de storm ([2025])",
+   "author": "Inez Corbi",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Lexi gaat voor de tentoonstelling voor het jubileum van de openstelling van de tuinen van Heligan verder met haar onderzoek naar de geschiedenis van het landgoed.",
+   "onLoan": false,
+   "ppn": "443048223"
+  },
+  {
+   "title": "In de val ([2024])",
+   "author": "Lee Child",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Jack Reacher komt vastgeketend aan een bed en gewond tot bewustzijn. Zijn eigendommen zijn weg. Zijn ontvoerders denken dat hij bij de omgekomen bestuurder hoorde met wie hij een auto-ongeluk heeft gehad. Ze willen hem gaan ondervragen, maar dat zal",
+   "onLoan": true,
+   "ppn": "443048339"
+  },
+  {
+   "title": "Dubbelspel (2024)",
+   "author": "David Baldacci",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een lijfwacht moet een 12-jarig meisje beschermen na de dood van haar ouders door een vermeende overdosis. Haar rijke oom, door wie ze geadopteerd wil worden, wordt aangeklaagd voor meerdere misdaden. Na de moord op een informant beseft de lijfwacht",
+   "onLoan": true,
+   "ppn": "443054207"
+  },
+  {
+   "title": "De race naar Fantasie-eiland ([2024])",
+   "author": "Mel Taylor-Bessent",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De angstige Luca (10) belandt per ongeluk op Fantasie-eiland, waar alles wat hij bedenkt tot leven komt. Hij moet het in een race opnemen tegen vijftien andere kinderen. Luca bedenkt een plan om als laatste te eindigen, zodat hij snel naar huis kan.",
+   "onLoan": false,
+   "ppn": "443058334"
+  },
+  {
+   "title": "Ga je echt stuiteren van suiker? alles over snoep, ijs en ander lekkers ([2024])",
+   "author": "Mark Traa",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wat gebeurt er als je kauwgom doorslikt? Waar is drop eigenlijk van gemaakt? Lees van alles over snoep en andere lekkernijen. Met zwart-witillustraties. Vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "443058342"
+  },
+  {
+   "title": "Twee broers ([2024])",
+   "author": "Fanny Antigny",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Humoristische avonturen van de broers Hi en Ki. Manga. Vanaf ca. 10 jaar.",
+   "onLoan": false,
+   "ppn": "443058350"
+  },
+  {
+   "title": "Een gekke familie ([2024])",
+   "author": "Fanny Antigny",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Humoristische avonturen van de broers Hi en Ki. Manga. Vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "443058377"
+  },
+  {
+   "title": "Wurgcontract ([2024])",
+   "author": "Loes den Hollander",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Hij is jaloersmakend mooi, trekt de aandacht van iedere man en vrouw, en gaat gehuld onder verschillende namen. Zijn mysterieuze uitstraling is bijna verslavend, maar pas op: je kunt beter uit zijn buurt blijven...",
+   "onLoan": false,
+   "ppn": "443059039"
+  },
+  {
+   "title": "Het Franse geheim (2024)",
+   "author": "Karen Swan",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als in Parijs een verlaten appartement wordt ontdekt vol kunst van onschatbare waarde, wordt een jonge kunsthandelaar ingeschakeld om de vondst te inventariseren. Terwijl ze in de geschiedenis van duikt van dit mysterie, krijgt ze te maken met de familie",
+   "onLoan": true,
+   "ppn": "443068976"
+  },
+  {
+   "title": "De lotgevallen ([2024])",
+   "author": "Sacha Bronwasser",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Korte verhalen over lotgevallen van mensen in het heden en verleden, waarin telkens een bestaand kunstwerk een rol speelt. Met afbeeldingen.",
+   "onLoan": false,
+   "ppn": "443079986"
+  },
+  {
+   "title": "Jodelende wulpen & keukentafels landbouw door vogelogen ([2026])",
+   "author": "Ben Koks",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Onderzoek naar de mogelijkheden om landbouw en natuur te verbinden, met praktische inzichten voor het behoud van biodiversiteit in het boerenland en bijzondere aandacht voor vogelpopulaties. Met foto's en illustraties in kleur.",
+   "onLoan": true,
+   "ppn": "443080208"
+  },
+  {
+   "title": "Een donkere, stormachtige nacht roman ([2024])",
+   "author": "Kate Atkinson",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als detective Jackson Brodie op zoek gaat naar een gestolen portret beland hij op een moordspelweekend in een vervallen landhuis. Maar als hij daar vast komt te zitten vanwege een sneeuwstorm, en er een veroordeelde moordenaar op de vlucht blijkt, heeft",
+   "onLoan": false,
+   "ppn": "443093369"
+  },
+  {
+   "title": "De laatste steen onder deze school ligt meer dan een geheim begraven ([2024])",
+   "author": "M.J. Arlidge",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bij de sloop van een academie wordt in de kelder een menselijke schedel gevonden, die van een vermiste leerling blijkt te zijn. Detective en oud-leerling van de academie Hannah Jennings krijgt de zaak toegewezen. Het is haar eerste grote moordonderzoek",
+   "onLoan": true,
+   "ppn": "443093768"
+  },
+  {
+   "title": "Het laatste meisje ([2024])",
+   "author": "Carla Kovach",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Inspecteur Gina Harte en haar team doen onderzoek naar de vermissing van een docente en moeder van een vijfjarige dochter, die na een avondje uit met haar beste vriendin plotseling spoorloos van de aardbodem verdween.",
+   "onLoan": false,
+   "ppn": "443094268"
+  },
+  {
+   "title": "Dwaalspoor ([2024])",
+   "author": "Robert Bryndza",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Dertig jaar na dato wordt het onderzoek naar een vermiste vrouw nieuw leven ingeblazen. Privédetective Kate Marshall neemt de zaak aan en onderzoekt of de beruchte Nine Elms-kannibaal bij de verdwijning betrokken was. Ze graaft er een gruwelijk verleden",
+   "onLoan": false,
+   "ppn": "443094365"
+  },
+  {
+   "title": "Kwaad bloed een Barbara van Eck-mysterie ([2024])",
+   "author": "Jet van Vuuren",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Privédetective Barbara combineert de zoektocht naar de moordenaar van haar dochter Kim met de zorg voor kleindochter Lily. Ze is ervan overtuigd dat Teun, de oom van Kim, de dader is. Het onderzoek loopt vast, totdat Lily vertelt over een aardige meneer",
+   "onLoan": false,
+   "ppn": "443096872"
+  },
+  {
+   "title": "De leraar ([2024])",
+   "author": "Freida McFadden",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een wiskundelerares leidt een gelukkig leven, tot ze op een dag een leerlinge in haar klas krijgt over wie duistere geruchten de ronde gaan.",
+   "onLoan": true,
+   "ppn": "443097399"
+  },
+  {
+   "title": "Mijn iemand ([2024])",
+   "author": "Herbjørg Wassmo",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een man en een vrouw die elkaar al sinds hun jeugd kennen, vinden elkaar opnieuw na gebroken huwelijken en jaren vol verlangen en ontgoocheling. Te midden van de Noorse natuur gaan ze op zoek naar de liefde en een diepere betekenis.",
+   "onLoan": true,
+   "ppn": "443119872"
+  },
+  {
+   "title": "Stormberg ([2025])",
+   "author": "Liza Marklund",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als er een lijk wordt gevonden in een moeras, denkt een Noord-Zweedse politiechef eerst dat het zijn vermiste vrouw is. Maar het blijkt het lijk van een man te zijn, dat hem op het spoor brengt van een duister familiegeheim.",
+   "onLoan": false,
+   "ppn": "443119937"
+  },
+  {
+   "title": "Wij gaan op berenjacht (2024)",
+   "author": "Michael Rosen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vier kinderen gaan met hun vader op berenjacht. Ze trotseren moedig de natuur, maar dan staan ze opeens tegenover een echte beer! Oblong prentenboek met paginagrote illustraties in afwisselend grijs-wit en kleur. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "443505799"
+  },
+  {
+   "title": "Het archief (augustus 2024)",
+   "author": "Thomas Heerma van Voss",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge, ambitieuze schrijver wordt gevraagd als redacteur van Arabesk, een literair tijdschrift met een rijke geschiedenis. Maar tijdens zijn redacteurschap kelderen de abonneecijfers, en lijkt alleen zijn vader nog te begrijpen wat de charme van het blad is.",
+   "onLoan": true,
+   "ppn": "443516863"
+  },
+  {
+   "title": "Eten, spelen, slapen in de jungle ([2024])",
+   "author": "Mack",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In de jungle is er veel te ontdekken. Prentenboek met gekleurde illustraties. Vanaf ca. 2 jaar.",
+   "onLoan": true,
+   "ppn": "443650624"
+  },
+  {
+   "title": "Amsterdam de verdwijning (2024)",
+   "author": "Kiki van Dijk",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "en model wordt dood aangetroffen in een Amsterdams boutiquehotel. Eerst wordt de beroemde, foute fotograaf verdacht, maar al snel verschuift de aandacht naar de medewerkers, waaronder de man van de eigenares. Langzaamaan ontrafelt zij een geheim dat",
+   "onLoan": false,
+   "ppn": "443667357"
+  },
+  {
+   "title": "Buitendijks (oktober 2024)",
+   "author": "Toine Heijmans",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge man leeft in een tentje in de uiterwaarden van een grote rivier, alleen met de natuur die hem omringt. Pas wanneer hij wordt verjaagd uit zijn terrein begrijpt hij dat zelfs de wildernis wordt beheerst door menselijk ingrijpen.",
+   "onLoan": true,
+   "ppn": "443764743"
+  },
+  {
+   "title": "Ebbie doet boodschappen ([2024])",
+   "author": "Marjet Huiberts",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ebbie mag zelf zijn boodschappenkarretje vullen en leeghalen bij de kassa. Thuis helpt hij met koken en tafeldekken. Hij maakt een hele mooie pizza. Prentenboek. Vanaf ca. 2 jaar.",
+   "onLoan": false,
+   "ppn": "443922993"
+  },
+  {
+   "title": "Als ik een dinosaurus had ([2025])",
+   "author": "Gabby Dawnay",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een meisje droomt van een huisdier. Na lang nadenken weet ze wat voor dier: een dinosaurus. Ze bedenkt wat er allemaal zou gebeuren als ze een dinosaurus had. Prentenboek met illustraties in frisse kleuren en tekst op rijm. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "444178546"
+  },
+  {
+   "title": "Wisselwachter Amerika-Europa, 1933-1945 (april 2025)",
+   "author": "Geert Mak",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhandeling over de Amerikaanse politieke geschiedenis tussen 1933 en 1945, met een focus op staatsman Harry Hopkins (1890-1946). Met zwart-witafbeeldingen.",
+   "onLoan": true,
+   "ppn": "444190783"
+  },
+  {
+   "title": "B&B Italia thriller (april 2025)",
+   "author": "Linda van Rijn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De eigenaresse van een Italiaanse B&B doet mee aan een nieuw datingprogramma. Vier mannen komen bij haar logeren, waarna ze elke week iemand wegstuurt. Al snel gebeuren er vreemde en lugubere dingen.",
+   "onLoan": false,
+   "ppn": "444198784"
+  },
+  {
+   "title": "Tyler Green komt nooit meer vrij ([2025])",
+   "author": "Nicci French",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een Britse man dertig jaar na zijn veroordeling voor de moord op een studiegenoot vrijkomt, roept hij zijn oude vrienden bij elkaar. Al snel loopt deze reünie uit de hand en het is aan rechercheur Maud O'Connor om te achterhalen wat er dertig jaar geleden is gebeurd.",
+   "onLoan": true,
+   "ppn": "444199772"
+  },
+  {
+   "title": "Lannoo's grote encyclopedie van alle voer- en vaartuigen ([2024])",
+   "author": "Ian Fitzgerald",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ontdek allerlei soorten voer- en vaartuigen, zoals scooters, trucks, helikopters en oorlogschepen. Leer welke voertuigen records braken en kom van alles te weten over de geschiedenis van transportmiddelen. Met kleurenfoto's en -illustraties. Vanaf ca. 11 jaar.",
+   "onLoan": true,
+   "ppn": "444241221"
+  },
+  {
+   "title": "Dievenland overleven in de middeleeuwen (2025)",
+   "author": "Janna Coomans",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verslag over misdaden in Nederland en België in de late middeleeuwen.",
+   "onLoan": true,
+   "ppn": "444243097"
+  },
+  {
+   "title": "Monsieur le Comte en de kunst van het doden ([2025])",
+   "author": "Pierre Martin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge graaf uit een familie van huurmoordenaars weigert te doden, hij runt liever een restaurant. Bij het sterfbed van zijn vader komt hij voor een groot dilemma te staan.",
+   "onLoan": false,
+   "ppn": "444244123"
+  },
+  {
+   "title": "Het verkeerde kind ([2025])",
+   "author": "M.J. Arlidge",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een drie maanden oud jongetje met neonatale diabetes wordt ontvoerd, belanden zijn ouders in een nachtmerrie. Elders is het juist groot feest bij een familie die een nieuwe baby in hun midden verwelkomt. Maar de baby wordt steeds zieker... Hoe ver",
+   "onLoan": false,
+   "ppn": "444248714"
+  },
+  {
+   "title": "Misleid ([2025])",
+   "author": "Harlan Coben",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "2000, Malaga. Sami Pierce, Amerikaanse backpacker, wordt bebloed wakker met een mes in zijn hand en het lichaam van zijn vriendin naast hem. Tweeëntwintig jaar later is hij rechercheur en ontdekt hij dat zijn vriendin van toen nog leeft. Hij moet haar",
+   "onLoan": true,
+   "ppn": "444248781"
+  },
+  {
+   "title": "Lieg nooit ([2025])",
+   "author": "Freida McFadden",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een pasgetrouwd stel komt tijdens een sneeuwstorm vast te zitten in het landhuis van een vermiste psychiater, waar ze een geheime kamer vol met audio-opnames ontdekken die een duistere geschiedenis prijsgeven.",
+   "onLoan": true,
+   "ppn": "444257012"
+  },
+  {
+   "title": "Nacht (2025)",
+   "author": "Lars Kepler",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Op een camping net buiten Stockholm wordt een verminkt lichaam gevonden. In de kamer ernaast ligt een jongen die lijdt aan slaapwandelen, maar zich niets meer herinnert van de nacht. Is hij een getuige of juist de dader..?",
+   "onLoan": false,
+   "ppn": "444279865"
+  },
+  {
+   "title": "Bronzen dromen ([2025])",
+   "author": "Camilla Läckberg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Faye wordt bedreigd door haar eigen vader, die op de vlucht is om uit de gevangenis te blijven. Ze roept de hulp in van de enige man die ze vertrouwt en maakt plannen om zich te kunnen wreken, maar haar vader krijgt hulp uit criminele kringen.",
+   "onLoan": true,
+   "ppn": "444290796"
+  },
+  {
+   "title": "Het huis met de palm (2025)",
+   "author": "Esther Verhoef",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Psychologische thriller waarin een huis met een duister verleden een vrouw langzaam in zijn greep krijgt.",
+   "onLoan": true,
+   "ppn": "444290907"
+  },
+  {
+   "title": "Poetins tsaristische droom geschiedenis als wapen in de Russische politiek (2026)",
+   "author": "Beatrice de Graaf",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Onderzoek naar de radicalisering van Vladimir Poetin, die sinds 2000 zijn land heeft meegesleurd in een oorlog, gestuwd door het verlangen naar erkenning en een specifieke visie op de Russische geschiedenis.",
+   "onLoan": true,
+   "ppn": "444291059"
+  },
+  {
+   "title": "Het Nationale Park De Hoge Veluwe 90 jaar actief beheer & biodiversiteit ([2025])",
+   "author": "Menno Haanstra",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Overzicht van de historie, het beheer en de ecosystemen van Het Nationale Park De Hoge Veluwe. Met afbeeldingen.",
+   "onLoan": true,
+   "ppn": "444360832"
+  },
+  {
+   "title": "Het ultieme geheim ([2025])",
+   "author": "Dan Brown",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Robert Langdon raakt in Praag verstrikt in een dodelijke race rond baanbrekend onderzoek naar het menselijk bewustzijn.",
+   "onLoan": true,
+   "ppn": "444548238"
+  },
+  {
+   "title": "Ouder worden ([2025])",
+   "author": "Elke Heidenreich",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Met veel literaire citaten geïllustreerde overpeinzigen over ouder worden.",
+   "onLoan": true,
+   "ppn": "444554785"
+  },
+  {
+   "title": "De onzichtbaren roman (2025)",
+   "author": "Frank Nellen",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kiev, eind jaren 80. Een man gaat op zoek naar zijn jeugdvriend, die verdween nadat hij een fel betoog hield tegen het socialisme. Zijn zoektocht brengt hem langs verlaten plaatsen, en dichter bij de onthulling van een pijnlijke geschiedenis.",
+   "onLoan": false,
+   "ppn": "444668446"
+  },
+  {
+   "title": "Duinhuisje thriller (juni 2025)",
+   "author": "Linda van Rijn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Als een jonge vrouw onverwacht het vakantiehuisje van haar vriendin erft, doet ze een vreemde ontdekking. Welk geheim hield haar vriendin verborgen?",
+   "onLoan": true,
+   "ppn": "444720723"
+  },
+  {
+   "title": "De laatste ochtend ([2025])",
+   "author": "Samuel Bjørk",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Het team van Holger Munch onderzoekt een zelfmoordaanslag in de metro van Oslo. Het spoor leidt al gauw naar een gevaarlijke terrorist met voorkennis over nieuwe aanslagen.",
+   "onLoan": true,
+   "ppn": "445995718"
+  },
+  {
+   "title": "Gebroken engelen (juni 2025)",
+   "author": "Karin Slaughter",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een agente moet de verdwijning van twee tienermeisjes onderzoeken. De meisjes hadden geheimen, maar wie zou ervoor willen moorden?",
+   "onLoan": true,
+   "ppn": "446512214"
+  },
+  {
+   "title": "De kleine cottage in Ierland (augustus 2025)",
+   "author": "Julie Caplin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw die niet kan koken reist naar Ierland om een kookcursus te volgen. In Dublin kust ze impulsief een knappe man, die ook aan haar kookcursus blijkt mee te doen.",
+   "onLoan": false,
+   "ppn": "446512753"
+  },
+  {
+   "title": "Mathilda's geheim (2025)",
+   "author": "Corina Bomann",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jonge vrouw ontdekt na de dood van haar moeder dat deze haar geschiedenis geheim heeft gehouden. Met vallen en opstaan komt Mathilda alles te weten.",
+   "onLoan": false,
+   "ppn": "448448947"
+  },
+  {
+   "title": "Kas en Saar in de moestuin (2025)",
+   "author": "Pauline Oud",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De opa van Saar heeft een moestuin. Daar groeien lekkere groentes en gezond fruit om te eten. Prentenboek. Vanaf 3 jaar.",
+   "onLoan": true,
+   "ppn": "449795527"
+  },
+  {
+   "title": "In de puree (2025)",
+   "author": "Meggie Ramm",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De geur van de herfst hangt in de lucht op Spookeiland! Batcat en Ali gaan samen op zoek naar het beste recept voor de kookwedstrijd van het jaarlijkse Nachtfestival. Ballonstrip in kleur. Makkelijk te lezen. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "449929299"
+  },
+  {
+   "title": "Takkie (2024)",
+   "author": "Annie M.G. Schmidt",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Bundel met twaalf verhalen over de twee buurkinderen Jip en Janneke en hun hond Takkie. Oblong uitgave met tekeningen in kleur en zwart-wit. Vanaf ca. 3 jaar.",
+   "onLoan": false,
+   "ppn": "450000710"
+  },
+  {
+   "title": "Een haas in huis (2025)",
+   "author": "Chloe Dalton",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Persoonlijk relaas over de band tussen de Britse schrijver en het wilde, jonge haasje dat ze vindt in de natuur bij haar huis en besluit te verzorgen. Met zwart-wittekeningen.",
+   "onLoan": true,
+   "ppn": "450326187"
+  },
+  {
+   "title": "Leef je nog? (2026)",
+   "author": "M.J. Arlidge",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Inspecteur Helen Grace onderzoekt de verdwijning van een tienermeisje en ontdekt al gauw dat zij niet het enige meisje is dat wordt vermist.",
+   "onLoan": false,
+   "ppn": "450429954"
+  },
+  {
+   "title": "Broers ([2026])",
+   "author": "Carolijn Visser",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Familiegeschiedenis waarin de vader van Carolijn Visser en zijn twee broers centraal staan. Aan de hand van het verhaal van haar familie komt de naoorlogse sociale en culturele geschiedenis van Nederland ter sprake.",
+   "onLoan": true,
+   "ppn": "450637301"
+  },
+  {
+   "title": "Zeven brieven roman (november 2025)",
+   "author": "Tina de Bruin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een jong meisje wordt verwaarloosd door haar jonge ouders. Ze vlucht naar haar grootouders, maar ook daar gaat het niet goed: haar opa gedraagt zich lelijk jegens haar oma. Terwijl ze probeert haar oma te troosten, hoopt ze op een betere toekomst.",
+   "onLoan": true,
+   "ppn": "450649199"
+  },
+  {
+   "title": "Koosje, kom je eten? ([2025])",
+   "author": "Esther van den Berg",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Koosje heeft geen zin om te eten. Ze gaat op onderzoek uit en ziet dat haar vriendjes wél van eten houden en al netjes aan tafel zitten. Dan ruikt ze ineens iets lekkers: papa is aan het koken! Prentenboek met kleurenillustraties. Vanaf ca. 2,5 jaar.",
+   "onLoan": false,
+   "ppn": "452354196"
+  },
+  {
+   "title": "Alles op! (2025)",
+   "author": "Carolina Búzio",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Samen groenten wassen, de slap opdoen, lekker koken, handjes wassen en elkaar smakelijk eten wensen. Hardkartonnen prentenboek voor het leren van de eerste zinnen. Met gekleurde illustraties en een spiegeltje. Vanaf ca. 2 jaar.",
+   "onLoan": true,
+   "ppn": "454452357"
+  },
+  {
+   "title": "Eén voor jou, twee voor mij (2025)",
+   "author": "Jörg Mühle",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Beer vindt in het bos drie paddenstoelen. Hij brengt ze naar Wezel, die heerlijk kan koken. Als de paddenstoelen klaar zijn, krijgen de vrienden ruzie over wie de derde paddenstoel mag opeten. Dan wordt het probleem onverwacht opgelost. Prentenboek met",
+   "onLoan": false,
+   "ppn": "455222371"
+  },
+  {
+   "title": "Het kaarten- en vlaggenboek ontdek waanzinnige weetjes, kaarten en vlaggen van over de hele wereld (2026)",
+   "author": "Joe Fullman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Ontdek kaarten en vlaggen van landen en continenten over de hele wereld. Wanneer is iets eigenlijk een land? En hoe worden kaarten gemaakt? Met illustraties en kaarten in kleur. Vanaf ca. 8 jaar.",
+   "onLoan": true,
+   "ppn": "455387966"
+  },
+  {
+   "title": "Monsieur le Comte en de kunst van het misleiden ([2026])",
+   "author": "Pierre Martin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Monsieur le Comte, een huurmoordenaar die niemand wil doden, moet zich in Marseille voordoen als priester om bij zijn opdrachtgever de illusie te wekken dat zijn opdracht is geslaagd.",
+   "onLoan": false,
+   "ppn": "455839808"
+  },
+  {
+   "title": "Tuinieren in potten en bakken bloemen, groenten en struiken met respect voor de natuur ([2024])",
+   "author": "Ann Treneman",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Uitgebreide gids voor het creëren en onderhouden van een potten- en bakkentuin, met aandacht voor duurzaamheid. Met kleurenfoto's en illustraties in zwart-wit.",
+   "onLoan": false,
+   "ppn": "455956537"
+  },
+  {
+   "title": "Kiefers hand (2026)",
+   "author": "Dieuwertje Mertens",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een schrijfster begint een affaire met een oudere Joodse kunstenaar. Tegelijk onderzoekt ze het leven van haar grootmoeder, die een verhouding had met een voormalige SS'er. Beide relaties laten sporen achter in de levens en families van de vrouwen.",
+   "onLoan": true,
+   "ppn": "456000232"
+  },
+  {
+   "title": "De butler van God (2026)",
+   "author": "Ellen de Bruin",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kunst, geld en status domineren de internationale kunstwereld, waar familiebanden soms een last vormen. Verschillende karakters proberen hun dromen te verwezenlijken en niet ten onder te gaan.",
+   "onLoan": false,
+   "ppn": "456122834"
+  },
+  {
+   "title": "Het Droompad (2026)",
+   "author": "Twan Huys",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Wandelverhaal van de Nederlandse schrijver en presentator (1964) die met zijn puberzoon het Droompad van München naar Venetië loopt. Tegen het decor van de imposante natuur ontstaat een verhaal over rouw, vaderschap en de helende kracht van wandelen.",
+   "onLoan": true,
+   "ppn": "456122966"
+  },
+  {
+   "title": "Kanteltijd op weg naar een betere wereld (2026)",
+   "author": "J. Rotmans",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verhandeling over de klimaattransitie, waarin gesteld wordt dat individuen een cruciale rol kunnen spelen door te handelen vanuit liefde en compassie. Met afbeeldingen in kleur.",
+   "onLoan": true,
+   "ppn": "456122974"
+  },
+  {
+   "title": "365 dagen eten uit eigen tuin de A tot Z gids voor het kweken, koken & conserveren ([2026])",
+   "author": "Huw Richards",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Gids voor het kweken en koken van groenten, fruit, kruiden en eetbare bloemen. Met praktische teeltinformatie en conserveringstechnieken voor zowel kleine balkons als grotere tuinen, en eenvoudige recepten. Met kleurenfoto's.",
+   "onLoan": true,
+   "ppn": "456267050"
+  },
+  {
+   "title": "De kintsugi-vrouwen de Japanse bestseller over de kunst van het goudlijmen en de kracht van imperfectie ([2026])",
+   "author": "Sanae Hoshio",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw reist met haar kleindochter naar haar geboortestad, waar ze samen met haar dochter het verleden onder ogen komt.",
+   "onLoan": true,
+   "ppn": "458319163"
+  },
+  {
+   "title": "Onstilbaar ([2026])",
+   "author": "Malgorzata Lebda",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Twee vrouwen trekken in bij hun ernstig zieke grootmoeder in een afgelegen dorpje, waar zij voor haar zorgen terwijl haar man het vervallen huis repareert. In haar laatste dagen probeert zij zich te omringen met alles wat leeft.",
+   "onLoan": true,
+   "ppn": "458346632"
+  },
+  {
+   "title": "De vrouwen van de familie Flores ([2026])",
+   "author": "Angélica Lopes",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "In 1918 verzinnen borduursters op het Braziliaanse platteland een geheime code om boodschappen te borduren die ze niet uit mogen spreken, uit angst voor hun echtgenoten. Honderd jaar later ontdekt een achttienjarige via een geërfde sluier deze geschiedenis",
+   "onLoan": true,
+   "ppn": "459522604"
+  },
+  {
+   "title": "De boekenboot in Venetie (april 2026)",
+   "author": "Annabel French",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Een vrouw verliest haar baan in Venetië en moet terugkeren naar Engeland, maar ontdekt dat er een boekenboot te koop staat in de Italiaanse stad. Ze wil een winkeltje openen die haar passies voor kunst en boeken combineert, met hulp van een charmante",
+   "onLoan": true,
+   "ppn": "459583166"
+  },
+  {
+   "title": "Saffier en de monsterjagers. 2 Pas op voor slapende snurkies ([2026])",
+   "author": "Scott Stuart",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Kun jij de luier van een snurkie verschonen? En kun jij een trol voorlezen voordat hij gaat slapen? Dan hoor je thuis in het Museum der Wonderen! Saffier Spatjes hoeft niet meer te bewijzen dat ze een dappere monsterjager is. Ze werkt nu als managementassistent",
+   "onLoan": true,
+   "ppn": "459642707"
+  },
+  {
+   "title": "Gips (2025)",
+   "author": "Anna Woltz",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Fitz (12, ik-figuur) is woedend, omdat haar ouders gaan scheiden. Als ze een dag in het ziekenhuis moet doorbrengen, moet ze met haar eigen gevoelens en die van haar moeder leren omgaan. Vanaf ca. 10 jaar.",
+   "onLoan": true,
+   "ppn": "459742914"
+  },
+  {
+   "title": "Alaska (2025)",
+   "author": "Anna Woltz",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Parkers hond Alaska moest weg, omdat haar broertje allergisch voor hem is. Op haar eerste schooldag ziet ze dat Alaska nu de hulphond is van haar klasgenoot Sven. Ze wil graag weer contact met Alaska, maar ze vindt Sven niet aardig. Vanaf ca. 11 jaar.",
+   "onLoan": true,
+   "ppn": "459804561"
+  },
+  {
+   "title": "Hazenoortjes ([2026])",
+   "author": "Marlies Verhelst",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Vos zoekt ingrediënten voor een stoofschotel, zoals hazenoortjes en eekhoorntjesbrood. Haas denkt dat zijn oren opgegeten worden en besluit ook de andere dieren te waarschuwen. Prentenboek met illustraties in kleur. Vanaf ca. 4 jaar.",
+   "onLoan": true,
+   "ppn": "459805118"
+  },
+  {
+   "title": "Op een mooie lentedag ([2026])",
+   "author": "Daniela Kulot",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De vos, de muis en raaf volgen de eekhoorn door bloeiende weiden en velden, op weg naar een verrassing. Dan ontdekken ze een verdwaald kuikentje. Waar is zijn huis? Prentenboek met illustraties in kleur. Vanaf ca. 4 jaar.",
+   "onLoan": false,
+   "ppn": "459835815"
+  },
+  {
+   "title": "Koken zoals in Italie de lekkerste klassiekers uit de Italiaanse keuken ([2026])",
+   "author": "Tanja Dusy",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Verzameling recepten uit de Italiaanse keuken. Met foto's en illustraties in kleur.",
+   "onLoan": false,
+   "ppn": "460270265"
+  },
+  {
+   "title": "Kas is kok (2026)",
+   "author": "Anneke Gerbrands",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "De vader van Kas is kok. Samen met zijn vader leert Kas koken, bakken, schoonmaken én opeten. Met kleurenillustraties. AVI-S. Vanaf ca. 6 jaar.",
+   "onLoan": false,
+   "ppn": "460439154"
+  },
+  {
+   "title": "Het westen een 4000-jarige geschiedenis (januari 2026)",
+   "author": "Josephine Quinn",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Geschiedenis die aantoont dat de westerse cultuur niet in isolatie is ontstaan, maar gevormd is door 4000 jaar aan mondiale ontmoetingen en culturele kruisbestuiving.",
+   "onLoan": true,
+   "ppn": "460625195"
+  },
+  {
+   "title": "Kopsterk (2026)",
+   "author": "Gerard van Gemert",
+   "type": "Boek",
+   "language": "Nederlands",
+   "description": "Storm belandt in het ziekenhuis en lijkt zijn geheugen kwijt te zijn. De kampioen Bert Pringel wil helemaal uit Amerika komen om hem te helpen, samen met Stijn en Storm. Met zwart-witillustraties. Vanaf ca. 9 jaar.",
+   "onLoan": true,
+   "ppn": "460813277"
+  }
+ ]
 }
