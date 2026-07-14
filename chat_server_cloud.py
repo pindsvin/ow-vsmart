@@ -4,7 +4,7 @@ OW-vsmart — Chat server (Render editie, pure Python)
 - Handgeschreven TF-IDF — zero dependencies behalve stdlib
 - DeepSeek API voor antwoorden
 """
-import json, os, sys, math
+import json, os, re, sys, math
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).parent
@@ -123,31 +123,47 @@ async def chat(request: Request):
     if not question:
         return JSONResponse({"error": "Geen vraag"}, status_code=400)
 
-    results = [r for r in search(question, n=5) if r['score'] >= SOURCE_SCORE_THRESHOLD]
+    results = [r for r in search(question, n=8) if r['score'] >= SOURCE_SCORE_THRESHOLD]
     books = []
-    for r in results:
+    for i, r in enumerate(results, 1):
         m = r['meta']
         status = "beschikbaar" if not m['onLoan'] else "uitgeleend"
-        books.append(f"- \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})")
+        books.append(f"{i}. \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})")
     context = "\n".join(books) if books else "(geen relevante titels gevonden in de catalogus)"
-    
+
     llm = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
+    relevant = list(range(len(results)))  # fallback: alles tonen
     try:
         resp = llm.chat.completions.create(
             model="deepseek-chat",
             messages=[
-                {"role": "system", "content": "Je bent een bibliotheekassistent van bblthk Wageningen. Beantwoord de vraag op basis van de catalogus. Noem titels, auteurs en beschikbaarheid. Wees kort, vriendelijk, in het Nederlands."},
-                {"role": "user", "content": f"Vraag: {question}\n\nCatalogus:\n{context}\n\nBeantwoord met titels, auteurs en beschikbaarheid."}
+                {"role": "system", "content": (
+                    "Je bent een bibliotheekassistent van bblthk Wageningen. Beantwoord de vraag op basis "
+                    "van de genummerde catalogusresultaten. Noem titels, auteurs en beschikbaarheid. Wees kort, "
+                    "vriendelijk, in het Nederlands. De resultaten komen uit woordmatching en kunnen missers "
+                    "bevatten; negeer titels die niet bij de vraag passen. Sluit je antwoord af met een aparte "
+                    "laatste regel in exact dit formaat: BRONNEN: gevolgd door de nummers van de resultaten "
+                    "die echt bij de vraag passen, kommagescheiden (bijv. BRONNEN: 1,3). Passen er geen, "
+                    "schrijf dan BRONNEN: geen."
+                )},
+                {"role": "user", "content": f"Vraag: {question}\n\nCatalogus:\n{context}\n\nBeantwoord met titels, auteurs en beschikbaarheid, en eindig met de BRONNEN-regel."}
             ],
-            temperature=0.7, max_tokens=400
+            temperature=0.7, max_tokens=450
         )
         answer = resp.choices[0].message.content
+        # BRONNEN-regel eruit vissen en van het antwoord strippen
+        m = re.search(r'\n?\s*BRONNEN:\s*(.*?)\s*$', answer)
+        if m:
+            answer = answer[:m.start()].rstrip()
+            nums = re.findall(r'\d+', m.group(1))
+            relevant = [int(n) - 1 for n in nums if 0 < int(n) <= len(results)] if nums else []
     except Exception as e:
         answer = f"(Fout: {e})\n\n{context}"
-    
+
+    sources = [results[i] for i in relevant]
     return JSONResponse({
         "answer": answer,
-        "sources": [{"title": r['meta']['title'], "author": r['meta']['author'], "available": not r['meta']['onLoan']} for r in results]
+        "sources": [{"title": r['meta']['title'], "author": r['meta']['author'], "available": not r['meta']['onLoan']} for r in sources]
     })
 
 CHAT_HTML = """<!DOCTYPE html>
