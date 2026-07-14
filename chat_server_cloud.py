@@ -185,13 +185,19 @@ def fetch_book_info(title, author):
             return None
         chunks = cand.get("groundingMetadata", {}).get("groundingChunks", [])
         web = next((c.get("web") for c in chunks if c.get("web", {}).get("uri")), None)
+        if web:
+            link, source = web["uri"], web.get("title", "Google Zoeken")
+        else:
+            from urllib.parse import quote_plus
+            link = f"https://www.google.com/search?q={quote_plus(t + ' ' + (author or '') + ' boek')}"
+            source = "Google Zoeken"
         return {
             "title": t,
             "authors": author,
             "description": text[:900],
             "publisher": "", "publishedDate": "", "pageCount": None, "thumbnail": "",
-            "link": web["uri"] if web else "",
-            "source": web.get("title", "Google Zoeken") if web else "Google Zoeken",
+            "link": link,
+            "source": source,
         }
     except Exception as e:
         print(f"⚠️ Boekinfo ophalen faalde: {e}")
