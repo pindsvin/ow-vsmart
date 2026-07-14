@@ -269,8 +269,12 @@ body {
   align-items: center;
   gap: 14px;
 }
-#question {
+#input-wrap {
   flex: 1;
+  position: relative;
+}
+#question {
+  width: 100%;
   border: none;
   border-bottom: 2px solid var(--text);
   background: transparent;
@@ -281,7 +285,41 @@ body {
   outline: none;
   color: var(--text);
   transition: border-color 140ms ease;
+  position: relative;
+  z-index: 1;
 }
+#ghost {
+  position: absolute;
+  inset: 0;
+  padding: 10px 4px;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  white-space: pre;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+#ghost .typed { color: transparent; }
+#ghost .completion { color: #b8b8b6; }
+#tab-hint {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  background: var(--bg-chat);
+  border: 1px solid var(--border-2);
+  border-radius: 5px;
+  padding: 2px 7px;
+  pointer-events: none;
+  display: none;
+  z-index: 2;
+}
+#tab-hint.visible { display: block; }
 #question::placeholder { color: var(--text-muted); }
 #question:focus { border-bottom-color: var(--dept-color); }
 #send {
@@ -355,9 +393,13 @@ body {
   <div id="footer">
     <div id="footer-inner">
       <div id="input-row">
-        <input id="question" type="text"
-          placeholder="Stel je vraag over de bblthk-collectie…"
-          autocomplete="off">
+        <div id="input-wrap">
+          <div id="ghost" aria-hidden="true"></div>
+          <input id="question" type="text"
+            placeholder="Stel je vraag over de bblthk-collectie…"
+            autocomplete="off">
+          <span id="tab-hint">TAB ↹</span>
+        </div>
         <button id="send">Verstuur</button>
       </div>
       <div id="footer-hint">Enter of klik Verstuur · resultaten uit de bblthk-collectie Wageningen</div>
@@ -426,11 +468,82 @@ function createMessage(msg) {
   return wrap;
 }
 
+// ── Titel-autocomplete ─────────────────────────────────────
+// Titels uit getoonde bronkaarten worden onthouden; begin je een
+// titel te typen, dan verschijnt de rest als ghost-text (Tab = overnemen).
+const knownTitles = [];
+
+function cleanTitle(t) {
+  // jaartal-suffix eraf voor een natuurlijkere vervolgvraag
+  return t.replace(/\s*\(\[?\s*\w*\s*\d{4}\]?\)\s*$/, '').trim();
+}
+
+function rememberTitles(sources) {
+  (sources || []).forEach(s => {
+    const t = cleanTitle(s.title);
+    if (t.length > 3 && !knownTitles.includes(t)) knownTitles.push(t);
+  });
+}
+
+let activeSuggestion = null; // {completion: string}
+
+function findSuggestion(text) {
+  if (!text) return null;
+  // probeer steeds kortere suffixen van de invoer (vanaf elk woordbegin)
+  const starts = [0];
+  for (let i = 0; i < text.length - 1; i++) {
+    if (/[\s'"‘“(]/.test(text[i])) starts.push(i + 1);
+  }
+  for (const s of starts) {
+    const frag = text.slice(s);
+    if (frag.length < 3) continue;
+    const fragLow = frag.toLowerCase();
+    for (const title of knownTitles) {
+      if (title.toLowerCase().startsWith(fragLow) && title.length > frag.length) {
+        return { completion: title.slice(frag.length) };
+      }
+    }
+  }
+  return null;
+}
+
+function updateGhost() {
+  const input = document.getElementById('question');
+  const ghost = document.getElementById('ghost');
+  const hint  = document.getElementById('tab-hint');
+  activeSuggestion = findSuggestion(input.value);
+  if (activeSuggestion) {
+    ghost.innerHTML = '';
+    const typed = document.createElement('span');
+    typed.className = 'typed';
+    typed.textContent = input.value;
+    const comp = document.createElement('span');
+    comp.className = 'completion';
+    comp.textContent = activeSuggestion.completion;
+    ghost.appendChild(typed);
+    ghost.appendChild(comp);
+    hint.classList.add('visible');
+  } else {
+    ghost.innerHTML = '';
+    hint.classList.remove('visible');
+  }
+}
+
+function acceptSuggestion() {
+  if (!activeSuggestion) return false;
+  const input = document.getElementById('question');
+  input.value += activeSuggestion.completion;
+  activeSuggestion = null;
+  updateGhost();
+  return true;
+}
+
 function addMessage(msg) {
   const chatInner = document.getElementById('chat-inner');
   const typing    = document.getElementById('typing');
   const el        = createMessage(msg);
   chatInner.insertBefore(el, typing);
+  if (msg.sources) rememberTitles(msg.sources);
   scroll();
 }
 
@@ -452,6 +565,7 @@ async function sendMessage() {
 
   addMessage({ role: 'user', text: q });
   input.value = '';
+  updateGhost();
   setLoading(true);
 
   try {
@@ -470,8 +584,11 @@ async function sendMessage() {
 
 // Init
 document.getElementById('question').addEventListener('keydown', e => {
+  if (e.key === 'Tab' && activeSuggestion) { e.preventDefault(); acceptSuggestion(); return; }
+  if (e.key === 'Escape') { activeSuggestion = null; document.getElementById('ghost').innerHTML = ''; document.getElementById('tab-hint').classList.remove('visible'); return; }
   if (e.key === 'Enter') sendMessage();
 });
+document.getElementById('question').addEventListener('input', updateGhost);
 document.getElementById('send').addEventListener('click', sendMessage);
 
 addMessage({
