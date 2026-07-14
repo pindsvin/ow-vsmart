@@ -99,6 +99,51 @@ body {
   background: var(--dept-color);
 }
 
+/* ── Stats strip ─────────────────────────────────────────── */
+#stats {
+  flex-shrink: 0;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-1);
+  padding: 10px 40px 12px;
+  display: none;
+}
+#stats.visible { display: block; }
+#stats-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+#stats-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 7px;
+}
+#stats-label strong { color: var(--text); font-weight: 700; }
+#stats-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.theme-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg-chat);
+  border: 1px solid var(--border-2);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+}
+.theme-pill .count {
+  font-weight: 700;
+  color: var(--dept-color);
+}
+
 /* ── Chat scroll area ────────────────────────────────────── */
 #chat {
   flex: 1;
@@ -284,6 +329,14 @@ body {
     </div>
   </div>
 
+  <!-- STATS -->
+  <div id="stats">
+    <div id="stats-inner">
+      <div id="stats-label"></div>
+      <div id="stats-themes"></div>
+    </div>
+  </div>
+
   <!-- CHAT -->
   <div id="chat">
     <div id="chat-inner">
@@ -426,6 +479,29 @@ addMessage({
   text: 'Hallo! Ik ben de bblthk catalogus-assistent.\n\nStel me een vraag over onze collectie — ik zoek voor je in de bibliotheek Wageningen en geef persoonlijk advies.',
   sources: []
 });
+
+// Demo-statistieken: aantal titels + themaverdeling
+fetch('/api/stats')
+  .then(r => r.ok ? r.json() : Promise.reject())
+  .then(data => {
+    const label = document.getElementById('stats-label');
+    label.innerHTML = 'Demo-database: <strong>' + data.total + ' titels</strong> uit de bblthk-collectie, verdeeld over ' + data.themes.length + ' thema’s';
+    const themesEl = document.getElementById('stats-themes');
+    data.themes.forEach(t => {
+      const pill = document.createElement('span');
+      pill.className = 'theme-pill';
+      const name = document.createElement('span');
+      name.textContent = t.theme;
+      const count = document.createElement('span');
+      count.className = 'count';
+      count.textContent = t.count;
+      pill.appendChild(name);
+      pill.appendChild(count);
+      themesEl.appendChild(pill);
+    });
+    document.getElementById('stats').classList.add('visible');
+  })
+  .catch(() => {}); // geen stats-endpoint (bijv. oudere server): strook blijft verborgen
 </script>
 </body>
 </html>

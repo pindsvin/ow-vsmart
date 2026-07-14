@@ -44,8 +44,21 @@ for r in dataset["results"]:
         "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn']
     })
 
+STOPWORDS = {
+    "de", "het", "een", "en", "van", "in", "op", "te", "met", "voor", "is", "dat", "die",
+    "zijn", "aan", "bij", "ook", "naar", "uit", "om", "als", "dan", "maar", "wat", "wie",
+    "hoe", "waar", "er", "hier", "daar", "dit", "deze", "niet", "wel", "geen", "iets",
+    "veel", "meer", "je", "jij", "jouw", "ik", "mijn", "we", "wij", "ons", "onze", "ze",
+    "zij", "hun", "hij", "haar", "hem", "u", "uw", "over", "onder", "tussen", "door",
+    "tegen", "zonder", "heb", "hebben", "heeft", "had", "kan", "kunnen", "wil", "willen",
+    "moet", "moeten", "mag", "mogen", "zal", "zullen", "zou", "wordt", "worden", "werd",
+    "was", "waren", "ben", "bent", "goed", "goede", "mooi", "mooie", "leuk", "leuke",
+    "boek", "boeken",
+}
+
 def tokenize(text):
-    return [w.strip(".,!?()[]\"':;") for w in text.lower().split() if len(w.strip(".,!?()[]\"':;")) > 1]
+    words = [w.strip(".,!?()[]\"':;") for w in text.lower().split()]
+    return [w for w in words if len(w) > 1 and w not in STOPWORDS]
 
 # Bouw vocabulary
 print("📊 TF-IDF index bouwen...")
@@ -92,20 +105,31 @@ def search(query: str, n: int = 5):
 async def index():
     return RedirectResponse(url="/static/index.html")
 
+SOURCE_SCORE_THRESHOLD = 0.05  # bronnen onder deze relevantie tonen we niet
+
+@app.get("/api/stats")
+async def stats():
+    theme_counts = Counter(r.get('theme', 'overig') for r in dataset["results"])
+    return JSONResponse({
+        "total": len(dataset["results"]),
+        "themes": [{"theme": t, "count": c} for t, c in theme_counts.most_common()],
+        "timestamp": dataset.get("timestamp", "")
+    })
+
 @app.post("/api/chat")
 async def chat(request: Request):
     data = await request.json()
     question = data.get("question", "").strip()
     if not question:
         return JSONResponse({"error": "Geen vraag"}, status_code=400)
-    
-    results = search(question, n=5)
+
+    results = [r for r in search(question, n=5) if r['score'] >= SOURCE_SCORE_THRESHOLD]
     books = []
     for r in results:
         m = r['meta']
         status = "beschikbaar" if not m['onLoan'] else "uitgeleend"
         books.append(f"- \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})")
-    context = "\n".join(books)
+    context = "\n".join(books) if books else "(geen relevante titels gevonden in de catalogus)"
     
     llm = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
     try:

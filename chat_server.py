@@ -35,6 +35,18 @@ print(f"🧠 LLM: Ollama/{OLLAMA_MODEL}")
 async def index():
     return RedirectResponse(url="/static/index.html")
 
+@app.get("/api/stats")
+async def stats():
+    from collections import Counter
+    with open("catalogus_klimaat.json") as f:
+        dataset = json.load(f)
+    theme_counts = Counter(r.get('theme', 'overig') for r in dataset["results"])
+    return JSONResponse({
+        "total": len(dataset["results"]),
+        "themes": [{"theme": t, "count": c} for t, c in theme_counts.most_common()],
+        "timestamp": dataset.get("timestamp", "")
+    })
+
 # === API ===
 @app.post("/api/chat")
 async def chat(request: Request):
