@@ -338,6 +338,45 @@ body {
 .source-title { font-size: 12px; font-weight: 700; color: var(--text); line-height: 1.3; }
 .source-byline { font-size: 11px; color: var(--text-soft); margin-top: 3px; font-weight: 400; }
 
+/* ── Boekinfo-blok (online opgehaalde extra info) ────────── */
+.bookinfo {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-1);
+}
+.bookinfo-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.bookinfo-body {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.bookinfo-body img {
+  width: 72px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(29,29,27,0.15);
+}
+.bookinfo-title { font-size: 13px; font-weight: 700; color: var(--text); }
+.bookinfo-meta  { font-size: 11px; color: var(--text-soft); margin-top: 2px; }
+.bookinfo-desc  { font-size: 12.5px; line-height: 1.65; color: var(--text); margin-top: 8px; }
+.bookinfo-source {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--dept-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--dept-tint);
+}
+.bookinfo-source:hover { border-bottom-color: var(--dept-color); }
+
 /* ── Typing indicator ────────────────────────────────────── */
 #typing { display: none; }
 #typing.visible { display: flex; }
@@ -595,6 +634,57 @@ function createMessage(msg) {
     card.appendChild(sources);
   }
 
+  if (!isUser && msg.bookinfo) {
+    const bi = msg.bookinfo;
+    const box = document.createElement('div');
+    box.className = 'bookinfo';
+
+    const label = document.createElement('div');
+    label.className = 'bookinfo-label';
+    label.textContent = 'Meer over dit boek';
+    box.appendChild(label);
+
+    const body = document.createElement('div');
+    body.className = 'bookinfo-body';
+    if (bi.thumbnail) {
+      const img = document.createElement('img');
+      img.src = bi.thumbnail;
+      img.alt = 'Omslag: ' + bi.title;
+      body.appendChild(img);
+    }
+    const txt = document.createElement('div');
+    const t = document.createElement('div');
+    t.className = 'bookinfo-title';
+    t.textContent = bi.title;
+    txt.appendChild(t);
+
+    const metaParts = [bi.authors, bi.publisher, bi.publishedDate, bi.pageCount ? bi.pageCount + " p." : ''].filter(Boolean);
+    if (metaParts.length) {
+      const meta = document.createElement('div');
+      meta.className = 'bookinfo-meta';
+      meta.textContent = metaParts.join(' · ');
+      txt.appendChild(meta);
+    }
+
+    const desc = document.createElement('div');
+    desc.className = 'bookinfo-desc';
+    desc.textContent = bi.description;
+    txt.appendChild(desc);
+
+    if (bi.link) {
+      const src = document.createElement('a');
+      src.className = 'bookinfo-source';
+      src.href = bi.link;
+      src.target = '_blank';
+      src.rel = 'noopener';
+      src.textContent = 'Bron: ' + (bi.source || 'Google Boeken') + ' →';
+      txt.appendChild(src);
+    }
+    body.appendChild(txt);
+    box.appendChild(body);
+    card.appendChild(box);
+  }
+
   wrap.appendChild(card);
   return wrap;
 }
@@ -706,7 +796,7 @@ async function sendMessage() {
       body: JSON.stringify({ question: q })
     });
     const data = await res.json();
-    addMessage({ role: 'assistant', text: data.answer || 'Geen antwoord ontvangen.', sources: data.sources || [] });
+    addMessage({ role: 'assistant', text: data.answer || 'Geen antwoord ontvangen.', sources: data.sources || [], bookinfo: data.bookinfo || null });
   } catch (e) {
     addMessage({ role: 'assistant', text: 'Sorry, ik kan de catalogus nu niet bereiken.\n\nIs de server actief? Start hem met:\npython3 chat_server.py', sources: [] });
   }
