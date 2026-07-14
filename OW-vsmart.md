@@ -10,19 +10,19 @@ Webapp die de bblthk-catalogus (V-smart via Sambis) inhoudelijk bevraagbaar maak
 
 ## Technisch
 - **ILS**: V-smart (Axiell) via Sambis
-- **Protocollen**: SRU, OAI-PMH, mogelijk IguanaXgateway REST API
-- **Stack**: Next.js + Python (FastAPI) + Chroma (vector store)
+- **Stack cloud (live demo)**: FastAPI + Gemini-embeddings (voorberekend) + DeepSeek — https://ow-vsmart.onrender.com
+- **Stack lokaal**: FastAPI + ChromaDB (meertalige sentence-transformers) + DeepSeek
+- **Data**: 721 records gescrapet uit Iguana (zie `scraper.md`), 20 thema's
 
 ## Nu bezig met
-- Fase 1: Onderzoek & toegang — uitzoeken welke API's beschikbaar zijn
+- Demo compleet en live; volgende stap is opschalen naar de volledige catalogus (35-40k titels)
 
 ## Vastgelopen / wacht op
-- Nog niet van toepassing
+- API-toegang tot de volledige catalogus (IguanaXgateway of OAI-PMH met bblthk-filter) — nodig voor opschaling en live beschikbaarheid
 
 ## Besluiten die nog genomen moeten worden
-- Welke LLM-provider gebruiken we?
-- IguanaXgateway API-key nodig? Zo ja, aanvragen bij Axiell/Sambis
-- Hosting: lokaal of cloud?
+- IguanaXgateway API-key aanvragen bij Axiell/Sambis?
+- Bij opschaling naar 40k: embeddings via Gemini-API (gratis/goedkoop, huidige route) of eigen hosting met 2GB+ RAM
 
 ## Contacten
 - **Sambis**: Vereniging Samenwerkend Bibliotheek Informatiesysteem
@@ -141,3 +141,55 @@ python3 chat_server.py
 >
 > **Assistent**: "Wat goed dat je naar oplossingen zoekt! Ik raad 'Hitte en kou' van Anneriek van Heugten aan — het legt op begrijpelijke manier uit waarom het klimaat verandert. 'Klimaten' van Geert-Jan Roebers is ook mooi. Beide zijn beschikbaar. De andere boeken gaan meer in op de gevolgen, wat misschien overweldigend kan zijn voor een 7-jarige."
 
+
+## Demo v2 — volledige pijplijn live (14-07-2026)
+
+### Wat er staat
+Live demo op https://ow-vsmart.onrender.com (gratis Render-tier) met:
+- **721 records, 20 thema's** — geoogst uit Iguana met 19 zoektermen (klimaat,
+  duurzaamheid, natuur, biodiversiteit, koken, geschiedenis, thriller,
+  kinderboeken, kunst, sport, roman, muziek, psychologie, filosofie, reizen,
+  tuinieren, wetenschap, gezondheid, poëzie, opvoeding), gededupliceerd op PPN.
+  Elk record heeft een `theme`-veld.
+- **Semantisch zoeken op de gratis tier**: catalogus eenmalig geëmbed met
+  `gemini-embedding-001` (768 dims) via `embed_gemini.py` → vectoren in
+  `embeddings_gemini.npz` (~2MB, in de repo). Per vraag één Gemini
+  embedding-call + numpy dot-product. Automatische TF-IDF-fallback
+  (met Nederlandse stopwoordfilter) als key of vectorbestand ontbreekt.
+- **Bronfiltering door de LLM**: DeepSeek krijgt de top-8 genummerd en sluit
+  af met een `BRONNEN:`-regel; alleen die titels worden als bronkaart getoond.
+- **UI (bblthk-huisstijl)**: statistiekstrook (aantal titels + themaverdeling
+  via `/api/stats`), titel-autocomplete met Tab op titels uit eerdere
+  resultaten, bronkaarten met beschikbaarheidsindicatie.
+
+### Lokale variant
+`chat_server.py` draait dezelfde ervaring op ChromaDB met het meertalige
+model `paraphrase-multilingual-MiniLM-L12-v2` (herindexeren met
+`embed_and_query.py`). Let op: eerdere versies gebruikten stilzwijgend
+Chroma's Engelstalige default-embedding — de embedding-functie wordt nu
+expliciet meegegeven.
+
+### Belangrijkste lessen
+- Handgeschreven TF-IDF kapte de vocabulaire alfabetisch af (`sorted()[:3000]`)
+  — bij >90 records vielen alle woorden na ~"h" uit de index. Gefixt met
+  selectie op documentfrequentie, daarna vervangen door embeddings.
+- Sentence-transformers past niet in 512MB Render; voorberekende embeddings
+  + query-embedding via API wél. Render Starter ($7) heeft óók maar 512MB;
+  de eerste tier met 2GB is Standard ($25).
+- Gemini API heeft een gratis tier (aistudio.google.com) — geen OpenAI-key
+  nodig voor embeddings; Anthropic biedt geen embeddings-API.
+
+### Opschalen naar 35-40k titels
+Architectuur is er klaar voor: 40k titels ≈ 60MB vectoren (past in 512MB
+met numpy), eenmalig embedden binnen de gratis Gemini-limieten (gespreid)
+of voor enkele euro's betaald. Bottleneck is de data-aanvoer: API-toegang
+(IguanaXgateway/OAI-PMH) nodig in plaats van browser-scraping. Live
+beschikbaarheid blijft een aparte route (realtime Iguana-bevraging per
+getoonde bron).
+
+### Workflow bij datasetwijziging
+```bash
+python3 embed_gemini.py      # Gemini-vectoren (cloud)
+python3 embed_and_query.py   # ChromaDB (lokaal, optioneel)
+git add catalogus_klimaat.json embeddings_gemini.npz && git commit && git push
+```
