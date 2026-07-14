@@ -41,7 +41,8 @@ for r in dataset["results"]:
     docs.append(" ".join(parts).lower())
     metas.append({
         "title": r['title'], "author": r['author'],
-        "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn']
+        "language": r['language'], "onLoan": r['onLoan'], "ppn": r['ppn'],
+        "description": (r['description'] or '')[:200]
     })
 
 STOPWORDS = {
@@ -174,7 +175,7 @@ async def chat(request: Request):
     for i, r in enumerate(results, 1):
         m = r['meta']
         status = "beschikbaar" if not m['onLoan'] else "uitgeleend"
-        books.append(f"{i}. \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})")
+        books.append(f"{i}. \"{m['title']}\" door {m['author'] or 'onbekend'} ({m['language']}, {status})\n   {m['description']}")
     context = "\n".join(books) if books else "(geen relevante titels gevonden in de catalogus)"
 
     llm = OpenAI(api_key=DEEPSEEK_KEY, base_url="https://api.deepseek.com")
