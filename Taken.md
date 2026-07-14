@@ -23,3 +23,8 @@
 - [x] Semantisch zoeken in de cloud (voorberekende Gemini-embeddings, gratis tier)
 - [x] Semantisch zoeken lokaal verbeterd (meertalig model i.p.v. Engelse default)
 - [x] Documentatie bijgewerkt naar demo v2 (OW-vsmart.md, DEPLOY.md)
+- [x] Info-popup met vroeger/nu-uitleg voor leken ("i"-knop in header)
+- [x] Beschrijvingen in de LLM-context (cloud) — tips cloud en lokaal gelijkwaardig
+- [x] Meer-info per titel via online search (Gemini grounding) met bronvermelding + link
+- [x] Ruimhartige bronselectie + lagere temperature (consistentere antwoorden)
+- [x] $5 budget aan Gemini-key gekoppeld (grounding ~1-3 ct per opzoeking)

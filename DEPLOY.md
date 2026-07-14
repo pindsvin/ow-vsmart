@@ -24,7 +24,9 @@ vraag → Gemini embedding-call (RETRIEVAL_QUERY, 768 dims)
 3. **Start Command**: `python chat_server_cloud.py`
 4. **Environment Variables**:
    - `DEEPSEEK_API_KEY` — voor de chat-antwoorden (platform.deepseek.com)
-   - `GEMINI_API_KEY` — voor query-embeddings (gratis aan te maken op aistudio.google.com)
+   - `GEMINI_API_KEY` — voor query-embeddings én de meer-info-zoekfunctie
+     (Google Search-grounding, ~1-3 ct per opzoeking; key aanmaken op
+     aistudio.google.com, budget gekoppeld sinds 14-07-2026)
 5. Elke push naar `master` deployt automatisch.
 
 ## Workflow bij datasetwijzigingen

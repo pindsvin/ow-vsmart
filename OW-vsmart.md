@@ -193,3 +193,26 @@ python3 embed_gemini.py      # Gemini-vectoren (cloud)
 python3 embed_and_query.py   # ChromaDB (lokaal, optioneel)
 git add catalogus_klimaat.json embeddings_gemini.npz && git commit && git push
 ```
+
+## Demo v2.1 — afronding demosessie (14-07-2026, avond)
+
+- **Info-popup** ("i"-knop in de header): uitleg voor leken over wat het
+  semantisch zoeken toevoegt, met twee vroeger/nu-voorbeelden.
+- **Beschrijvingen in de LLM-context** (cloud): DeepSeek kreeg alleen
+  titel/auteur en keurde daardoor te veel bronnen af; nu gaat per titel ook
+  de beschrijving (200 tekens) mee — cloud en lokaal geven gelijkwaardige tips.
+- **Meer-info per titel**: vraagt de gebruiker om meer informatie over één
+  titel, dan geeft DeepSeek een INFO-regel terug en zoekt de server online
+  via Gemini met Google Search-grounding (model gemini-flash-lite-latest).
+  De UI toont een "Meer over dit boek"-blok met samenvatting en bronlink
+  (directe vindplaats uit grounding-chunks, anders Google-zoeklink als
+  fallback). Google Books API bleek onbruikbaar: keyloos deel je één
+  anoniem dagquotum dat continu vol zit.
+- **Ruimhartige bronselectie**: de INFO-promptuitbreiding maakte DeepSeek
+  onbedoeld strenger (alleen nog letterlijke titelmatches als bron); prompt
+  vraagt nu expliciet om ook deels passende titels mee te nemen en de
+  temperature ging van 0.7 naar 0.4 voor consistentie.
+- **Budget**: $5 gekoppeld aan de Gemini-key (grounding kost ~1-3 cent per
+  meer-info-opzoeking; embeddings en chat verwaarloosbaar). Budgetalert in
+  Google Cloud aangeraden. Vrije tier bleek te krap op dagen met veel
+  testen/embedden: tekstmodellen en embeddings hebben aparte dagquota.
